@@ -7,7 +7,7 @@
 - [ ] Watch Ch. 3 Videos ACC 201
 - [ ] Study Opening Scene THR 130
 - [ ] Ch. 3 Homework AST 253
-- [ ] Look for MD language notepad app
+- [x] Look for MD language notepad app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTA4MTA5NjldfQ==
+eyJoaXN0b3J5IjpbMjc4ODc4MDMxXX0=
 -->
