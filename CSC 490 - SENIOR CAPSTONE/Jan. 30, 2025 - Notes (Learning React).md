@@ -246,15 +246,22 @@ First import ``useState`` from React then declare a ``state variable`` inside yo
 
 function MyButton() {
 	const [count, setCount] = useState(0);
+
+	function handleClick() {
+		setCount(count + 1);
+	}
+
+	return (
+	)
 }
 
 ```
-With the useState you get the current state, and the function to update the current state. The convention is to write  
+With the useState you get the current state, and the function to update the current state. The convention is to write [something, setSomething]. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTE1ODkzLC0zNTYwMDY0NTUsNDcxNT
-k1ODg1LC05NTA1MjQ5MzgsMTE3MDAxMzg4NSw4Nzk0MDAxMTAs
-MTE0ODkxMDQwNSwyNTIwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNj
-UzNDIsMjEzNDc1MTI5NywxNzIyODcyOTQsLTE2MzA0NjcxODYs
-NDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbLTk0MDEwMjMzOSwtMzU2MDA2NDU1LDQ3MT
+U5NTg4NSwtOTUwNTI0OTM4LDExNzAwMTM4ODUsODc5NDAwMTEw
+LDExNDg5MTA0MDUsMjUyMDcxMTA3LC02OTk2MzA5NjcsOTM0MT
+Y1MzQyLDIxMzQ3NTEyOTcsMTcyMjg3Mjk0LC0xNjMwNDY3MTg2
+LDQ5NzgxODgxMF19
 -->
