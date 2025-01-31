@@ -193,11 +193,14 @@ function MyButton() {
 	}
 
 	return (
-	)
+		<button onClick={handleClick}>
+			Click me
+		</button>
+	);
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzAyMDQwMiwxMTcwMDEzODg1LDg3OT
+eyJoaXN0b3J5IjpbLTk1MDUyNDkzOCwxMTcwMDEzODg1LDg3OT
 QwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywtNjk5NjMwOTY3
 LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3MjI4NzI5NCwtMTYzMD
 Q2NzE4Niw0OTc4MTg4MTBdfQ==
