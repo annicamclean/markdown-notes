@@ -433,7 +433,7 @@ function  List() {
   
 
 function  Count() {
-const [count, setCount] = useState<number>(0);
+	const [count, setCount] = useState<number>(0);
 	
 	function  handleClick() {
 		setCount(count + 1);
@@ -449,25 +449,25 @@ const [count, setCount] = useState<number>(0);
   
 
 function  SameCount() {
-const [count, setCount] = useState(0);
+	const [count, setCount] = useState(0);
 
-function  handleClick() {
-setCount(count + 1);
-}
+	function  handleClick() {
+		setCount(count + 1);
+	}
 
-  
+	  
 
-return (
-<div>
-<h1>Counters that update together</h1>
-<button  onClick={handleClick}>
-Count: {count}
-</button>
-<button  onClick={handleClick}>
-Count: {count}
-</button>
-</div>
-);
+	return (
+		<div>
+			<h1>Counters that update together</h1>
+			<button  onClick={handleClick}>
+			Count: {count}
+			</button>
+			<button  onClick={handleClick}>
+			Count: {count}
+			</button>
+		</div>
+	);
 }
 
   
@@ -475,9 +475,9 @@ Count: {count}
 export  default  App
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNTcwMjQ4LC0xOTA3NjA1MDAwLDEzOT
-M5MTg3OTIsLTM1NjAwNjQ1NSw0NzE1OTU4ODUsLTk1MDUyNDkz
-OCwxMTcwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1Mj
-A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
-LDE3MjI4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbMjEyMzgyMTQ5NiwtMTkwNzYwNTAwMCwxMz
+kzOTE4NzkyLC0zNTYwMDY0NTUsNDcxNTk1ODg1LC05NTA1MjQ5
+MzgsMTE3MDAxMzg4NSw4Nzk0MDAxMTAsMTE0ODkxMDQwNSwyNT
+IwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5
+NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
 -->
