@@ -15,8 +15,10 @@ This section has code to help remember important parts about learning react.
 ### Components
 React apps are made up of components. React components are JavaScript/Typescript functions that return markup.
 
+```
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjg3Mjk0LC0xNjMwNDY3MTg2LDQ5Nz
-gxODgxMF19
+eyJoaXN0b3J5IjpbLTE0MzM2MjQ4NjIsMTcyMjg3Mjk0LC0xNj
+MwNDY3MTg2LDQ5NzgxODgxMF19
 -->
