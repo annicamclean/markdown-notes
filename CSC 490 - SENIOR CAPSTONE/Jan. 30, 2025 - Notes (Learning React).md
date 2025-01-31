@@ -280,10 +280,12 @@ function MyButton() {
 ```
 With the useState you get the current state, and the function to update the current state. The convention is to write [something, setSomething]. 
 
+### Using Hooks
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTE0MjU2MywtMzU2MDA2NDU1LDQ3MT
-U5NTg4NSwtOTUwNTI0OTM4LDExNzAwMTM4ODUsODc5NDAwMTEw
-LDExNDg5MTA0MDUsMjUyMDcxMTA3LC02OTk2MzA5NjcsOTM0MT
-Y1MzQyLDIxMzQ3NTEyOTcsMTcyMjg3Mjk0LC0xNjMwNDY3MTg2
-LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbLTEzNjUzMTMyMTYsLTM1NjAwNjQ1NSw0Nz
+E1OTU4ODUsLTk1MDUyNDkzOCwxMTcwMDEzODg1LDg3OTQwMDEx
+MCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywtNjk5NjMwOTY3LDkzND
+E2NTM0MiwyMTM0NzUxMjk3LDE3MjI4NzI5NCwtMTYzMDQ2NzE4
+Niw0OTc4MTg4MTBdfQ==
 -->
