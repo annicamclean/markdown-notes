@@ -26,11 +26,14 @@ export default function MyApp() {
 	return (
 	<div>
 		<h1>Welcome to my app</h1>
-		<My
+		<MyButton />
+	</div>
 	);
 }
 ```
+
+You can tell ``MyButton`` is a React component because it starts with a capital letter. React component names must start with an capital 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ0NDAyOCwxNzIyODcyOTQsLTE2Mz
-A0NjcxODYsNDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbLTE4OTM1NTAyNjksMTcyMjg3Mjk0LC0xNj
+MwNDY3MTg2LDQ5NzgxODgxMF19
 -->
