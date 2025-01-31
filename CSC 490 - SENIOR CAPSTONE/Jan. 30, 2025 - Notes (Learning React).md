@@ -236,10 +236,12 @@ function MyButton() {
 You don't need the parentheses at the end of onClick because you would be calling the event handler function and all you have to do is pass it down. React will acutally do the calling when the user clicks the button.
 
 ### Updating the Screen
+Sometimes you want to remember some information and display it, that's where states come in.
 
+First import ``useState`` from React then declare a ``state variable`` inside your componenet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzNTE5ODIxLC05NTA1MjQ5MzgsMTE3MD
-AxMzg4NSw4Nzk0MDAxMTAsMTE0ODkxMDQwNSwyNTIwNzExMDcs
-LTY5OTYzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5NywxNzIyOD
-cyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbLTEyNjQ3NjUzNjEsLTk1MDUyNDkzOCwxMT
+cwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEw
+NywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3Mj
+I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
