@@ -423,13 +423,9 @@ function  List() {
 			{product.title}
 		</li>
 	);
-
-	  
-
+	
 	return (
-
-	<ul>{listItems}</ul>
-
+		<ul>{listItems}</ul>
 	);
 
 }
@@ -437,69 +433,41 @@ function  List() {
   
 
 function  Count() {
-
 const [count, setCount] = useState<number>(0);
+	
+	function  handleClick() {
+		setCount(count + 1);
+	}
 
-  
-
-function  handleClick() {
-
-setCount(count + 1);
-
-}
-
-  
-
-return (
-
-<button  onClick={handleClick}>
-
-Clicked {count} times
-
-</button>
-
-);
-
+	return (
+		<button  onClick={handleClick}>
+		Clicked {count} times
+		</button>
+	);
 }
 
   
 
 function  SameCount() {
-
 const [count, setCount] = useState(0);
 
-  
-
 function  handleClick() {
-
 setCount(count + 1);
-
 }
 
   
 
 return (
-
 <div>
-
 <h1>Counters that update together</h1>
-
 <button  onClick={handleClick}>
-
 Count: {count}
-
 </button>
-
 <button  onClick={handleClick}>
-
 Count: {count}
-
 </button>
-
 </div>
-
 );
-
 }
 
   
@@ -507,7 +475,7 @@ Count: {count}
 export  default  App
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzNjc5OTQ4LC0xOTA3NjA1MDAwLDEzOT
+eyJoaXN0b3J5IjpbNTMyNTcwMjQ4LC0xOTA3NjA1MDAwLDEzOT
 M5MTg3OTIsLTM1NjAwNjQ1NSw0NzE1OTU4ODUsLTk1MDUyNDkz
 OCwxMTcwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1Mj
 A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
