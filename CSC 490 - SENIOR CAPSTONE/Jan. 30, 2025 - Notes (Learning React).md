@@ -121,10 +121,14 @@ style = {{}} is not a special syntax, but a regular {} oblect inside of style={}
 You can use conditional statements like you do in JS code. 
 
 ```jsx
-let content
+let content;
+
+if (isLoggedIn) {
+
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NDM3ODkxLDExNDg5MTA0MDUsMjUyMD
-cxMTA3LC02OTk2MzA5NjcsOTM0MTY1MzQyLDIxMzQ3NTEyOTcs
-MTcyMjg3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbMTkxMzYwMTQ3MSwxMTQ4OTEwNDA1LDI1Mj
+A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
+LDE3MjI4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
