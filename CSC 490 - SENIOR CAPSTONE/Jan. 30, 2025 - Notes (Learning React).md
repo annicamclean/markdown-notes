@@ -281,9 +281,9 @@ function MyButton() {
 With the useState you get the current state, and the function to update the current state. The convention is to write [something, setSomething]. 
 
 ### Using Hooks
-Anything starting with ``use`` are called *Hooks*.  
+Anything starting with ``use`` are called *Hooks*. You can write your own hooks by combining existing ones. You can only call hooks at the top of your components (or other Hooks). If you want to use useState in a condi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDQ4MTg0MCwtMzU2MDA2NDU1LDQ3MT
+eyJoaXN0b3J5IjpbMTEzNjc1NjUxMSwtMzU2MDA2NDU1LDQ3MT
 U5NTg4NSwtOTUwNTI0OTM4LDExNzAwMTM4ODUsODc5NDAwMTEw
 LDExNDg5MTA0MDUsMjUyMDcxMTA3LC02OTk2MzA5NjcsOTM0MT
 Y1MzQyLDIxMzQ3NTEyOTcsMTcyMjg3Mjk0LC0xNjMwNDY3MTg2
