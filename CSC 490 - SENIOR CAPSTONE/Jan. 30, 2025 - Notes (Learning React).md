@@ -283,11 +283,13 @@ With the useState you get the current state, and the function to update the curr
 ### Using Hooks
 Anything starting with ``use`` are called *Hooks*. You can write your own hooks by combining existing ones. You can only call hooks at the top of your components (or other Hooks). If you want to use useState in a condition or loop, extract a new component and put it there. 
 
-If you wanted 2 buttons 
+If you wanted 2 buttons to have the same count they have to be at the top of the component. Here is an example:
+```jsx
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzM2MzM4LC0zNTYwMDY0NTUsNDcxNT
-k1ODg1LC05NTA1MjQ5MzgsMTE3MDAxMzg4NSw4Nzk0MDAxMTAs
-MTE0ODkxMDQwNSwyNTIwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNj
-UzNDIsMjEzNDc1MTI5NywxNzIyODcyOTQsLTE2MzA0NjcxODYs
-NDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbLTE1MTUzMjE1NjMsLTM1NjAwNjQ1NSw0Nz
+E1OTU4ODUsLTk1MDUyNDkzOCwxMTcwMDEzODg1LDg3OTQwMDEx
+MCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywtNjk5NjMwOTY3LDkzND
+E2NTM0MiwyMTM0NzUxMjk3LDE3MjI4NzI5NCwtMTYzMDQ2NzE4
+Niw0OTc4MTg4MTBdfQ==
 -->
