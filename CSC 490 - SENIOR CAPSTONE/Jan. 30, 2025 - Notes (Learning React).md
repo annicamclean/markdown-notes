@@ -336,11 +336,247 @@ function MyButton({ count, onClick }) {
 ```
 
 ## THE CODE I CREATED WITH IT (USING TSX)
+```jsx
+import { useState } from  'react';
+
+function  App() {
+	return (
+		<div>
+			<div>
+				<h1>Welcome to my app</h1>
+				<MyButton  />
+			</div>
+			<div>
+				<Profile  />
+			</div>
+			<div>
+				<List  /></div>
+
+<div>
+
+<Count  />
+
+<Count  />
+
+</div>
+
+<div>
+
+<SameCount  />
+
+</div>
+
+</div>
+
+);
+
+}
+
+  
+  
+
+function  MyButton() {
+
+function  handleClick() {
+
+alert('You clicked me!');
+
+}
+
+  
+
+return (
+
+<button  onClick={handleClick}>
+
+Click me
+
+</button>
+
+);
+
+}
+
+  
+
+function  Profile() {
+
+interface  User {
+
+name: string;
+
+imageUrl: string;
+
+imageSize: number;
+
+}
+
+  
+
+const  user: User = {
+
+name:  'Hedy Lamarr',
+
+imageUrl:  'https://i.imgur.com/yXOvdOSs.jpg',
+
+imageSize:  90
+
+};
+
+  
+
+return (
+
+<>
+
+<h1>{user.name}</h1>
+
+<img
+
+//className="avatar"
+
+src={user.imageUrl}
+
+alt={'Photo of ' + user.name}
+
+style={{
+
+width:  user.imageSize,
+
+height:  user.imageSize
+
+}}
+
+/>
+
+</>
+
+);
+
+}
+
+  
+
+function  List() {
+
+interface  Product {
+
+title: string;
+
+id: number;
+
+}
+
+  
+
+const  products: Product[] = [
+
+{ title:  'Cabbage', id:  1 },
+
+{ title:  'Garlic', id:  2 },
+
+{ title:  'Apple', id:  3 },
+
+];
+
+  
+
+const  listItems = products.map(product  =>
+
+<li  key={product.id}>
+
+{product.title}
+
+</li>
+
+);
+
+  
+
+return (
+
+<ul>{listItems}</ul>
+
+);
+
+}
+
+  
+
+function  Count() {
+
+const [count, setCount] = useState<number>(0);
+
+  
+
+function  handleClick() {
+
+setCount(count + 1);
+
+}
+
+  
+
+return (
+
+<button  onClick={handleClick}>
+
+Clicked {count} times
+
+</button>
+
+);
+
+}
+
+  
+
+function  SameCount() {
+
+const [count, setCount] = useState(0);
+
+  
+
+function  handleClick() {
+
+setCount(count + 1);
+
+}
+
+  
+
+return (
+
+<div>
+
+<h1>Counters that update together</h1>
+
+<button  onClick={handleClick}>
+
+Count: {count}
+
+</button>
+
+<button  onClick={handleClick}>
+
+Count: {count}
+
+</button>
+
+</div>
+
+);
+
+}
+
+  
+
+export  default  App
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3Njc3OTA0LC0xOTA3NjA1MDAwLDEzOT
-M5MTg3OTIsLTM1NjAwNjQ1NSw0NzE1OTU4ODUsLTk1MDUyNDkz
-OCwxMTcwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1Mj
-A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
-LDE3MjI4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbMTQxNzcwMTc3OCwtMTkwNzYwNTAwMCwxMz
+kzOTE4NzkyLC0zNTYwMDY0NTUsNDcxNTk1ODg1LC05NTA1MjQ5
+MzgsMTE3MDAxMzg4NSw4Nzk0MDAxMTAsMTE0ODkxMDQwNSwyNT
+IwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5
+NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
 -->
