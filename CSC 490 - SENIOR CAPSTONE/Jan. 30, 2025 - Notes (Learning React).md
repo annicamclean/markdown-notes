@@ -146,9 +146,16 @@ return (
 	//FOR A MORE COMPACT SOLUTION
 )
 ```
-If the else branch i
+If the else branch is not needed you can write it as:
+```jsx
+	<div>
+		{isLoggedIn && <AdminPanel />}
+	</div>
+```
+
+### Rende
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTMzMDk5MSw4Nzk0MDAxMTAsMTE0OD
+eyJoaXN0b3J5IjpbMTU0NDg2MTQzNSw4Nzk0MDAxMTAsMTE0OD
 kxMDQwNSwyNTIwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNjUzNDIs
 MjEzNDc1MTI5NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3OD
 E4ODEwXX0=
