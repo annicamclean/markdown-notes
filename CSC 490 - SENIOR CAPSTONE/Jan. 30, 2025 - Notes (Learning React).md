@@ -285,11 +285,24 @@ Anything starting with ``use`` are called *Hooks*. You can write your own hooks 
 
 If you wanted 2 buttons to have the same count they have to be at the top of the component. Here is an example:
 ```jsx
+const [count, setCount] = useState(0);  
+
+function  handleClick() {
+	setCount(count + 1);
+}
+
+return (
+	<div>
+		<h1>Counters that update together</h1>
+		<MyButton  count={count}  onClick={handleClick}  />
+		<MyButton  count={count}  onClick={handleClick}  />
+	</div>
+);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTUzMjE1NjMsLTM1NjAwNjQ1NSw0Nz
-E1OTU4ODUsLTk1MDUyNDkzOCwxMTcwMDEzODg1LDg3OTQwMDEx
-MCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywtNjk5NjMwOTY3LDkzND
-E2NTM0MiwyMTM0NzUxMjk3LDE3MjI4NzI5NCwtMTYzMDQ2NzE4
-Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbMjEyNTY0Mjg5OSwtMzU2MDA2NDU1LDQ3MT
+U5NTg4NSwtOTUwNTI0OTM4LDExNzAwMTM4ODUsODc5NDAwMTEw
+LDExNDg5MTA0MDUsMjUyMDcxMTA3LC02OTk2MzA5NjcsOTM0MT
+Y1MzQyLDIxMzQ3NTEyOTcsMTcyMjg3Mjk0LC0xNjMwNDY3MTg2
+LDQ5NzgxODgxMF19
 -->
