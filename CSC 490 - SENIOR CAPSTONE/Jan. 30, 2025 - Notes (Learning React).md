@@ -35,8 +35,12 @@ export default function MyApp() {
 You can tell ``MyButton`` is a React component because it starts with a capital letter. React component names must start with an capital letter, while HTML tags must be lowercase.
 
 ### Writing markup with JSX/TSX
-JSX/TSX is stricter than HTML. You have to close tags like ``<br />``. Your comp
+JSX/TSX is stricter than HTML. You have to close tags like ``<br />``. Your component also cannot return multiple JSX/TSX tags. They either need to be in a ``<div>...</div>`` or an empty ``<>...</>`` wrapper.
+
+```jsx
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTM1OTQ1MSwyMTM0NzUxMjk3LDE3Mj
+eyJoaXN0b3J5IjpbLTUyMjA2MTExNywyMTM0NzUxMjk3LDE3Mj
 I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
