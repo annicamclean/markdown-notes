@@ -388,42 +388,26 @@ function  Profile() {
 		imageSize:  90
 	};
 
-return (
-
-<>
-
-<h1>{user.name}</h1>
-
-<img
-
-//className="avatar"
-
-src={user.imageUrl}
-
-alt={'Photo of ' + user.name}
-
-style={{
-
-width:  user.imageSize,
-
-height:  user.imageSize
-
-}}
-
-/>
-
-</>
-
-);
-
+	return (
+		<>
+			<h1>{user.name}</h1>
+			<img
+				//className="avatar"
+				src={user.imageUrl}
+				alt={'Photo of ' + user.name}
+				style={{
+				width:  user.imageSize,
+				height:  user.imageSize
+				}}
+			/>
+		</>
+	);
 }
 
   
 
 function  List() {
-
 interface  Product {
-
 title: string;
 
 id: number;
@@ -537,9 +521,9 @@ Count: {count}
 export  default  App
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTkyMjExMiwtMTkwNzYwNTAwMCwxMz
-kzOTE4NzkyLC0zNTYwMDY0NTUsNDcxNTk1ODg1LC05NTA1MjQ5
-MzgsMTE3MDAxMzg4NSw4Nzk0MDAxMTAsMTE0ODkxMDQwNSwyNT
-IwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5
-NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbODk3MjU3Nzg0LC0xOTA3NjA1MDAwLDEzOT
+M5MTg3OTIsLTM1NjAwNjQ1NSw0NzE1OTU4ODUsLTk1MDUyNDkz
+OCwxMTcwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1Mj
+A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
+LDE3MjI4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
