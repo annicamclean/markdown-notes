@@ -305,11 +305,39 @@ export default function MyApp() {
 ```
 
 ***READ OVER PROPS AGAIN***
+Example of Hooks and Props:
+```jsx
+import { useState } from 'react';
 
+export default function MyApp() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+  return (
+    <div>
+      <h1>Counters that update together</h1>
+      <MyButton count={count} onClick={handleClick} />
+      <MyButton count={count} onClick={handleClick} />
+    </div>
+  );
+}
+
+function MyButton({ count, onClick }) {
+  return (
+    <button onClick={onClick}>
+      Clicked {count} times
+    </button>
+  );
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc2MDUwMDAsMTM5MzkxODc5MiwtMz
-U2MDA2NDU1LDQ3MTU5NTg4NSwtOTUwNTI0OTM4LDExNzAwMTM4
-ODUsODc5NDAwMTEwLDExNDg5MTA0MDUsMjUyMDcxMTA3LC02OT
-k2MzA5NjcsOTM0MTY1MzQyLDIxMzQ3NTEyOTcsMTcyMjg3Mjk0
-LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbODIxODA5ODg0LC0xOTA3NjA1MDAwLDEzOT
+M5MTg3OTIsLTM1NjAwNjQ1NSw0NzE1OTU4ODUsLTk1MDUyNDkz
+OCwxMTcwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1Mj
+A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
+LDE3MjI4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
