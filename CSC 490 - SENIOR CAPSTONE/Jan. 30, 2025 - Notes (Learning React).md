@@ -15,7 +15,7 @@ This section has code to help remember important parts about learning react.
 ### Components
 React apps are made up of components. React components are JavaScript/Typescript functions that return markup.
 
-```tsx
+```jsx
 function MyButton() {
 	return (
 		<button>I'm a button</button>
@@ -36,6 +36,6 @@ You can tell ``MyButton`` is a React component because it starts with a capital 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTQ1MTMxMywyMTM0NzUxMjk3LDE3Mj
+eyJoaXN0b3J5IjpbLTkyMzU0MDgzOSwyMTM0NzUxMjk3LDE3Mj
 I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
