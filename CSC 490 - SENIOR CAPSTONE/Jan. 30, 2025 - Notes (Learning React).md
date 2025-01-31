@@ -120,6 +120,8 @@ style = {{}} is not a special syntax, but a regular {} oblect inside of style={}
 ### Conditional Rendering
 You can use conditional statements like you do in JS/TS code. 
 
+Works for both TS and JS.
+
 ```jsx
 let content;
 
@@ -144,12 +146,9 @@ return (
 	//FOR A MORE COMPACT SOLUTION
 )
 ```
-
-```jsx
-	let con
-```
+If the else branch i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDE3MDI3Niw4Nzk0MDAxMTAsMTE0OD
+eyJoaXN0b3J5IjpbMTc3OTMzMDk5MSw4Nzk0MDAxMTAsMTE0OD
 kxMDQwNSwyNTIwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNjUzNDIs
 MjEzNDc1MTI5NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3OD
 E4ODEwXX0=
