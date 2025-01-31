@@ -153,9 +153,12 @@ If the else branch is not needed you can write it as:
 	</div>
 ```
 
-### Rende
+### Rendering List
+You can use the ``for`` loop and array ``map()`` to render list components.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDg2MTQzNSw4Nzk0MDAxMTAsMTE0OD
+eyJoaXN0b3J5IjpbMTE3MDAxMzg4NSw4Nzk0MDAxMTAsMTE0OD
 kxMDQwNSwyNTIwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNjUzNDIs
 MjEzNDc1MTI5NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3OD
 E4ODEwXX0=
