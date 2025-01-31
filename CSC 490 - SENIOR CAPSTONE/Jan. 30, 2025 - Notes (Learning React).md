@@ -114,8 +114,10 @@ export default function Profile() {
   );
 }
 ```
+
+style = {{}} is not a special syntax, but a regular {} oblect inside of style={} JSX curly braces/ You can use it whe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODkxMDQwNSwyNTIwNzExMDcsLTY5OT
-YzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5NywxNzIyODcyOTQs
-LTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbLTI0ODEyNDg2MywxMTQ4OTEwNDA1LDI1Mj
+A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
+LDE3MjI4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
