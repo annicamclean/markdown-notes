@@ -199,10 +199,10 @@ function MyButton() {
 	);
 }
 ```
-You don't need the parentheses at the end of onClick because you would be calling the event handler function and all you have to do 
+You don't need the parentheses at the end of onClick because you would be calling the event handler function and all you have to do is pass it down. React will acutall
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkwMTM1NDAsLTk1MDUyNDkzOCwxMT
-cwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEw
-NywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3Mj
-I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbLTk0ODg1MjMsLTk1MDUyNDkzOCwxMTcwMD
+EzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywt
+Njk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3MjI4Nz
+I5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
