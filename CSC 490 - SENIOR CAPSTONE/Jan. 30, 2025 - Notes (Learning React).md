@@ -156,6 +156,34 @@ If the else branch is not needed you can write it as:
 ### Rendering List
 You can use the ``for`` loop and array ``map()`` to render list components.
 
+JSX:
+```jsx
+const products = [
+  { title: 'Cabbage', isFruit: false, id: 1 },
+  { title: 'Garlic', isFruit: false, id: 2 },
+  { title: 'Apple', isFruit: true, id: 3 },
+];
+
+export default function ShoppingList() {
+  const listItems = products.map(product =>
+    <li
+      key={product.id}
+      style={{
+        color: product.isFruit ? 'magenta' : 'darkgreen'
+      }}
+    >
+      {product.title}
+    </li>
+  );
+
+  return (
+    <ul>{listItems}</ul>
+  );
+}
+
+```
+
+TSX:
 ```jsx
 const products = [
   { title: 'Cabbage', isFruit: false, id: 1 },
@@ -199,10 +227,10 @@ function MyButton() {
 	);
 }
 ```
-You don't need the parentheses at the end of onClick because you would be calling the event handler function and all you have to do is pass it down. React will acutall
+You don't need the parentheses at the end of onClick because you would be calling the event handler function and all you have to do is pass it down. React will acutally do the calling when the user clicks the button.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODg1MjMsLTk1MDUyNDkzOCwxMTcwMD
-EzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywt
-Njk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3MjI4Nz
-I5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbLTE4NTMzMzcyNTgsLTk1MDUyNDkzOCwxMT
+cwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEw
+NywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3Mj
+I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
