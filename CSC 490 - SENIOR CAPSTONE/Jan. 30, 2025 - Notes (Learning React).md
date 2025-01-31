@@ -366,45 +366,27 @@ function  App() {
 function  MyButton() {
 	function  handleClick() {
 		alert('You clicked me!');
+	}
+
+	return (
+		<button  onClick={handleClick}>
+			Click me
+		</button>
+	);
 }
-
-return (
-	<button  onClick={handleClick}>
-Click me
-
-</button>
-
-);
-
-}
-
-  
 
 function  Profile() {
+	interface  User {
+		name: string;
+		imageUrl: string;
+		imageSize: number;
+	}
 
-interface  User {
-
-name: string;
-
-imageUrl: string;
-
-imageSize: number;
-
-}
-
-  
-
-const  user: User = {
-
-name:  'Hedy Lamarr',
-
-imageUrl:  'https://i.imgur.com/yXOvdOSs.jpg',
-
-imageSize:  90
-
-};
-
-  
+	const  user: User = {
+		name:  'Hedy Lamarr',
+		imageUrl:  'https://i.imgur.com/yXOvdOSs.jpg',
+		imageSize:  90
+	};
 
 return (
 
@@ -555,9 +537,9 @@ Count: {count}
 export  default  App
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjcyMzExMzYsLTE5MDc2MDUwMDAsMT
-M5MzkxODc5MiwtMzU2MDA2NDU1LDQ3MTU5NTg4NSwtOTUwNTI0
-OTM4LDExNzAwMTM4ODUsODc5NDAwMTEwLDExNDg5MTA0MDUsMj
-UyMDcxMTA3LC02OTk2MzA5NjcsOTM0MTY1MzQyLDIxMzQ3NTEy
-OTcsMTcyMjg3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbLTYzNTkyMjExMiwtMTkwNzYwNTAwMCwxMz
+kzOTE4NzkyLC0zNTYwMDY0NTUsNDcxNTk1ODg1LC05NTA1MjQ5
+MzgsMTE3MDAxMzg4NSw4Nzk0MDAxMTAsMTE0ODkxMDQwNSwyNT
+IwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5
+NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
 -->
