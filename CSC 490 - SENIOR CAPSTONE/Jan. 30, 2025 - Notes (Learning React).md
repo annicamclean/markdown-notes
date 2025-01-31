@@ -182,10 +182,10 @@ export default function ShoppingList() {
 
 ```
 
-
+For each item in a list you should pass a number or string that uniq
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTQzMzkxNSwxMTcwMDEzODg1LDg3OT
-QwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywtNjk5NjMwOTY3
-LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3MjI4NzI5NCwtMTYzMD
-Q2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbNTk3MDg3NDgzLDExNzAwMTM4ODUsODc5ND
+AwMTEwLDExNDg5MTA0MDUsMjUyMDcxMTA3LC02OTk2MzA5Njcs
+OTM0MTY1MzQyLDIxMzQ3NTEyOTcsMTcyMjg3Mjk0LC0xNjMwND
+Y3MTg2LDQ5NzgxODgxMF19
 -->
