@@ -134,11 +134,16 @@ return (
 		{content}
 	</div>
 	//OR
-	<>
+	<div>
+		{isLoggedIn ? (
+			<AdminPanel />
+		) : (
+			<LoginForm />
+		)}
 )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTkzNzI0LDExNDg5MTA0MDUsMjUyMD
+eyJoaXN0b3J5IjpbMTcwNDg4OTQ5LDExNDg5MTA0MDUsMjUyMD
 cxMTA3LC02OTk2MzA5NjcsOTM0MTY1MzQyLDIxMzQ3NTEyOTcs
 MTcyMjg3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
 -->
