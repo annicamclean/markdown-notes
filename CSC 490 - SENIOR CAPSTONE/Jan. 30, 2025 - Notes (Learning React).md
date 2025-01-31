@@ -156,10 +156,36 @@ If the else branch is not needed you can write it as:
 ### Rendering List
 You can use the ``for`` loop and array ``map()`` to render list components.
 
+```jsx
+const products = [
+  { title: 'Cabbage', isFruit: false, id: 1 },
+  { title: 'Garlic', isFruit: false, id: 2 },
+  { title: 'Apple', isFruit: true, id: 3 },
+];
+
+export default function ShoppingList() {
+  const listItems = products.map(product =>
+    <li
+      key={product.id}
+      style={{
+        color: product.isFruit ? 'magenta' : 'darkgreen'
+      }}
+    >
+      {product.title}
+    </li>
+  );
+
+  return (
+    <ul>{listItems}</ul>
+  );
+}
+
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDAxMzg4NSw4Nzk0MDAxMTAsMTE0OD
-kxMDQwNSwyNTIwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNjUzNDIs
-MjEzNDc1MTI5NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3OD
-E4ODEwXX0=
+eyJoaXN0b3J5IjpbMTY5MTQzMzkxNSwxMTcwMDEzODg1LDg3OT
+QwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywtNjk5NjMwOTY3
+LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3MjI4NzI5NCwtMTYzMD
+Q2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
