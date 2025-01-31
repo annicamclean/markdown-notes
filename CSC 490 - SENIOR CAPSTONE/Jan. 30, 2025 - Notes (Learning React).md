@@ -249,12 +249,12 @@ function MyButton() {
 }
 
 ```
-
+With the useState you get the current state, and the function to update the current state. The convention is to write  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjAwNjQ1NSw0NzE1OTU4ODUsLTk1MD
-UyNDkzOCwxMTcwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1
-LDI1MjA3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0Nz
-UxMjk3LDE3MjI4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBd
-fQ==
+eyJoaXN0b3J5IjpbMTUxMTE1ODkzLC0zNTYwMDY0NTUsNDcxNT
+k1ODg1LC05NTA1MjQ5MzgsMTE3MDAxMzg4NSw4Nzk0MDAxMTAs
+MTE0ODkxMDQwNSwyNTIwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNj
+UzNDIsMjEzNDc1MTI5NywxNzIyODcyOTQsLTE2MzA0NjcxODYs
+NDk3ODE4ODEwXX0=
 -->
