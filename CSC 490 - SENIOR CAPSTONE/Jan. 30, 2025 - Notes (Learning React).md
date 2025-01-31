@@ -185,10 +185,20 @@ export default function ShoppingList() {
 For each item in a list you should pass a number or string that uniquely identifies each item from their sibling. The key usually comes from database ID. It helps React know which item has been inserted, deleted, or reordered.
 
 ### Responding to Events
+You can respond to events by declaring _event handler_ functions inside your components. 
+```jsx
+function MyButton() {
+	function handleClick() {
+		alert('You clicked me!');
+	}
 
+	return (
+	)
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIxMDE2NzksMTE3MDAxMzg4NSw4Nz
-k0MDAxMTAsMTE0ODkxMDQwNSwyNTIwNzExMDcsLTY5OTYzMDk2
-Nyw5MzQxNjUzNDIsMjEzNDc1MTI5NywxNzIyODcyOTQsLTE2Mz
-A0NjcxODYsNDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbMjA5NzAyMDQwMiwxMTcwMDEzODg1LDg3OT
+QwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywtNjk5NjMwOTY3
+LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3MjI4NzI5NCwtMTYzMD
+Q2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
