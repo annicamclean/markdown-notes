@@ -407,44 +407,30 @@ function  Profile() {
   
 
 function  List() {
-interface  Product {
-title: string;
+	interface  Product {
+		title: string;
+		id: number;
+	}
+	
+	const  products: Product[] = [
+		{ title:  'Cabbage', id:  1 },
+		{ title:  'Garlic', id:  2 },
+		{ title:  'Apple', id:  3 },
+	];
 
-id: number;
+	const  listItems = products.map(product  =>
+		<li  key={product.id}>
+			{product.title}
+		</li>
+	);
 
-}
+	  
 
-  
+	return (
 
-const  products: Product[] = [
+	<ul>{listItems}</ul>
 
-{ title:  'Cabbage', id:  1 },
-
-{ title:  'Garlic', id:  2 },
-
-{ title:  'Apple', id:  3 },
-
-];
-
-  
-
-const  listItems = products.map(product  =>
-
-<li  key={product.id}>
-
-{product.title}
-
-</li>
-
-);
-
-  
-
-return (
-
-<ul>{listItems}</ul>
-
-);
+	);
 
 }
 
@@ -521,7 +507,7 @@ Count: {count}
 export  default  App
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MjU3Nzg0LC0xOTA3NjA1MDAwLDEzOT
+eyJoaXN0b3J5IjpbODIzNjc5OTQ4LC0xOTA3NjA1MDAwLDEzOT
 M5MTg3OTIsLTM1NjAwNjQ1NSw0NzE1OTU4ODUsLTk1MDUyNDkz
 OCwxMTcwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1Mj
 A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
