@@ -118,7 +118,7 @@ export default function Profile() {
 style = {{}} is not a special syntax, but a regular {} oblect inside of style={} JSX curly braces/ You can use it when the styles depend on JS variables.
 
 ### Conditional Rendering
-You can use conditional statements like you do in JS code. 
+You can use conditional statements like you do in JS/TS code. 
 
 ```jsx
 let content;
@@ -134,16 +134,20 @@ return (
 		{content}
 	</div>
 	//OR
-	<div>
+	/*<div>
 		{isLoggedIn ? (
 			<AdminPanel />
 		) : (
 			<LoginForm />
 		)}
+	</div>	*/
+	//FOR A MORE COMPACT SOLUTION
 )
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDg4OTQ5LDExNDg5MTA0MDUsMjUyMD
+eyJoaXN0b3J5IjpbODc5NDAwMTEwLDExNDg5MTA0MDUsMjUyMD
 cxMTA3LC02OTk2MzA5NjcsOTM0MTY1MzQyLDIxMzQ3NTEyOTcs
 MTcyMjg3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
 -->
