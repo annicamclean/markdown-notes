@@ -57,8 +57,56 @@ Instead of using class for HTML tags you use ``className``.  You then link the C
 
 ### Displaying Data
 Using curly brackets lets you add JS/TS into your HTML elements. 
+JSX Version:
+```jsx
+const user = {
+  name: 'Hedy Lamarr',
+  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  imageSize: 90,
+};
+
+export default function Profile() {
+  return (
+    <>
+      <h1>{user.name}</h1>
+      <img
+        className="avatar"
+        src={user.imageUrl}
+        alt={'Photo of ' + user.name}
+        style={{
+          width: user.imageSize,
+          height: user.imageSize
+        }}
+      />
+    </>
+  );
+}
+```
+
+TSX Version:
+```jsx
+interface  User {
+	name: string;
+	imageUrl: string;
+
+imageSize: number;
+
+}
+
+  
+
+const  user: User = {
+
+name:  'Hedy Lamarr',
+
+imageUrl:  'https://i.imgur.com/yXOvdOSs.jpg',
+
+imageSize:  90
+
+};
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyMDcxMTA3LC02OTk2MzA5NjcsOTM0MT
-Y1MzQyLDIxMzQ3NTEyOTcsMTcyMjg3Mjk0LC0xNjMwNDY3MTg2
-LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbMTYyNTczMzA5NCwyNTIwNzExMDcsLTY5OT
+YzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5NywxNzIyODcyOTQs
+LTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
 -->
