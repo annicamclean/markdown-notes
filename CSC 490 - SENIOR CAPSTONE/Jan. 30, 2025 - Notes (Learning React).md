@@ -10,8 +10,11 @@
 6. Ctrl + C to stop the process
 
 ## Actually Learning React
+This section has code to help remember important parts about learning react.
 
+### Components
+React 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTQwNzM4OCwtMTYzMDQ2NzE4Niw0OT
+eyJoaXN0b3J5IjpbLTc3NzgyNjExNywtMTYzMDQ2NzE4Niw0OT
 c4MTg4MTBdfQ==
 -->
