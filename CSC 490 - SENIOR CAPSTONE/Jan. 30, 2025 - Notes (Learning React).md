@@ -115,9 +115,12 @@ export default function Profile() {
 }
 ```
 
-style = {{}} is not a special syntax, but a regular {} oblect inside of style={} JSX curly braces/ You can use it whe
+style = {{}} is not a special syntax, but a regular {} oblect inside of style={} JSX curly braces/ You can use it when the styles depend on JS variables.
+
+### Conditional Rendering
+You can use conditional statements like you do in JS code. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODEyNDg2MywxMTQ4OTEwNDA1LDI1Mj
+eyJoaXN0b3J5IjpbMTQ3NjM2ODYxMCwxMTQ4OTEwNDA1LDI1Mj
 A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
 LDE3MjI4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
