@@ -38,9 +38,16 @@ You can tell ``MyButton`` is a React component because it starts with a capital 
 JSX/TSX is stricter than HTML. You have to close tags like ``<br />``. Your component also cannot return multiple JSX/TSX tags. They either need to be in a ``<div>...</div>`` or an empty ``<>...</>`` wrapper.
 
 ```jsx
-
+function AboutPage() {
+	return (
+		<>
+			<h1>About</h1>
+			<p>Hello there. <br /> How do you do?</p>
+		</>
+	);
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjA2MTExNywyMTM0NzUxMjk3LDE3Mj
-I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbLTE5OTUwMTkwNTUsMjEzNDc1MTI5NywxNz
+IyODcyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
 -->
