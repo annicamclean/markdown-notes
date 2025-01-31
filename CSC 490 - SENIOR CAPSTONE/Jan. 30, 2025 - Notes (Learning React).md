@@ -21,8 +21,16 @@ function MyButton() {
 		<button>I'm a button</button>
 	);
 }
+
+export default function MyApp() {
+	return (
+	<div>
+		<h1>Welcome to my app</h1>
+		<My
+	);
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5MjI0NDUzLDE3MjI4NzI5NCwtMTYzMD
-Q2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQ0NDAyOCwxNzIyODcyOTQsLTE2Mz
+A0NjcxODYsNDk3ODE4ODEwXX0=
 -->
