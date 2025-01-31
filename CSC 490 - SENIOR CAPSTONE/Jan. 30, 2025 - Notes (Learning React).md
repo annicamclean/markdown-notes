@@ -49,8 +49,10 @@ function AboutPage() {
 ```
 
 ### Adding styles
-Instead of using class for HTML tags you use ``className``. 
+Instead of using class for HTML tags you use ``className``.  You then link the CSS file. You can either use ``<link>`` tag in your HTML or import ``filepath`` of the CSS file. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mzk5Mzc3NCwyMTM0NzUxMjk3LDE3Mj
-I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbOTM0MTY1MzQyLDIxMzQ3NTEyOTcsMTcyMj
+g3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
 -->
