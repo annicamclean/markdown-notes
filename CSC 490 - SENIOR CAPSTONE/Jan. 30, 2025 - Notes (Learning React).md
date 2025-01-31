@@ -234,9 +234,12 @@ function MyButton() {
 }
 ```
 You don't need the parentheses at the end of onClick because you would be calling the event handler function and all you have to do is pass it down. React will acutally do the calling when the user clicks the button.
+
+### Updating the Screen
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDUwMjQ2NSwtOTUwNTI0OTM4LDExNz
-AwMTM4ODUsODc5NDAwMTEwLDExNDg5MTA0MDUsMjUyMDcxMTA3
-LC02OTk2MzA5NjcsOTM0MTY1MzQyLDIxMzQ3NTEyOTcsMTcyMj
-g3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbNzYzNTE5ODIxLC05NTA1MjQ5MzgsMTE3MD
+AxMzg4NSw4Nzk0MDAxMTAsMTE0ODkxMDQwNSwyNTIwNzExMDcs
+LTY5OTYzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5NywxNzIyOD
+cyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
 -->
