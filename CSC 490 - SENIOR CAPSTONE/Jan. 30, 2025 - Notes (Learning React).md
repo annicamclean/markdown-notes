@@ -350,45 +350,26 @@ function  App() {
 				<Profile  />
 			</div>
 			<div>
-				<List  /></div>
-
-<div>
-
-<Count  />
-
-<Count  />
-
-</div>
-
-<div>
-
-<SameCount  />
-
-</div>
-
-</div>
-
-);
-
+				<List  />
+			</div>
+			<div>
+				<Count  />
+				<Count  />
+			</div>
+			<div>
+				<SameCount  />
+			</div>
+		</div>
+	);
 }
-
-  
-  
 
 function  MyButton() {
-
-function  handleClick() {
-
-alert('You clicked me!');
-
+	function  handleClick() {
+		alert('You clicked me!');
 }
 
-  
-
 return (
-
-<button  onClick={handleClick}>
-
+	<button  onClick={handleClick}>
 Click me
 
 </button>
@@ -574,9 +555,9 @@ Count: {count}
 export  default  App
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzcwMTc3OCwtMTkwNzYwNTAwMCwxMz
-kzOTE4NzkyLC0zNTYwMDY0NTUsNDcxNTk1ODg1LC05NTA1MjQ5
-MzgsMTE3MDAxMzg4NSw4Nzk0MDAxMTAsMTE0ODkxMDQwNSwyNT
-IwNzExMDcsLTY5OTYzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5
-NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbLTE5MjcyMzExMzYsLTE5MDc2MDUwMDAsMT
+M5MzkxODc5MiwtMzU2MDA2NDU1LDQ3MTU5NTg4NSwtOTUwNTI0
+OTM4LDExNzAwMTM4ODUsODc5NDAwMTEwLDExNDg5MTA0MDUsMj
+UyMDcxMTA3LC02OTk2MzA5NjcsOTM0MTY1MzQyLDIxMzQ3NTEy
+OTcsMTcyMjg3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
 -->
