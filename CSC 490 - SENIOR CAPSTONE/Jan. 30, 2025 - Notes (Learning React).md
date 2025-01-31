@@ -124,11 +124,21 @@ You can use conditional statements like you do in JS code.
 let content;
 
 if (isLoggedIn) {
-
+	content = <AdminPanel />
+} else {
+	content = <LoginForm />
 }
+
+return (
+	<div>
+		{content}
+	</div>
+	//OR
+	<>
+)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzYwMTQ3MSwxMTQ4OTEwNDA1LDI1Mj
-A3MTEwNywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3
-LDE3MjI4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbLTg1OTkzNzI0LDExNDg5MTA0MDUsMjUyMD
+cxMTA3LC02OTk2MzA5NjcsOTM0MTY1MzQyLDIxMzQ3NTEyOTcs
+MTcyMjg3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
 -->
