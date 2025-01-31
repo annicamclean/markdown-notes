@@ -47,7 +47,10 @@ function AboutPage() {
 	);
 }
 ```
+
+### Adding styles
+Instead of using class for HTML tags you use ``className``. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUwMTkwNTUsMjEzNDc1MTI5NywxNz
-IyODcyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
+eyJoaXN0b3J5IjpbMTU4Mzk5Mzc3NCwyMTM0NzUxMjk3LDE3Mj
+I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
