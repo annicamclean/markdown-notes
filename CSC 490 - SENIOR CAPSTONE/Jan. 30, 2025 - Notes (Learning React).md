@@ -241,7 +241,7 @@ Sometimes you want to remember some information and display it, that's where sta
 First import ``useState`` from React then declare a ``state variable`` inside your component.
 
 ```jsx
-	import { useState } from 'react';
+import { useState } from 'react';
 
 
 function MyButton() {
@@ -258,11 +258,30 @@ function MyButton() {
 	);
 }
 
+```jsx
+import { useState } from 'react';
+
+
+function MyButton() {
+	const [count, setCount] = useState(0);
+
+	function handleClick() {
+		setCount(count + 1);
+	}
+
+	return (
+		<button onClick={handleClick}>
+			Clicked {count} times
+		</button>
+	);
+}
+
+
 ```
 With the useState you get the current state, and the function to update the current state. The convention is to write [something, setSomething]. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk0OTg1MTEsLTM1NjAwNjQ1NSw0Nz
+eyJoaXN0b3J5IjpbLTE4MDI2MjEzNTQsLTM1NjAwNjQ1NSw0Nz
 E1OTU4ODUsLTk1MDUyNDkzOCwxMTcwMDEzODg1LDg3OTQwMDEx
 MCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywtNjk5NjMwOTY3LDkzND
 E2NTM0MiwyMTM0NzUxMjk3LDE3MjI4NzI5NCwtMTYzMDQ2NzE4
