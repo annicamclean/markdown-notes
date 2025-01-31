@@ -32,8 +32,10 @@ export default function MyApp() {
 }
 ```
 
-You can tell ``MyButton`` is a React component because it starts with a capital letter. React component names must start with an capital 
+You can tell ``MyButton`` is a React component because it starts with a capital letter. React component names must start with an capital letter, while HTML tags must be lowercase.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM1NTAyNjksMTcyMjg3Mjk0LC0xNj
-MwNDY3MTg2LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbMjEzNDc1MTI5NywxNzIyODcyOTQsLTE2Mz
+A0NjcxODYsNDk3ODE4ODEwXX0=
 -->
