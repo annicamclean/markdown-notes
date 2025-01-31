@@ -51,8 +51,10 @@ function AboutPage() {
 ### Adding styles
 Instead of using class for HTML tags you use ``className``.  You then link the CSS file. You can either use ``<link>`` tag in your HTML or import ``filepath`` of the CSS file. 
 
-
+### Displaying Data
+Using curly brackets lets you add JS/TS into your HTML elements. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0MTY1MzQyLDIxMzQ3NTEyOTcsMTcyMj
-g3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
+eyJoaXN0b3J5IjpbLTY5OTYzMDk2Nyw5MzQxNjUzNDIsMjEzND
+c1MTI5NywxNzIyODcyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEw
+XX0=
 -->
