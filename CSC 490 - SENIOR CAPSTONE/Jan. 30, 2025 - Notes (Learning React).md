@@ -199,9 +199,10 @@ function MyButton() {
 	);
 }
 ```
+You don't need the parentheses at the end of onClick because you would be calling the event handler function and all you have to do 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDUyNDkzOCwxMTcwMDEzODg1LDg3OT
-QwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEwNywtNjk5NjMwOTY3
-LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3MjI4NzI5NCwtMTYzMD
-Q2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbLTE5OTkwMTM1NDAsLTk1MDUyNDkzOCwxMT
+cwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEw
+NywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3Mj
+I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
 -->
