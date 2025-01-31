@@ -238,10 +238,20 @@ You don't need the parentheses at the end of onClick because you would be callin
 ### Updating the Screen
 Sometimes you want to remember some information and display it, that's where states come in.
 
-First import ``useState`` from React then declare a ``state variable`` inside your componenet
+First import ``useState`` from React then declare a ``state variable`` inside your component.
+
+```jsx
+	import { useState } from 'react';
+
+
+function MyButton() {
+	const [count, setCount] = useState(0);
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ3NjUzNjEsLTk1MDUyNDkzOCwxMT
-cwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEw
-NywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3Mj
-I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbNDcxNTk1ODg1LC05NTA1MjQ5MzgsMTE3MD
+AxMzg4NSw4Nzk0MDAxMTAsMTE0ODkxMDQwNSwyNTIwNzExMDcs
+LTY5OTYzMDk2Nyw5MzQxNjUzNDIsMjEzNDc1MTI5NywxNzIyOD
+cyOTQsLTE2MzA0NjcxODYsNDk3ODE4ODEwXX0=
 -->
