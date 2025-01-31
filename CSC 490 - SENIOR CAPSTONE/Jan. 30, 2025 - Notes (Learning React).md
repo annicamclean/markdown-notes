@@ -185,7 +185,13 @@ export default function ShoppingList() {
 
 TSX:
 ```jsx
-const products = [
+interface Product {
+	title: string;
+	isFruit: boolean;
+	id: number;
+}
+
+const products: Product[] = [
   { title: 'Cabbage', isFruit: false, id: 1 },
   { title: 'Garlic', isFruit: false, id: 2 },
   { title: 'Apple', isFruit: true, id: 3 },
@@ -229,8 +235,8 @@ function MyButton() {
 ```
 You don't need the parentheses at the end of onClick because you would be calling the event handler function and all you have to do is pass it down. React will acutally do the calling when the user clicks the button.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMzMzcyNTgsLTk1MDUyNDkzOCwxMT
-cwMDEzODg1LDg3OTQwMDExMCwxMTQ4OTEwNDA1LDI1MjA3MTEw
-NywtNjk5NjMwOTY3LDkzNDE2NTM0MiwyMTM0NzUxMjk3LDE3Mj
-I4NzI5NCwtMTYzMDQ2NzE4Niw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbMTM4MDUwMjQ2NSwtOTUwNTI0OTM4LDExNz
+AwMTM4ODUsODc5NDAwMTEwLDExNDg5MTA0MDUsMjUyMDcxMTA3
+LC02OTk2MzA5NjcsOTM0MTY1MzQyLDIxMzQ3NTEyOTcsMTcyMj
+g3Mjk0LC0xNjMwNDY3MTg2LDQ5NzgxODgxMF19
 -->
