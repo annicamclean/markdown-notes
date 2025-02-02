@@ -32,7 +32,9 @@
 	- You want to make it so whenever the user changes the form inputs, the state updates to reflect those changes.
 
 [REACT WITH TYPESCRIPT](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
+[REACT MANUAL](https://react.dev/learn/describing-the-ui)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODA2Mjk2MywxOTg1NTM0MDAsMTY4OT
-M3Mzk5OCwtMjY0Njc4MTAzLC0xNDUwNjMwNjY3XX0=
+eyJoaXN0b3J5IjpbNDkzMzQ5OTE3LDE5ODU1MzQwMCwxNjg5Mz
+czOTk4LC0yNjQ2NzgxMDMsLTE0NTA2MzA2NjddfQ==
 -->
