@@ -12,7 +12,8 @@
 	- Making interactive UI requires the user to be able to change the underlying data model.
 	- Think of state as the minimal set of changing data that your app needs to remember.
 	- The most important principle for structuring state is to keep it [DRY (Don't Repeat Yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-	- Example: If you have a list of items it should be an array state, but if you want the amount of items in that array use the length of the arra
+	- Example: If you have a list of items it should be an array state, but if you want the amount of items in that array use the length of the array.
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjMwMjMxMiwtMTQ1MDYzMDY2N119
+eyJoaXN0b3J5IjpbLTY1NjczNDM3OCwtMTQ1MDYzMDY2N119
 -->
