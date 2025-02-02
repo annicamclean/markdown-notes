@@ -10,8 +10,8 @@
 	- You can either build "top-down"(building from biggest components to smallest) or "bottom-up"(vice versa of top-down). *Bottom-up is easiest.*
 3. Step 3: Find the minimal but complete representation of UI state
 	- Making interactive UI requires the user to be able to change the underlying data model.
-	- Think of state as the minimal set of changin
+	- Think of state as the minimal set of changing data that your app needs to remember.
+	- The most important principle for structuring state is to keep it [DRY (Don't Repeat Yourself)]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE1NzU3OTcsLTE0NTA2MzA2NjddfQ
-==
+eyJoaXN0b3J5IjpbNDQ3NDEyMDkxLC0xNDUwNjMwNjY3XX0=
 -->
