@@ -30,7 +30,9 @@
 5. ***Step 5: Add inverse data flow***
 	- To support user input you need to support data flowing the other way
 	- You want to make it so whenever the user changes the form inputs, the state updates to reflect those changes.
+
+[REACT WITH TYPESCRIPT](https://react-typescript-cheatsheet.netlify.app/docs/basic/setup)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTUzNDAwLDE2ODkzNzM5OTgsLTI2ND
-Y3ODEwMywtMTQ1MDYzMDY2N119
+eyJoaXN0b3J5IjpbMTA1ODA2Mjk2MywxOTg1NTM0MDAsMTY4OT
+M3Mzk5OCwtMjY0Njc4MTAzLC0xNDUwNjMwNjY3XX0=
 -->
