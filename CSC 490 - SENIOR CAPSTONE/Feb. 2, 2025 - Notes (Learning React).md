@@ -14,8 +14,12 @@
 	- The most important principle for structuring state is to keep it [DRY (Don't Repeat Yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 	- Example: If you have a list of items it should be an array state, but if you want the amount of items in that array use the length of the array.
 	- *Props* are like arguments you pass to a function. *State* is like a component's memory.
+	- *How to Identify States:*
+		- Does it **remain unchanged** over time? If so, it isn’t state.
+		-  Is it **passed in from a parent** via props? If so, it isn’t state.
+		-  **Can you compute it** based on existing state or props in your component? If so, it _definitely_ isn’t state!
 4. ***Identify where your state should live***
 	- You need to identify which components change the state/own the state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzAxODgxMCwtMTQ1MDYzMDY2N119
+eyJoaXN0b3J5IjpbMTM5NjcyOTM3MiwtMTQ1MDYzMDY2N119
 -->
