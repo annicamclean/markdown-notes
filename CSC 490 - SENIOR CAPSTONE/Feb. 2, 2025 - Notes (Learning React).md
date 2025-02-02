@@ -8,12 +8,12 @@
 	- First build a version that renders the UI from your data model without adding any interactivity.
 	- To build a static version of your app that renders your data model, you’ll want to build components that reuse other components and pass data using props.
 	- You can either build "top-down"(building from biggest components to smallest) or "bottom-up"(vice versa of top-down). *Bottom-up is easiest.*
-3. Step 3: Find the minimal but complete representation of UI state
+3. ***Find the minimal but complete representation of UI state***
 	- Making interactive UI requires the user to be able to change the underlying data model.
 	- Think of state as the minimal set of changing data that your app needs to remember.
 	- The most important principle for structuring state is to keep it [DRY (Don't Repeat Yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 	- Example: If you have a list of items it should be an array state, but if you want the amount of items in that array use the length of the array.
-	- 
+	- *Props* are like arguments you pass to a function. *State* is like a component's memory.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjczNDM3OCwtMTQ1MDYzMDY2N119
+eyJoaXN0b3J5IjpbLTQyNTUyNjI0NywtMTQ1MDYzMDY2N119
 -->
