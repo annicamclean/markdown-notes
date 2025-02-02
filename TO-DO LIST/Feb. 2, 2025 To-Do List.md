@@ -5,7 +5,10 @@
 - [ ] Learb React Native
 - [ ] Do Ch.3 Pre-Homework
 - [ ] Clean Up Room
-- [ ] 
+- [ ] Finish Ch.2 
+- [ ] Read Ch. 3
+- [ ] Memorize Lines 
+- [ ] Read Ch. 4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxNzM1Mzc3XX0=
+eyJoaXN0b3J5IjpbLTkyNDIwMTIyOF19
 -->
