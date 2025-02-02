@@ -27,6 +27,9 @@
 			1. Often, you can put the state directly into their common parent.
 			2. You can also put the state into some component above their common parent.
 			3. If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common parent component.
+5. ***Step 5: Add inverse data flow***
+	- To support user input 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDY3ODEwMywtMTQ1MDYzMDY2N119
+eyJoaXN0b3J5IjpbOTAzNjcwOTgyLC0yNjQ2NzgxMDMsLTE0NT
+A2MzA2NjddfQ==
 -->
