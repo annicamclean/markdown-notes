@@ -6,7 +6,8 @@
 	- A well structured JSON object is a great way to know how to structure your UI and components
 2. ***Step 2: Build a static version in React***
 	- First build a version that renders the UI from your data model without adding any interactivity.
-	- 
+	- To build a static version of your app that renders your data model, you’ll want to build components that reuse other components and pass data using props.
+	- You can either build "top-down"(building from biggest components to smallest) or "bottom-up"()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMxNzg4NTZdfQ==
+eyJoaXN0b3J5IjpbLTEzNTA1NTc4NTldfQ==
 -->
