@@ -1,5 +1,5 @@
 # Feb 2, 2025 To-Dos
-- [ ] Get mom the 1098T and the W2
+- [x] Get mom the 1098T and the W2
 - [ ] Read the Guilded Socialism
 - [ ] Learn React
 - [ ] Learb React Native
@@ -10,5 +10,5 @@
 - [ ] Memorize Lines 
 - [ ] Read Ch. 4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDIwMTIyOF19
+eyJoaXN0b3J5IjpbLTE1MjAzNzA0NCwtOTI0MjAxMjI4XX0=
 -->
