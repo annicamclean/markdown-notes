@@ -3,13 +3,13 @@
 - [ ] Read the Guilded Socialism
 - [ ] Learn React
 - [ ] Learn React Native
-- [ ] Do Ch.3 Pre-Homework
+- [x] Do Ch.3 Pre-Homework
 - [ ] Clean Up Room
 - [ ] Finish Ch.2 
 - [ ] Read Ch. 3
 - [ ] Memorize Lines 
 - [ ] Read Ch. 4
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU2NjM1MjgsLTE1MjAzNzA0NCwtOT
-I0MjAxMjI4XX0=
+eyJoaXN0b3J5IjpbNTQ0MDg2Nzg0LC0xNDU1NjYzNTI4LC0xNT
+IwMzcwNDQsLTkyNDIwMTIyOF19
 -->
