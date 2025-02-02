@@ -21,11 +21,12 @@
 4. ***Identify where your state should live***
 	- You need to identify which components change the state/own the state.
 	- *How to figure out where a state should live:*
-		1. Identify _every_ component that renders something based on that state.Find their closest common parent component—a component above them all in the hierarchy.
-3.  Decide where the state should live:
-    1.  Often, you can put the state directly into their common parent.
-    2.  You can also put the state into some component above their common parent.
-    3.  If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common parent component.
+		1. Identify _every_ component that renders something based on that state.
+		2. Find their closest common parent component—a component above them all in the hierarchy.
+		3. Decide where the state should live:
+			1. Often, you can put the state directly into their common parent.
+			2. You can also put the state into some component above their common parent.
+			3. If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common parent component.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDgzMTUwNSwtMTQ1MDYzMDY2N119
+eyJoaXN0b3J5IjpbLTI2NDY3ODEwMywtMTQ1MDYzMDY2N119
 -->
