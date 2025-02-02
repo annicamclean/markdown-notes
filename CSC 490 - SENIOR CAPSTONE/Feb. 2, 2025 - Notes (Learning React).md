@@ -28,8 +28,9 @@
 			2. You can also put the state into some component above their common parent.
 			3. If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common parent component.
 5. ***Step 5: Add inverse data flow***
-	- To support user input 
+	- To support user input you need to support data flowing the other way
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzNjcwOTgyLC0yNjQ2NzgxMDMsLTE0NT
-A2MzA2NjddfQ==
+eyJoaXN0b3J5IjpbMTY4OTM3Mzk5OCwtMjY0Njc4MTAzLC0xND
+UwNjMwNjY3XX0=
 -->
