@@ -14,6 +14,8 @@
 	- The most important principle for structuring state is to keep it [DRY (Don't Repeat Yourself)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 	- Example: If you have a list of items it should be an array state, but if you want the amount of items in that array use the length of the array.
 	- *Props* are like arguments you pass to a function. *State* is like a component's memory.
+4. ***Identify where your state should live***
+	- You need to identify which components change the state/own the state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTUyNjI0NywtMTQ1MDYzMDY2N119
+eyJoaXN0b3J5IjpbMTMyNzAxODgxMCwtMTQ1MDYzMDY2N119
 -->
