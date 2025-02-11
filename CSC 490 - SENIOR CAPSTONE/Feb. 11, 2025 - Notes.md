@@ -4,8 +4,8 @@
 - Mutable creates a Wiki for you based on your code
 - Look at bugs in chunks instead of one at a time
 - Keep multiple sources of AI open
-- Take time to find new tools to figure 
+- Take time to find new tools to figure out how it can help me work faster and not harder
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1Mzk3MzQxLDYzMjE4NzQ3Myw0OTc4MT
-g4MTBdfQ==
+eyJoaXN0b3J5IjpbMTY4NjY1Njg1Myw2MzIxODc0NzMsNDk3OD
+E4ODEwXX0=
 -->
