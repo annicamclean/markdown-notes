@@ -26,8 +26,8 @@ Yes I could what the character wanted throughout each scene in the movie and ove
 -   Does the performance fit in with the rest of the movie and what the other actors are doing?
 -   Do you like the film as a whole?
 
-I like the performance because the actress played the character well and made me believe that the main character has a bunch of complicated relationships with other people and town that she grew up in. I mostly like the character because she is a teenager so I don't expect her to make to many good choices and I like how determine she was to get into a college in the east coast. THough I didn't like
+I like the performance because the actress played the character well and made me believe that the main character has a bunch of complicated relationships with other people and town that she grew up in. I mostly like the character because she is a teenager so I don't expect her to make to many good choices and I like how determine she was to get into a college in the east coast. Though I didn't like how she cheated, lied, and stole to get there instead of studying for the test. The performance does fit with the rest of the fil
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyNjQ1ODEwLDgxMTM3NDA2LDMwMzU1Mj
+eyJoaXN0b3J5IjpbNTM1MjM1NTIwLDgxMTM3NDA2LDMwMzU1Mj
 E5NCwtMjA4ODc0NjYxMl19
 -->
