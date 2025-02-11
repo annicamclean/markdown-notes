@@ -7,7 +7,7 @@
 -   Behaving in a way that reflects the time period of the film, time of year, and time of day in each scene
 -   Portraying relationships to other characters in a believable manner
 
-Some important details about the character's past and current circumstances is that her family is poor and her father has lost her job, she wants to go to a college over in New England, she has a complicated relationship with her mother, and is a teenager at a Catholic school. 
+Some important details about the character's past and current circumstances is that her family is poor and her father has lost her job, she wants to go to a college over in New England, she has a complicated relationship with her mother, and is a teenager at a Catholic school. Yes it seems as though she does. You can see how the arguments between her and her mother 
 
 2. Objectives- Can you tell what the character wants in each individual scene and in the film overall?
 
@@ -26,5 +26,5 @@ Some important details about the character's past and current circumstances is t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI2MjM1MywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNDIyMDkzMTQ1LC0yMDg4NzQ2NjEyXX0=
 -->
