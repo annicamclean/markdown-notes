@@ -17,6 +17,8 @@ Some important details about the character's past and current circumstances is t
 -   What do they stand to lose if they do not get what they want?
 -   Does the character achieve their goals or objectives?
 
+Yes I could what the character wanted throughout the entire movie and 
+
 3. Overall Effectiveness - What do you think of the performance overall?
 
 -   Do you like or dislike the performance? Why?
@@ -26,6 +28,6 @@ Some important details about the character's past and current circumstances is t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExMzc0MDYsMzAzNTUyMTk0LC0yMDg4Nz
-Q2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEyNjc5MzI5MjYsODExMzc0MDYsMzAzNT
+UyMTk0LC0yMDg4NzQ2NjEyXX0=
 -->
