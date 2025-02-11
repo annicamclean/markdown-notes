@@ -1,4 +1,30 @@
+# Performance Reflection 1
+1. Given Circumstances - What are some of the important details of the character's past and current circumstances in the film? Does the actor appear to accept and act in a manor that reflects the circumstances of the character's life and situation? This includes:
+
+-   Believably reflecting elements of the character's past
+-   Acting in a manner that reflects what has happened to them immediately before a scene
+-   Being believably from or in each location they are in
+-   Behaving in a way that reflects the time period of the film, time of year, and time of day in each scene
+-   Portraying relationships to other characters in a believable manner
+
+
+
+2. Objectives- Can you tell what the character wants in each individual scene and in the film overall?
+
+-   What is it that they want?
+-   How far do you believe the character would go to achieve their goals?
+-   What do they stand to win if they get what they want?
+-   What do they stand to lose if they do not get what they want?
+-   Does the character achieve their goals or objectives?
+
+3. Overall Effectiveness - What do you think of the performance overall?
+
+-   Do you like or dislike the performance? Why?
+-   Do you like or dislike the character? Why?
+-   Does the performance fit in with the rest of the movie and what the other actors are doing?
+-   Do you like the film as a whole?
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTUzNTk4NDg4NywtMjA4ODc0NjYxMl19
 -->
