@@ -17,7 +17,7 @@ Some important details about the character's past and current circumstances is t
 -   What do they stand to lose if they do not get what they want?
 -   Does the character achieve their goals or objectives?
 
-Yes I could what the character wanted throughout each scene in the movie and overall. In the overall movie the titular character wants to go to a school over on the east coast. I know that depending on the goal the character will do things that are highly questionable if not immoral. If she achieves her goal of going to an east coast school she gets freedom and to study somewhere more interesting than her town in California. If she fails to achieve her goal she will have to go to college not to far away from her family in a town she supposedly hates. 
+Yes I could what the character wanted throughout each scene in the movie and overall. In the overall movie the titular character wants to go to a school over on the east coast. I know that depending on the goal the character will do things that are highly questionable if not immoral. If she achieves her goal of going to an east coast school she gets freedom and to study somewhere more interesting than her town in California. If she fails to achieve her goal she will have to go to college not to far away from her family in a town she supposedly hates. In the end the character does achieve her goals and gets into a college on the east coast.
 
 3. Overall Effectiveness - What do you think of the performance overall?
 
@@ -26,8 +26,8 @@ Yes I could what the character wanted throughout each scene in the movie and ove
 -   Does the performance fit in with the rest of the movie and what the other actors are doing?
 -   Do you like the film as a whole?
 
-
+I like the performance becau
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDc4MDcxMCw4MTEzNzQwNiwzMDM1NT
-IxOTQsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNDY4NTQ3Njc2LDgxMTM3NDA2LDMwMzU1Mj
+E5NCwtMjA4ODc0NjYxMl19
 -->
