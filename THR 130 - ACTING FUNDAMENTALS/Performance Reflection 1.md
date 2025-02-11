@@ -7,7 +7,7 @@
 -   Behaving in a way that reflects the time period of the film, time of year, and time of day in each scene
 -   Portraying relationships to other characters in a believable manner
 
-
+Some important details about the character's 
 
 2. Objectives- Can you tell what the character wants in each individual scene and in the film overall?
 
@@ -26,5 +26,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTk4NDg4NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE0MDg5MTI1MCwtMjA4ODc0NjYxMl19
 -->
