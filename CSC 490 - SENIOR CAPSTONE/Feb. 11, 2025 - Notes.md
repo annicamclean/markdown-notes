@@ -6,8 +6,9 @@
 - Keep multiple sources of AI open
 - Take time to find new tools to figure out how it can help me work faster and not harder
 - "There are some APIs that can completely streamline your backend- Instead of creating a .js server like I plan to, you can just use a pre-set API to run your database."
-- 
+- How do you make the app fun and not painful
+- Take time to actually work on your people skills
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzU4MzA5LDYzMjE4NzQ3Myw0OTc4MT
-g4MTBdfQ==
+eyJoaXN0b3J5IjpbLTU5MjU5NDgwNCwtNDM3NTgzMDksNjMyMT
+g3NDczLDQ5NzgxODgxMF19
 -->
