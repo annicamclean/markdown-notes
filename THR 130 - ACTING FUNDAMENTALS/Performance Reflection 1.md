@@ -17,7 +17,7 @@ Some important details about the character's past and current circumstances is t
 -   What do they stand to lose if they do not get what they want?
 -   Does the character achieve their goals or objectives?
 
-Yes I could what the character wanted throughout the entire movie and 
+Yes I could what the character wanted throughout each scene in the movie and overall. In the overall movie the titular character wants to go to a schoI know that depending on the goal the 
 
 3. Overall Effectiveness - What do you think of the performance overall?
 
@@ -28,6 +28,6 @@ Yes I could what the character wanted throughout the entire movie and
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc5MzI5MjYsODExMzc0MDYsMzAzNT
-UyMTk0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTQ5MTgyNjY2NCw4MTEzNzQwNiwzMDM1NT
+IxOTQsLTIwODg3NDY2MTJdfQ==
 -->
