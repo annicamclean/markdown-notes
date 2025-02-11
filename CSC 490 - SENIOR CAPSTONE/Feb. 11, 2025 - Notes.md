@@ -1,6 +1,6 @@
 
 - Co-pilot is very helpful
-- 
+- Devan (Mutable AI) is Jr Developer by Microsoft
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODYxNDgxMyw0OTc4MTg4MTBdfQ==
+eyJoaXN0b3J5IjpbNjMyMTg3NDczLDQ5NzgxODgxMF19
 -->
