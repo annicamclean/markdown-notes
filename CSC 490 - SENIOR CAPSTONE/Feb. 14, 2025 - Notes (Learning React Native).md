@@ -4,9 +4,10 @@
 	 ```shell
 	cd my-app
 	npm run android
-	npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
-- npm run web
+	npm run ios 
+	npm run web
 	```
+- To use iOS on Windows you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDM2NTIwOV19
+eyJoaXN0b3J5IjpbLTE1MTU1NDk1MDFdfQ==
 -->
