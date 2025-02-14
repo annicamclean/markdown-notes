@@ -1,8 +1,12 @@
 # Learning React Native
 - Projects for iOS can only be done online and can be sent to your phone that way
 - To run a version on your computer you need the command `` and the use either:
-	- ```shell
-	- ``
+	 ```shell
+	cd my-app
+	npm run android
+	npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
+- npm run web
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQzODE3MDhdfQ==
+eyJoaXN0b3J5IjpbLTQ4NDM2NTIwOV19
 -->
