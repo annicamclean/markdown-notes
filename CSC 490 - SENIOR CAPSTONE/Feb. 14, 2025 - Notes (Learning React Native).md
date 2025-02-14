@@ -9,6 +9,8 @@
 	```
 - To use iOS on Windows you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
 
+https://reactnative.dev/docs/tutorial
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODg0ODkwN119
+eyJoaXN0b3J5IjpbLTE0NDY3ODg4NDAsMjEzODg0ODkwN119
 -->
