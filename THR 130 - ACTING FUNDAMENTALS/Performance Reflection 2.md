@@ -6,6 +6,8 @@
 -   Acting in a manner that reflects what has happened to them immediately before a scene
 -   Behaving believably in the fantastical environment(s) of the play
 -   Portraying relationships to other characters in a believable manner
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDg1OTY0MTNdfQ==
+eyJoaXN0b3J5IjpbLTIwODEzNzY2MDldfQ==
 -->
