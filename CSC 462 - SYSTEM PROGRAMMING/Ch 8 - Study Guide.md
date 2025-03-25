@@ -75,13 +75,13 @@
 ### Process Termination
 
 -   To ________ from ________, threads can be ________ to ________ cycles.
--   The order of termination can be based on priority, resource usage, and completion time.
--   Interactive threads may be treated differently than batch processes.
+-   The order of ________ can be based on ________, ________, and ________.
+-   ________ threads may be treated differently than ________.
 
 ### Resource Preemption
 
--   Selecting a victim thread for preemption should minimize costs associated with rollback and starvation.
--   Rollback involves returning a thread to a safe state and restarting it from there.
+-   Selecting a ________ for ________ should ________ costs associated with ________ and ________.
+-   ________ involves returning a thread to a ________ and ________ it from there.
 -   Starvation can occur if the same thread is repeatedly chosen as a victim, necessitating careful management.
 
 ## Deadlock Avoidance
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTIxOTA3NiwtMTIxODI2MjU3NCwxOT
-AzOTU2MjYyLC05MTQ1ODYwMTIsMTUzNDA2Mjg1M119
+eyJoaXN0b3J5IjpbNTI3NDg5Mzc0LC0xMjE4MjYyNTc0LDE5MD
+M5NTYyNjIsLTkxNDU4NjAxMiwxNTM0MDYyODUzXX0=
 -->
