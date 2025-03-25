@@ -14,11 +14,10 @@
 ### Deadlock with Mutex in Pthreads
 
 -   Deadlock can occur when two threads (T1 and T2) attempt to lock multiple ________ in an ________ order, leading to a situation where each thread is waiting for the other to release a ________.
--   Example code for T1 and T2 illustrates this scenario, where T1 locks first_mutex and then second_mutex, while T2 does the opposite, creating a circular wait situation.
 
 ### Deadlock with Semaphores
 
--   Similar to mutexes, deadlocks can occur with semaphores when two threads (T1 and T2) attempt to acquire two semaphores (S1 and S2) in a conflicting order.
+-   Similar to mutexes, deadlocks can occur with when two threads (T1 and T2) attempt to acquire two semaphores (S1 and S2) in a conflicting order.
 -   The wait operations on semaphores can lead to a situation where both threads are waiting indefinitely for each other to release the semaphores.
 
 ## Deadlock Characterization
@@ -322,5 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDU4NjAxMiwxNTM0MDYyODUzXX0=
+eyJoaXN0b3J5IjpbMTI4OTg1NDEwNiwtOTE0NTg2MDEyLDE1Mz
+QwNjI4NTNdfQ==
 -->
