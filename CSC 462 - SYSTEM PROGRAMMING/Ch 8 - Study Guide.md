@@ -95,9 +95,9 @@
 
 ### Safe State Concept
 
--   A system is in a ________ if there exists a sequence of thread executions that can complete without leading to deadlock.
--   For a thread Ti, if its resource needs are not immediately available, it can wait until all preceding threads Tj have finished.
--   The system can allocate resources to Ti only if it can guarantee that all threads can eventually complete.
+-   A system is in a ________ if there exists a sequence of thread executions that can complete ________ leading to deadlock.
+-   For a thread Ti, if its resource needs are not ________ available, it can wait until all ________ threads Tj have ________.
+-   The system can allocate ________ to Ti only if it can guarantee that all threads can eventually complete.
 
 ### Basic Facts about States
 
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDA4MzM5MiwtMTIxODI2MjU3NCwxOT
+eyJoaXN0b3J5IjpbMjA0MDA3OTE0MiwtMTIxODI2MjU3NCwxOT
 AzOTU2MjYyLC05MTQ1ODYwMTIsMTUzNDA2Mjg1M119
 -->
