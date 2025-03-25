@@ -68,8 +68,8 @@
 
 ### Approaches for Recovering from Deadlock
 
--   Recovery strategies may involve terminating one or more threads involved in the deadlock to break the cycle.
--   Another approach is resource preemption, where resources are forcibly taken from threads to resolve the deadlock situation, although this can lead to inconsistency and requires careful management.
+-   ________ may involve ________ one or more threads involved in the deadlock to ________ the cycle.
+-   Another approach is ________, where resources are forcibly taken from threads to resolve the deadlock situation, although this can lead to inconsistency and requires careful management.
 -   The choice of recovery method often depends on the specific application and system requirements, balancing between performance and complexity.
 
 ### Process Termination
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzk1NjI2MiwtOTE0NTg2MDEyLDE1Mz
-QwNjI4NTNdfQ==
+eyJoaXN0b3J5IjpbLTY4MjI4NzY4MCwxOTAzOTU2MjYyLC05MT
+Q1ODYwMTIsMTUzNDA2Mjg1M119
 -->
