@@ -82,13 +82,13 @@
 
 -   Selecting a ________ for ________ should ________ costs associated with ________ and ________.
 -   ________ involves returning a thread to a ________ and ________ it from there.
--   Starvation can occur if the same thread is repeatedly chosen as a victim, necessitating careful management.
+-   ________ can occur if the same thread is ________ chosen as a ________, ________ ________ management.
 
 ## Deadlock Avoidance
 
 ### Overview of Deadlock Avoidance
 
--   Deadlock avoidance requires a priori information about resource needs of threads.
+-   ________ w2wwrequires a priori information about resource needs of threads.
 -   Each thread must declare the maximum number of resources it may need, allowing the system to make informed decisions.
 -   The deadlock-avoidance algorithm dynamically checks the resource-allocation state to prevent circular-wait conditions.
 -   Resource-allocation state is defined by available and allocated resources, and maximum demands of threads.
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3NDg5Mzc0LC0xMjE4MjYyNTc0LDE5MD
+eyJoaXN0b3J5IjpbMTMzNzk4OTUxLC0xMjE4MjYyNTc0LDE5MD
 M5NTYyNjIsLTkxNDU4NjAxMiwxNTM0MDYyODUzXX0=
 -->
