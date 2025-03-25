@@ -88,7 +88,7 @@
 
 ### Overview of Deadlock Avoidance
 
--   ________ w2wwrequires a priori information about resource needs of threads.
+-   ________ requires a priori information about resource needs of threads.
 -   Each thread must declare the maximum number of resources it may need, allowing the system to make informed decisions.
 -   The deadlock-avoidance algorithm dynamically checks the resource-allocation state to prevent circular-wait conditions.
 -   Resource-allocation state is defined by available and allocated resources, and maximum demands of threads.
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzk4OTUxLC0xMjE4MjYyNTc0LDE5MD
-M5NTYyNjIsLTkxNDU4NjAxMiwxNTM0MDYyODUzXX0=
+eyJoaXN0b3J5IjpbMTUxOTU0NzM3MiwtMTIxODI2MjU3NCwxOT
+AzOTU2MjYyLC05MTQ1ODYwMTIsMTUzNDA2Mjg1M119
 -->
