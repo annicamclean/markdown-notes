@@ -62,7 +62,7 @@
 ### Deadlock Avoidance Techniques
 
 -   The ________ Algorithm is a well-known method for deadlock ________, which allocates resources only if it is ________ to do so, ensuring that the system remains in a ________.
--   The algorithm requires knowledge of maximum resource needs and current allocations to make decisions about resource requests.
+-   The algorithm requires knowledge of ___________ and ________ to make decisions about resource ________.
 
 ## Recovery from Deadlock
 
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg2NjQ5OCwtOTE0NTg2MDEyLDE1Mz
+eyJoaXN0b3J5IjpbMTkwMzk1NjI2MiwtOTE0NTg2MDEyLDE1Mz
 QwNjI4NTNdfQ==
 -->
