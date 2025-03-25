@@ -38,9 +38,9 @@
 
 ### Basic Facts about Deadlocks
 
--   If the resource-allocation graph contains no cycles, there is no deadlock.
--   If there is a cycle and only one instance per resource type, a deadlock is guaranteed.
--   If there are multiple instances per resource type, deadlock is possible but not certain.
+-   If the resource-allocation graph contains ________, there is no deadlock.
+-   If there is a ________ and only ________ instance per resource type, a deadlock is ________.
+-   If there are ________ instances per resource type, deadlock is ________ but not ________.
 
 ## Methods for Handling Deadlocks
 
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODYyNTYzLC05MTQ1ODYwMTIsMTUzND
+eyJoaXN0b3J5IjpbODk4MTQ2MTYwLC05MTQ1ODYwMTIsMTUzND
 A2Mjg1M119
 -->
