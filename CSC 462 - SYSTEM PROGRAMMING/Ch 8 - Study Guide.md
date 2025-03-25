@@ -31,9 +31,9 @@
 
 ### Resource-Allocation Graph
 
--   Deadlocks can be represented using a resource-allocation graph, which consists of vertices (threads and resources) and directed edges (request and assignment edges).
--   The graph helps visualize the relationships between threads and resources, indicating potential deadlock situations.
--   If the graph contains cycles, it may indicate a deadlock, especially if there is only one instance of each resource type.  
+-   Deadlocks can be represented using a _____________, which consists of vertices (threads and resources) and directed edges (request and assignment edges).
+-   The graph helps visualize the relationships between ________ and ________, indicating potential ________.
+-   If the graph contains ________, it may indicate a ________, especially if there is only one instance of each ________.  
     
 
 ### Basic Facts about Deadlocks
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTg4NzIwNSwtOTE0NTg2MDEyLDE1Mz
-QwNjI4NTNdfQ==
+eyJoaXN0b3J5IjpbMjEzODYyNTYzLC05MTQ1ODYwMTIsMTUzND
+A2Mjg1M119
 -->
