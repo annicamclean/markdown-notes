@@ -1,12 +1,12 @@
 
 # Chapter 8 Study Guide
 
-# Chapter 8 Study Guide
+# FILL IN
 ## System Model
 
 ### Overview of System Resources
 
--   A system consists of various resources that can be utilized by threads, including CPU cycles, memory space, I/O devices, and network interfaces.
+-   A system consists of various resources that can be utilized by threads, including ______, _______, ________, and ________.
 -   Resource types are denoted as R1, R2, ..., Rm, where each type has a certain number of instances (Wi). For example, CPU has four instances, and Network has two instances.
 -   Threads interact with resources through three primary actions: Request, Use, and Release.
 -   If a resource is not available when requested, the thread must wait until it can acquire it, leading to potential deadlock situations.
@@ -162,7 +162,7 @@
 
 
 
-
+# ANSWERS
 
 ## System Model
 
@@ -322,5 +322,5 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDE0OTAwNiwxNTM0MDYyODUzXX0=
+eyJoaXN0b3J5IjpbMTE3NzcyNTYxMywxNTM0MDYyODUzXX0=
 -->
