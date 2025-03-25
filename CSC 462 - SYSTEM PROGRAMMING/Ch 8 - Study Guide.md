@@ -7,13 +7,13 @@
 ### Overview of System Resources
 
 -   A system consists of various resources that can be utilized by threads, including ______, _______, ________, and ________.
--   Resource types are denoted as R1, R2, ..., Rm, where each type has a certain number of instances (Wi). For example, CPU has four instances, and Network has two instances.
--   Threads interact with resources through three primary actions: Request, Use, and Release.
--   If a resource is not available when requested, the thread must wait until it can acquire it, leading to potential deadlock situations.
+-   Resource types are denoted as R1, R2, ..., Rm, where each type has a certain number of ________(Wi). For example, CPU has four instances, and Network has two ________.
+-   Threads interact with resources through three primary actions: ________, ________, and ________.
+-   If a resource is not available when requested, the thread must wait until it can acquire it, leading to potential ________ situations.
 
 ### Deadlock with Mutex in Pthreads
 
--   Deadlock can occur when two threads (T1 and T2) attempt to lock multiple mutexes in an inconsistent order, leading to a situation where each thread is waiting for the other to release a mutex.
+-   Deadlock can occur when two threads (T1 and T2) attempt to lock multiple ________ in an ________ order, leading to a situation where each thread is waiting for the other to release a ________.
 -   Example code for T1 and T2 illustrates this scenario, where T1 locks first_mutex and then second_mutex, while T2 does the opposite, creating a circular wait situation.
 
 ### Deadlock with Semaphores
@@ -322,5 +322,5 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzcyNTYxMywxNTM0MDYyODUzXX0=
+eyJoaXN0b3J5IjpbLTkxNDU4NjAxMiwxNTM0MDYyODUzXX0=
 -->
