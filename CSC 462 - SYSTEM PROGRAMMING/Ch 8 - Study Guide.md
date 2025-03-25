@@ -17,17 +17,17 @@
 
 ### Deadlock with Semaphores
 
--   Similar to mutexes, deadlocks can occur with when two threads (T1 and T2) attempt to acquire two semaphores (S1 and S2) in a conflicting order.
--   The wait operations on semaphores can lead to a situation where both threads are waiting indefinitely for each other to release the semaphores.
+-   Similar to mutexes, deadlocks can occur with ________ when two ________ (T1 and T2) attempt to acquire two ________ (S1 and S2) in a conflicting order.
+-   The ________ operations on semaphores can lead to a situation where both threads are waiting ________ for each other to release the ________ .
 
 ## Deadlock Characterization
 
 ### Four Necessary Conditions for Deadlock
 
--   ****Mutual Exclusion****: Only one thread can use a resource at a time, which is essential for non-sharable resources.
--   ****Hold and Wait****: A thread holding at least one resource is waiting to acquire additional resources, leading to potential deadlock.
--   ****No Preemption****: Resources cannot be forcibly taken from threads; they must be voluntarily released after use.
--   ****Circular Wait****: A set of threads exists where each thread is waiting for a resource held by another thread in the set, creating a cycle.
+-   ________: Only one thread can use a resource at a time, which is essential for non-sharable resources.
+-   ________: A thread holding at least one resource is waiting to acquire additional resources, leading to potential deadlock.
+-   ________: Resources cannot be forcibly taken from threads; they must be voluntarily released after use.
+-   ________: A set of threads exists where each thread is waiting for a resource held by another thread in the set, creating a cycle.
 
 ### Resource-Allocation Graph
 
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTg1NDEwNiwtOTE0NTg2MDEyLDE1Mz
+eyJoaXN0b3J5IjpbMTI4NTg4NzIwNSwtOTE0NTg2MDEyLDE1Mz
 QwNjI4NTNdfQ==
 -->
