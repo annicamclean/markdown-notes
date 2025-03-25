@@ -46,17 +46,17 @@
 
 ### Overview of Deadlock Handling Approaches
 
--   Deadlocks can be managed through prevention, avoidance, detection, and recovery strategies.
--   ****Deadlock Prevention****: Ensures that at least one of the four necessary conditions cannot hold, thus preventing deadlocks from occurring.
--   ****Deadlock Avoidance****: Requires the operating system to have advance knowledge of resource requests to avoid entering a deadlock state.
--   ****Deadlock Detection****: Allows the system to enter a deadlock state but includes mechanisms to detect it and recover from it.
--   ****Ignoring Deadlocks****: Some operating systems, like Linux and Windows, choose to ignore deadlocks, leaving the problem to application developers.
+-   Deadlocks can be managed through ________, ________, ________, and ________ strategies.
+-   ________: Ensures that at least one of the four necessary conditions cannot hold, thus preventing deadlocks from occurring.
+-   ________: Requires the operating system to have advance knowledge of resource requests to avoid entering a deadlock state.
+-   ________: Allows the system to enter a deadlock state but includes mechanisms to detect it and recover from it.
+-   ________: Some operating systems, like Linux and Windows, choose to ignore deadlocks, leaving the problem to application developers.
 
 ### Deadlock Prevention Techniques
 
--   ****Mutual Exclusion****: Not required for sharable resources, but necessary for non-sharable resources.
--   ****Hold and Wait****: Threads must not hold any resources when requesting new ones, which can lead to low resource utilization and potential starvation.
--   ****No Preemption****: If a thread holding resources requests another resource that cannot be allocated, it must release its held resources, which is often impractical for mutexes and semaphores.
+-   ________: Not required for sharable resources, but necessary for non-sharable resources.
+-   ________: Threads must not hold any resources when requesting new ones, which can lead to low resource utilization and potential starvation.
+-   ________: If a thread holding resources requests another resource that cannot be allocated, it must release its held resources, which is often impractical for mutexes and semaphores.
 -   ****Circular Wait****: Imposing a total ordering of resources can prevent circular wait conditions by requiring threads to request resources in a specific order.
 
 ### Deadlock Avoidance Techniques
@@ -321,6 +321,6 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MTQ2MTYwLC05MTQ1ODYwMTIsMTUzND
-A2Mjg1M119
+eyJoaXN0b3J5IjpbLTE4OTI3Njg5MzAsLTkxNDU4NjAxMiwxNT
+M0MDYyODUzXX0=
 -->
