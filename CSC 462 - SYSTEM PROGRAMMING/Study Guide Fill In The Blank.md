@@ -143,7 +143,184 @@
     
 12.  __________ (75): A set of threads exists where each thread is waiting for a resource held by another thread in the set.
     
+
+# Answers
+
+## **Chapter 4: Threads and Concurrency**
+
+1.  **Thread**
+    
+2.  **Process**
+    
+3.  **Memory**
+    
+4.  **Kernel, User**
+    
+5.  **Running**
+    
+6.  **Blocked, Ready, Terminated**
+    
+7.  **Blocked**
+    
+8.  **Preemptive, Non-preemptive**
+    
+9.  **Non-preemptive**
+    
+10.  **Preemptive**
+    
+
+----------
+
+## **Chapter 5: CPU Scheduling**
+
+16.  **Scheduling**
+    
+17.  **Throughput**
+    
+18.  **Turnaround Time**
+    
+19.  **Ready**
+    
+20.  **Blocked**
+    
+21.  **CPU**
+    
+22.  **CPU Utilization, Throughput, Turnaround Time, Waiting Time**
+    
+23.  **Shortest Job First (SJF)**
+    
+24.  **Round Robin (RR)**
+    
+25.  **Priority Scheduling**
+    
+26.  **Round Robin**
+    
+
+----------
+
+## **Chapter 6: Synchronization**
+
+30.  **Concurrency**
+    
+31.  **Critical-section**
+    
+32.  **Mutual Exclusion**
+    
+33.  **Progress**
+    
+34.  **Bounded Waiting**
+    
+35.  **Mutex**
+    
+36.  **Semaphore**
+    
+37.  **Mutex**
+    
+38.  **Condition**
+    
+39.  **Semaphore**
+    
+40.  **Wait**
+    
+41.  **Signal**
+    
+42.  **Binary Semaphore**
+    
+
+----------
+
+## **Chapter 7: Memory Management**
+
+43.  **Pages**
+    
+44.  **Memory Management**
+    
+45.  **Contiguous**
+    
+46.  **Paging**
+    
+47.  **Virtual**
+    
+48.  **Page Table**
+    
+49.  **Thrashing**
+    
+50.  **Page Replacement**
+    
+51.  **FIFO (First-In-First-Out)**
+    
+52.  **Multilevel Paging**
+    
+
+----------
+
+## **Chapter 8: Understanding Deadlocks in Systems**
+
+53.  **Resources**
+    
+54.  **CPU**
+    
+55.  **Memory**
+    
+56.  **Network**
+    
+57.  **R1, R2, ..., Rm**
+    
+58.  **Wi**
+    
+59.  **Request**
+    
+60.  **Use**
+    
+61.  **Release**
+    
+62.  **Wait**
+    
+63.  **Deadlock**
+    
+
+----------
+
+### **Deadlock with Mutex in Pthreads**
+
+64.  **T1**
+    
+65.  **T2**
+    
+66.  **Mutexes**
+    
+67.  **Release**
+    
+
+----------
+
+### **Deadlock with Semaphores**
+
+68.  **Semaphores**
+    
+69.  **S1**
+    
+70.  **S2**
+    
+71.  **Wait**
+    
+
+----------
+
+### **Deadlock Characterization**
+
+#### **Four Necessary Conditions for Deadlock**
+
+72.  **Mutual Exclusion**
+    
+73.  **Hold and Wait**
+    
+74.  **No Preemption**
+    
+75.  **Circular Wait**
+    
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg0NTk0OTQsLTE2NzE3OTkyMDYsLT
-EwNTI1NTc4M119
+eyJoaXN0b3J5IjpbLTgzMTE1Nzk3OCwtMTY3MTc5OTIwNiwtMT
+A1MjU1NzgzXX0=
 -->
