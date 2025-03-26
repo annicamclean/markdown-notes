@@ -114,7 +114,7 @@
 
 ### Graph Representation
 
--   A claim edge (Ti → Rj) indicates that process Ti may request resource Rj, represented by a dashed line.
+-   A ________ edge (Ti → Rj) indicates that ________ Ti may request ________ Rj, represented by a ________ line.
 -   When a thread requests a resource, the claim edge converts to a request edge.
 -   Once the resource is allocated, the request edge becomes an assignment edge, and when released, it reverts to a claim edge.
 
@@ -321,7 +321,7 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDU1NjI1Miw5NTExOTcwNDYsLTE5MT
-IzNDM5MzcsLTEyMTgyNjI1NzQsMTkwMzk1NjI2MiwtOTE0NTg2
-MDEyLDE1MzQwNjI4NTNdfQ==
+eyJoaXN0b3J5IjpbNDgzMjE5Nzk0LDk1MTE5NzA0NiwtMTkxMj
+M0MzkzNywtMTIxODI2MjU3NCwxOTAzOTU2MjYyLC05MTQ1ODYw
+MTIsMTUzNDA2Mjg1M119
 -->
