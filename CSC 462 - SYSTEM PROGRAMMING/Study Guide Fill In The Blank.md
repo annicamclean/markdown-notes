@@ -163,7 +163,141 @@ In Linux, threads are referred to as ________, and thread creation is accomplish
 
 The **________** structure is used to manage thread data, containing pointers to process data structures that can be shared or unique.
 
+Here's your second study guide transformed into a fill-in-the-blank format:
 
+### **Ch. 5 - Basic Concepts of CPU Scheduling (Fill in the Blank)**
+
+----------
+
+### **Overview of CPU Scheduling**
+
+CPU scheduling is a mechanism used by the __________ to allocate __________ resources to processes, maximizing CPU utilization and improving overall system performance.  
+It is a fundamental aspect of __________ operating systems, allowing multiple processes to share CPU time effectively.  
+__________ switching is a key concept, where the OS switches the CPU core among processes to manage execution efficiently.
+
+----------
+
+### **CPU-I/O Burst Cycle**
+
+Process execution consists of alternating cycles of __________ execution and __________ wait, known as the CPU-I/O burst cycle.  
+__________ processes typically have a large number of short CPU bursts, while __________ processes have fewer, longer bursts.  
+Understanding the distribution of CPU bursts is crucial for effective __________.
+
+----------
+
+### **CPU Scheduler Functionality**
+
+The CPU scheduler selects processes from the __________ queue to allocate CPU time, making decisions based on process states.  
+Scheduling decisions occur during state transitions: when a process switches from running to __________, running to __________, waiting to __________, or __________.  
+Situations __________ (running to waiting) and __________ (termination) require immediate scheduling, while situations __________ and __________ allow for choice.
+
+----------
+
+### **Preemptive vs Nonpreemptive Scheduling**
+
+__________ scheduling occurs when the CPU is allocated to a process until it terminates or switches to waiting, while __________ scheduling allows the OS to interrupt a running process.  
+Most modern operating systems, including __________, __________, and __________, use preemptive scheduling.  
+Preemptive scheduling can lead to __________ conditions, where shared data is accessed inconsistently by multiple processes.
+
+----------
+
+### **Scheduling Criteria and Optimization**
+
+-   **CPU Utilization**: The goal is to keep the CPU as busy as possible, ideally between __________% and __________% utilization.
+    
+-   **Throughput**: Measures the number of __________ completed per time unit.
+    
+-   **Turnaround Time**: Total time taken to execute a process, including __________, __________, and __________ time.
+    
+-   **Waiting Time**: Time a process spends waiting in the __________ queue before execution begins.
+    
+-   **Response Time**: Time from request submission to the first __________, critical for __________ systems.
+    
+
+----------
+
+### **CPU Scheduling Algorithms**
+
+-   **First-Come, First-Served (FCFS)**:  
+    FCFS is the simplest scheduling algorithm where processes are executed in the order they __________.  
+    The __________ effect occurs when short processes are stuck behind long processes, impacting performance.
+    
+-   **Shortest-Job-First (SJF)**:  
+    SJF schedules processes based on the length of their next __________.  
+    The preemptive version, __________, allows interruption of longer processes if a shorter one arrives.
+    
+-   **Round Robin (RR)**:  
+    RR allocates a fixed __________ to each process, cycling through the ready queue to ensure fairness.  
+    This algorithm is effective for __________ systems.
+    
+
+----------
+
+### **Real-Time CPU Scheduling**
+
+-   Real-time scheduling is crucial for systems that require __________ processing.
+    
+-   Algorithms ensure critical tasks meet their __________ using priority-based scheduling.
+    
+-   Examples include embedded systems and __________ applications.
+    
+
+----------
+
+### **Operating Systems Examples**
+
+-   **Windows**: Utilizes a __________-based scheduling algorithm for multitasking.
+    
+-   **Linux**: Employs a __________ scheduler (CFS) that ensures fair CPU time distribution.
+    
+-   **Solaris**: Combines __________-based and __________ scheduling.
+    
+
+----------
+
+### **Time Quantum and Context Switching**
+
+-   The __________ is the fixed time slice allocated to each process in RR scheduling.
+    
+-   Large time quantum leads to __________ behavior, while a small time quantum leads to __________ scheduling.
+    
+-   The time quantum should be larger than the __________ switch time to avoid excessive overhead.
+    
+
+----------
+
+### **Thread Scheduling**
+
+-   **User-Level Threads**: Managed by a __________ library.
+    
+-   **Kernel-Level Threads**: Managed by the __________.
+    
+-   **Process-Contention Scope (PCS)**: Scheduling competition within a __________.
+    
+-   **System-Contention Scope (SCS)**: Competition among all __________ in the system.
+    
+
+----------
+
+### **Multiple-Processor Scheduling**
+
+-   Scheduling becomes more complex with multiple CPUs, requiring efficient __________ balancing.
+    
+-   **Symmetric Multiprocessing (SMP)**: Each processor __________ schedules tasks.
+    
+-   **Load Balancing**: Techniques like __________ and __________ migration distribute workloads evenly.
+    
+-   **Processor Affinity**: Refers to a thread’s tendency to run on the same processor for better __________ utilization.
+    
+
+----------
+
+### **Types of Latencies Affecting Performance**
+
+-   **Interrupt Latency**: Time from interrupt signal arrival to the start of the __________.
+    
+-   **Dispatch Latency**: Time required for the scheduler to switch from the current process to a __________.
+    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI1NTc4M119
+eyJoaXN0b3J5IjpbLTE2NzE3OTkyMDYsLTEwNTI1NTc4M119
 -->
