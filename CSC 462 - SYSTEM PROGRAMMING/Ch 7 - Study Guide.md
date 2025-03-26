@@ -119,7 +119,9 @@
 34.  __________ is a set of compiler directives and APIs supporting parallel programming using the `#pragma omp critical` directive.
     
 35.  __________ programming languages like Erlang and Scala reduce data races by treating variables as __________.
+
 # ANSWER
+
 # Classical Problems of Synchronization
 
 ### Overview of Synchronization Problems
@@ -163,7 +165,6 @@
 -   Linux uses POSIX threads (pthreads) for thread management and synchronization.
 -   Windows provides critical sections and events for synchronization, which are easier to use than semaphores in many cases.
 -   Understanding these tools is essential for developing robust multi-threaded applications.  
-    ![This code snippet shows how to include the pthreads library, declare a mutex variable, and initialize it using `pthread_mutex_init`.](https://storage.googleapis.com/qzlt-prod-services-notes-notes-data/82b0429f-65fc-4257-948b-e4977f1beab4/images/6e835f50a5cc4b669647fb7f3f1d9870.jpg?Expires=1743599952&GoogleAccessId=notes-svc%40qzlt-prod-webapp.iam.gserviceaccount.com&Signature=WN8CarBcIrMLO%2Fq3SUYKHFqoVDmjeLBdU9b0lckh7QRPxukZsRoBMNh2GfEoJUCfgR3OvVWKoBbOd1FCunpuXb7rTXcaGF3QbbCWnJrMDFw6uDjUdwXIPKcchS6%2BMZGHW8cM6xE%2BzO52yfruSXyj1CE0S3Vz%2BFQf70x%2BABZTFXjRxMrpOiv7Mef%2BNnsLkzEJfZCmnu6VtMlaLKRA2CgGoR1uYZWnI9SN7IZCmxMCIoZxoFhBZ9qk7ZOlb6vpC2jM%2B1Ljovk7pLsa6g4rNaEYsv5MyzDEbsGb4AydkiWqzKLjZgAgdQEpcuo41mEka8iWTKnmBasBkFa0Je7032GZiQ%3D%3D)![This code snippet demonstrates acquiring a mutex lock using `pthread_mutex_lock`, executing a critical section, and releasing the lock using `pthread_mutex_unlock`.](https://storage.googleapis.com/qzlt-prod-services-notes-notes-data/82b0429f-65fc-4257-948b-e4977f1beab4/images/1afde591d93a43509a52562e13867261.jpg?Expires=1743599952&GoogleAccessId=notes-svc%40qzlt-prod-webapp.iam.gserviceaccount.com&Signature=O0akXvHxE4TBWH3FJhXcN6s2%2BVEnUdlKjPvkep236msyl8ZlpZR2YnCcn8NeUAH0FE7kNZ3FkKWLgQ725oe6YGC%2Flle2oKMDIbcjJD6qjuTkVqAD4gotxcWhzweHgUCbMzcJRG2lEJLQ2vPdRHvTZPcgWtWSv%2FKy%2BqUnIh2IBhjNfEbRk4%2FqZC9qYZISuFszuG%2B0gNCc%2FcO7DJOKGP9AUbouIye%2B%2BA1R4CDllaR7lo0KrHyUYcZPpzJ37zrE%2BBZRulFuGQ5WOYvPsaMYOrUmVYs2DCexoHAc6%2BDoTidYLdS1JDuqXkKl9KM7d2fOPP70HXc%2F%2Bq0%2BqQyGVA%2FJ%2F8Rxkg%3D%3D)
 
 ### POSIX and Java for Process Synchronization
 
@@ -172,7 +173,6 @@
 -   Both POSIX and Java allow developers to implement synchronization strategies effectively, reducing the risk of race conditions.
 -   Examples include using `ReentrantLock` in Java for more flexible locking mechanisms compared to traditional synchronized methods.
 -   Understanding these frameworks is crucial for cross-platform application development.  
-    ![This image shows Java code demonstrating the use of a `ReentrantLock` to protect a critical section, ensuring that the `unlock()` method is always called, even if exceptions occur.](https://storage.googleapis.com/qzlt-prod-services-notes-notes-data/82b0429f-65fc-4257-948b-e4977f1beab4/images/87fd63dbafd345938a65378b6baf2744.jpg?Expires=1743599952&GoogleAccessId=notes-svc%40qzlt-prod-webapp.iam.gserviceaccount.com&Signature=YWroephaa7Dd6QbSNPtuYdlCkQWnaf6lFkbibDHzSJ2DRQWkQKO4iRpX3O6Ti8ZQl8uf%2FulacNnBcsh3lSJOI2faFchtpnwibfP3tWyFZTcLnpM1W6Zo87IfNEtMb9C6xToblqE%2FLYI7gXrAK1XBJeC3j302ksn5beuXMtL6T749xd2K0tkJXL4W6AOSMrfw6gk8cnsCffaemXB9n%2BMfDC969P%2BMAiFoJaOD4jT4QO3Dh8fBtK2kwJOZfWporu%2Bbk1TXjAMumFMuFJropDfc7pBonqNVwal0IdfU2au046rjTA0qce%2BnJMzG0nywOhwxA2H%2FEBZKvgr8CYR%2BYGBFoA%3D%3D)
 
 # 1. Dining Philosophers Problem
 
@@ -213,7 +213,8 @@ self[i].signal();
 initialization_code() {  
 for (int i = 0; i < 5; i++) state[i] = THINKING;  
 }  
-}```
+}
+```
 
 -   The `putdown` method signals neighboring philosophers to check if they can eat after a philosopher finishes.
 
@@ -295,5 +296,5 @@ for (int i = 0; i < 5; i++) state[i] = THINKING;
 
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDczNzc0NCwyMzEyNTE4ODFdfQ==
+eyJoaXN0b3J5IjpbNDk0ODA5OTE4LDIzMTI1MTg4MV19
 -->
