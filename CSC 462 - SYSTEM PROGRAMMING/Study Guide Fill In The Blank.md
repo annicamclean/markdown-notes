@@ -203,7 +203,7 @@
     
 25.  **Waiting Time**
     
-26.  **Shortest Job Next (SJN)**
+26.  **Shortest Job First (SJF)**
     
 27.  **Round Robin (RR)**
     
@@ -322,6 +322,6 @@
 75. **Circular Wait**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE2OTIyNTAsLTgzMTE1Nzk3OCwtMT
-Y3MTc5OTIwNiwtMTA1MjU1NzgzXX0=
+eyJoaXN0b3J5IjpbNjA1MTMwNjEsLTIwNTE2OTIyNTAsLTgzMT
+E1Nzk3OCwtMTY3MTc5OTIwNiwtMTA1MjU1NzgzXX0=
 -->
