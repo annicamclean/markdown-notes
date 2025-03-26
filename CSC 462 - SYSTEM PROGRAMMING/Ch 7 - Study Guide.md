@@ -244,6 +244,10 @@ for (int i = 0; i < 5; i++) state[i] = THINKING;
 -   POSIX semaphores can be named (accessible by unrelated processes) or unnamed (local to a process).
 
 ### 2.4 Key Comparisons
+|  |  | 
+|--|--|
+|  |  |
+
 
 Feature
 
@@ -306,20 +310,19 @@ Yes
 
 -   Transactional memory allows a sequence of read-write operations to be executed atomically, simplifying synchronization.
 -   The `atomic{S}` construct ensures that statements within S are executed without interruption, providing a higher-level abstraction for concurrency.  
-    ![This code snippet shows a `void update()` function using an atomic block to modify shared data.](https://storage.googleapis.com/qzlt-prod-services-notes-notes-data/82b0429f-65fc-4257-948b-e4977f1beab4/images/d79f3f3b7f7c4538a46af4b7c25f9a45.jpg?Expires=1743599953&GoogleAccessId=notes-svc%40qzlt-prod-webapp.iam.gserviceaccount.com&Signature=L4kSPwl%2F3w4xlpdj4xh17169RTs%2FpoVQUceLJJxOIIyKmQfMGJw59Y4agd6VxuBc69yZ0jpmPSeGxaMNYRJ%2BbWKLmuI9vyCmhKrQtkcid7bTZccKEV6FGHIKRWbYILmqXbnAyVLK%2F%2FOdQnRPYRCH5WCICgyfjoItLnwv4IigB9kJ4ysLsgfqrhymLN8JkYE243d5irJwkpLbgFSKO07EEy28svfHLKTqAqkN7vTEEGKIaoqfoGiFhTcTxwjNcIDejG0nmfrRRmS%2BA1veaGPmghplFz7nPdbf4U0uRoXR%2Bsv3pMoBFhDm04%2FOwTP83j7mra0LTnTiqTA3nI1tuFRZDg%3D%3D)
+
 
 ### 4.2 OpenMP
 
 -   OpenMP is a set of compiler directives and APIs that support parallel programming, allowing developers to specify parallel regions in their code.
 -   The `#pragma omp critical` directive ensures that the enclosed code block is executed by only one thread at a time, preventing race conditions.  
-    ![This image shows Java code implementing a thread-safe mechanism using locks and condition variables to ensure that only one thread executes a `doWork` method at a time.](https://storage.googleapis.com/qzlt-prod-services-notes-notes-data/82b0429f-65fc-4257-948b-e4977f1beab4/images/d3749a5a664f4fe081a285a35fbf4a4c.jpg?Expires=1743599953&GoogleAccessId=notes-svc%40qzlt-prod-webapp.iam.gserviceaccount.com&Signature=HiB6AfZLIqPl0stwsujGhQCsj8jkIt9NhLg3Uy%2BbwM82jaEKQ5vgPSI%2FcSn1tu2W5rFWVCHYai%2FDRJzSv4ZPGhlTEGA8YSYp06OdF130a0KqNR5FN%2B92%2BLhLK%2F4Zwyqja5JNnbl%2BH4P86hSOMgZD1tZbiMyLJSvJn%2F9bweLNhxCIBT7KlueuFpokAH%2BkScsZdRmQ5UJRsV68K0B8R5LGNCj11xwKjcdoQQcrHV8VwMBnHd9CTHW0JlY0pBCD2O5BaO4SU6o6r4HDgTU0aFdhL%2B6ii3TeIXdxLWS5sfltSgS5DjrA%2BxhyYPAw00Fj%2Bx%2FKbnt93NcVHBqmrkybXpi%2FjA%3D%3D)
 
 ### 4.3 Functional Programming Languages
 
 -   Functional programming languages, such as Erlang and Scala, treat variables as immutable, reducing the complexity of state management in concurrent applications.
 -   The lack of mutable state in functional languages minimizes data races, making them suitable for concurrent programming.  
-    ![This code snippet shows a `void update()` function that acquires a resource, modifies shared data, and then releases the resource.](https://storage.googleapis.com/qzlt-prod-services-notes-notes-data/82b0429f-65fc-4257-948b-e4977f1beab4/images/2dc5bd8902424937a05e1b7ca04d77cb.jpg?Expires=1743599953&GoogleAccessId=notes-svc%40qzlt-prod-webapp.iam.gserviceaccount.com&Signature=vQkOnyCuTnGjZF%2Fbg6usPJY4kQalFdPRmK7gOvPYAeOBY2irL9Gg5WovKvWrq9qjKo3pQFjVzYqJd4pNZanE%2Bouvxpgqs3HHkzw84qaeb0zo7bChqF4LeLUTJ0ZAvCFECdQs97IWez1%2B3wtptKrtnu2UdBJEU%2BvvnoZdJRf%2B7GrP3wOHZTSQ9qSWuB3LuzXPmodexgaRvzpnYEAE%2FbvIcyjaV5CjBX28tGR7pMqHgME%2BYYZ3mOXF%2FC9fYzJ7WOmUgx4ZlgYoaeZZTiu%2FY3Hmz5HESguMdiLvUUJZtPBJkfy0FemTkGYTNzG2mD80HWdfHbLGTctLlfEfFGh8VLE%2FXw%3D%3D)
+
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODAwMzE0NiwyMzEyNTE4ODFdfQ==
+eyJoaXN0b3J5IjpbMTc4NDc4MDc3OCwyMzEyNTE4ODFdfQ==
 -->
