@@ -146,7 +146,7 @@
 
 # Answers
 
-## **Chapter 4: Threads and Concurrency**
+### **Chapter 4: Threads and Concurrency**
 
 1.  **Thread**
     
@@ -154,55 +154,71 @@
     
 3.  **Memory**
     
-4.  **Kernel, User**
+4.  **Kernel**
     
-5.  **Running**
+5.  **User-level**
     
-6.  **Blocked, Ready, Terminated**
+6.  **Ready**
     
-7.  **Blocked**
+7.  **Running**
     
-8.  **Preemptive, Non-preemptive**
+8.  **Blocked**
     
-9.  **Non-preemptive**
+9.  **Blocked**
     
-10.  **Preemptive**
+10.  **Multithreading**
+    
+11.  **One-to-One**
+    
+12.  **Many-to-Many**
+    
+13.  **Many-to-One**
+    
+14.  **Many-to-Many**
+    
+15.  **One-to-One**
     
 
 ----------
 
-## **Chapter 5: CPU Scheduling**
+### **Chapter 5: CPU Scheduling**
 
-16.  **Scheduling**
+16.  **Scheduler**
     
-17.  **Throughput**
+17.  **CPU Utilization**
     
-18.  **Turnaround Time**
+18.  **Response Time**
     
 19.  **Ready**
     
-20.  **Blocked**
+20.  **I/O**
     
 21.  **CPU**
     
-22.  **CPU Utilization, Throughput, Turnaround Time, Waiting Time**
+22.  **CPU Utilization**
     
-23.  **Shortest Job First (SJF)**
+23.  **Throughput**
     
-24.  **Round Robin (RR)**
+24.  **Turnaround Time**
     
-25.  **Priority Scheduling**
+25.  **Waiting Time**
     
-26.  **Round Robin**
+26.  **Shortest Job Next (SJN)**
+    
+27.  **Round Robin (RR)**
+    
+28.  **Priority**
+    
+29.  **Fair-Share**
     
 
 ----------
 
-## **Chapter 6: Synchronization**
+### **Chapter 6: Synchronization**
 
-30.  **Concurrency**
+30.  **Race Condition**
     
-31.  **Critical-section**
+31.  **Critical Section**
     
 32.  **Mutual Exclusion**
     
@@ -210,26 +226,26 @@
     
 34.  **Bounded Waiting**
     
-35.  **Mutex**
+35.  **Starvation**
     
-36.  **Semaphore**
+36.  **Synchronization**
     
 37.  **Mutex**
     
-38.  **Condition**
+38.  **Semaphores**
     
-39.  **Semaphore**
+39.  **Condition**
     
 40.  **Wait**
     
 41.  **Signal**
     
-42.  **Binary Semaphore**
+42.  **Binary**
     
 
 ----------
 
-## **Chapter 7: Memory Management**
+### **Chapter 7: Memory Management**
 
 43.  **Pages**
     
@@ -237,24 +253,24 @@
     
 45.  **Contiguous**
     
-46.  **Paging**
+46.  **Swapping**
     
 47.  **Virtual**
     
-48.  **Page Table**
+48.  **Page**
     
 49.  **Thrashing**
     
 50.  **Page Replacement**
     
-51.  **FIFO (First-In-First-Out)**
+51.  **Least Recently Used (LRU)**
     
 52.  **Multilevel Paging**
     
 
 ----------
 
-## **Chapter 8: Understanding Deadlocks in Systems**
+### **Chapter 8: Understanding Deadlocks in Systems**
 
 53.  **Resources**
     
@@ -281,46 +297,31 @@
 
 ----------
 
-### **Deadlock with Mutex in Pthreads**
-
-64.  **T1**
-    
-65.  **T2**
-    
-66.  **Mutexes**
-    
-67.  **Release**
-    
+**Deadlock with Mutex in Pthreads**  
+64. **T1**  
+65. **T2**  
+66. **Mutexes**  
+67. **Release**
 
 ----------
 
-### **Deadlock with Semaphores**
-
-68.  **Semaphores**
-    
-69.  **S1**
-    
-70.  **S2**
-    
-71.  **Wait**
-    
+**Deadlock with Semaphores**  
+68. **Semaphores**  
+69. **S1**  
+70. **S2**  
+71. **Wait**
 
 ----------
 
-### **Deadlock Characterization**
+**Deadlock Characterization**
 
-#### **Four Necessary Conditions for Deadlock**
-
-72.  **Mutual Exclusion**
-    
-73.  **Hold and Wait**
-    
-74.  **No Preemption**
-    
-75.  **Circular Wait**
-    
+**Four Necessary Conditions for Deadlock**  
+72. **Mutual Exclusion**  
+73. **Hold and Wait**  
+74. **No Preemption**  
+75. **Circular Wait**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTE1Nzk3OCwtMTY3MTc5OTIwNiwtMT
-A1MjU1NzgzXX0=
+eyJoaXN0b3J5IjpbLTIwNTE2OTIyNTAsLTgzMTE1Nzk3OCwtMT
+Y3MTc5OTIwNiwtMTA1MjU1NzgzXX0=
 -->
