@@ -1,303 +1,149 @@
-
 # Fill In The Blank
-## Ch. 4 Overview of Threads and Concurrency
 
-### Basic Components of Threads
+## **Chapter 4: Threads and Concurrency**
 
-Threads are the smallest unit of processing that can be scheduled by an ________, consisting of a thread ID, ________, register set, and stack.
-
-Threads share the same ________ space of their parent process, allowing for efficient communication and resource sharing.
-
-Contrast with processes: processes have separate ________ spaces, making inter-process communication more complex and resource-intensive.
-
-Threads can be created and managed more efficiently than ________, leading to lower overhead in context switching.
-
-Example: In a web server, each request can be handled by a separate ________, allowing multiple requests to be processed simultaneously.
-
-### Benefits and Challenges of Multithreading
-
-Benefits include improved ________, as threads can continue executing while others are blocked, crucial for user interfaces.
-
-________ sharing among threads is easier than managing shared memory or message passing, leading to simpler code.
-
-Thread creation is less resource-intensive than ________ creation, making it economical for applications that require frequent task switching.
-
-________ is enhanced as applications can leverage multicore architectures to run multiple threads in parallel, improving performance.
-
-Challenges include complexity in design, potential for ________ conditions, and difficulties in debugging multithreaded applications.
-
-### Multicore Programming
-
-#### Understanding Multicore Systems
-
-Multicore systems allow multiple threads to run ________, increasing the potential for parallelism in applications.
-
-Programmers face challenges such as dividing tasks effectively, balancing ________, and managing data dependencies.
-
-Testing and debugging become more complex due to the non-________ nature of thread execution in multicore environments.
-
-Example: A video processing application can split ________ across multiple cores for faster processing.
-
-### Concurrency vs. Parallelism
-
-Concurrency refers to the ability of a system to manage multiple tasks at once, while ________ involves executing multiple tasks simultaneously.
-
-On a single-core system, concurrency is achieved through ________, where the CPU switches between tasks rapidly.
-
-On a multicore system, ________ allows multiple threads to run at the same time, improving performance significantly.
-
-### Threading Models and Libraries
-
-#### User Threads vs. Kernel Threads
-
-________ threads are managed by user-level libraries, allowing for flexibility but limited by the kernel's scheduling.
-
-________ threads are managed by the operating system, providing better concurrency and resource management.
-
-Examples of user-level thread libraries include ________ Pthreads, Windows threads, and Java threads, while kernel threads are supported by most modern operating systems.
-
-#### Multithreading Models
-
--   **Many-to-One:** Multiple user threads mapped to a single ________ thread; blocking one thread blocks all.
+1.  A __________ (1) is the smallest sequence of programmed instructions that can be managed independently by a scheduler.
     
--   **One-to-One:** Each user thread corresponds to a ________ thread, allowing for greater concurrency but with overhead.
+2.  Threads run within a __________ (2) and share the same __________ (3) space and system resources.
     
--   **Many-to-Many:** Multiple user threads can be mapped to multiple ________ threads, providing flexibility and efficiency.
+3.  __________ (4) threads are created and managed by the operating system, while __________ (5) threads are managed by a user-level library.
     
-
-### Implicit Threading and Thread Libraries
-
-#### Implicit Threading Approaches
-
-Implicit threading simplifies thread management by allowing ________ and runtime libraries to handle thread creation and scheduling.
-
-Common methods include thread pools, ________-join, OpenMP, Grand Central Dispatch, and Intel Threading Building Blocks.
-
-Example: ________ pools maintain a set of threads that can be reused for multiple tasks, reducing the overhead of thread creation.
-
-### Thread Libraries Overview
-
-Thread libraries provide ________ for creating and managing threads, with implementations varying between user space and kernel space.
-
-________ is a widely used POSIX standard for thread management in UNIX-like systems, offering a robust API for synchronization and thread control.
-
-Java threads are managed by the ________, allowing for cross-platform thread management and providing the ________ framework for easier thread handling.
-
-### Fork-Join Parallelism
-
-#### Overview of Fork-Join Parallelism
-
-Fork-Join Parallelism is a computational model that divides tasks into ________, which can be executed in parallel, and then combines the results. This model is particularly effective for recursive algorithms.
-
-The general algorithm involves two main steps: ________ (splitting tasks) and ________ (combining results).
-
-This model is widely used in parallel programming to optimize performance on multi-core processors.
-
-#### Fork-Join Parallelism in Java
-
-In Java, the ________ is an abstract base class that provides the framework for implementing fork-join parallelism.
-
-Two primary subclasses of ForkJoinTask are ________ (which returns a result) and ________ (which does not return a result).
-
-The ________ method is overridden in these subclasses to define the task's logic, allowing for recursive decomposition of the problem.
-
-### OpenMP and Parallel Programming
-
-#### Introduction to OpenMP
-
-________ is a set of compiler directives and an API designed for parallel programming in shared-memory environments, primarily for C, C++, and FORTRAN.
-
-It allows developers to identify ________ regions in code, enabling concurrent execution of code blocks.
-
-The directive **#pragma omp parallel** is used to create threads equal to the number of available ________.
-
-#### Parallel Loops in OpenMP
-
-OpenMP provides constructs to run loops in parallel, significantly improving performance for large iterations.
-
-The **#pragma omp for** directive can be used to parallelize ________ loops, distributing iterations among threads.
-
-### Grand Central Dispatch (GCD)
-
-#### Overview of GCD
-
-Grand Central Dispatch is a technology developed by ________ for macOS and iOS that simplifies concurrent programming.
-
-It provides an API and runtime library that allows developers to identify parallel sections of code and manage ________ details automatically.
-
-#### Dispatch Queues in GCD
-
-GCD utilizes two types of dispatch queues: ________ (FIFO order, one block at a time) and ________ (multiple blocks can be executed simultaneously).
-
-System-wide queues are categorized by quality of service (QoS), including user-________, user-initiated, user-utility, and user-background.
-
-### Threading Issues and Concepts
-
-#### Thread Cancellation
-
-Thread cancellation refers to terminating a thread before it has completed its execution, which can be done either ________ or deferred.
-
-In Pthreads, cancellation can be requested using ________, and the thread must reach a ________ point to be terminated.
-
-#### Thread-Local Storage (TLS)
-
-Thread-local storage allows each thread to maintain its own copy of data, which is crucial in multi-threaded applications to avoid data corruption.
-
-TLS is different from ________ variables, as it persists across function invocations and is unique to each thread.
-
-In C, TLS can be declared using the **________** keyword, allowing for thread-specific data management.
-
-### Operating System Examples
-
-#### Windows Threads
-
-Windows threads are managed through the Windows API, which implements a ________ mapping of user threads to kernel threads.
-
-Each thread has a unique thread ID, a register set, and separate stacks for user and kernel modes, collectively known as the thread ________.
-
-Key data structures include ETHREAD, KTHREAD, and ________, which store essential information about the thread's execution state.
-
-#### Linux Threads
-
-In Linux, threads are referred to as ________, and thread creation is accomplished using the ________ system call, which allows sharing of the address space between parent and child tasks.
-
-The **________** structure is used to manage thread data, containing pointers to process data structures that can be shared or unique.
-
-Here's your second study guide transformed into a fill-in-the-blank format:
-
-### **Ch. 5 - Basic Concepts of CPU Scheduling (Fill in the Blank)**
-
-----------
-
-### **Overview of CPU Scheduling**
-
-CPU scheduling is a mechanism used by the __________ to allocate __________ resources to processes, maximizing CPU utilization and improving overall system performance.  
-It is a fundamental aspect of __________ operating systems, allowing multiple processes to share CPU time effectively.  
-__________ switching is a key concept, where the OS switches the CPU core among processes to manage execution efficiently.
-
-----------
-
-### **CPU-I/O Burst Cycle**
-
-Process execution consists of alternating cycles of __________ execution and __________ wait, known as the CPU-I/O burst cycle.  
-__________ processes typically have a large number of short CPU bursts, while __________ processes have fewer, longer bursts.  
-Understanding the distribution of CPU bursts is crucial for effective __________.
-
-----------
-
-### **CPU Scheduler Functionality**
-
-The CPU scheduler selects processes from the __________ queue to allocate CPU time, making decisions based on process states.  
-Scheduling decisions occur during state transitions: when a process switches from running to __________, running to __________, waiting to __________, or __________.  
-Situations __________ (running to waiting) and __________ (termination) require immediate scheduling, while situations __________ and __________ allow for choice.
-
-----------
-
-### **Preemptive vs Nonpreemptive Scheduling**
-
-__________ scheduling occurs when the CPU is allocated to a process until it terminates or switches to waiting, while __________ scheduling allows the OS to interrupt a running process.  
-Most modern operating systems, including __________, __________, and __________, use preemptive scheduling.  
-Preemptive scheduling can lead to __________ conditions, where shared data is accessed inconsistently by multiple processes.
-
-----------
-
-### **Scheduling Criteria and Optimization**
-
--   **CPU Utilization**: The goal is to keep the CPU as busy as possible, ideally between __________% and __________% utilization.
+4.  The primary states of a thread are __________ (6), __________ (7), and __________ (8).
     
--   **Throughput**: Measures the number of __________ completed per time unit.
+5.  A thread can be in the __________ (9) state while it waits for an event to occur.
     
--   **Turnaround Time**: Total time taken to execute a process, including __________, __________, and __________ time.
+6.  __________ (10) allows multiple threads to run simultaneously by switching between them rapidly.
     
--   **Waiting Time**: Time a process spends waiting in the __________ queue before execution begins.
+7.  The two models for threading are __________ (11) and __________ (12).
     
--   **Response Time**: Time from request submission to the first __________, critical for __________ systems.
+8.  In the __________ (13) model, user-level threads are mapped to kernel threads.
+    
+9.  The __________ (14) model allows multiple user threads to be mapped to multiple kernel threads.
+    
+10.  The __________ (15) model is the simplest and maps each user thread to one kernel thread.
     
 
 ----------
 
-### **CPU Scheduling Algorithms**
+## **Chapter 5: CPU Scheduling**
 
--   **First-Come, First-Served (FCFS)**:  
-    FCFS is the simplest scheduling algorithm where processes are executed in the order they __________.  
-    The __________ effect occurs when short processes are stuck behind long processes, impacting performance.
+1.  The __________ (16) of a CPU determines which processes get to execute and for how long.
     
--   **Shortest-Job-First (SJF)**:  
-    SJF schedules processes based on the length of their next __________.  
-    The preemptive version, __________, allows interruption of longer processes if a shorter one arrives.
+2.  CPU scheduling is necessary to maximize __________ (17) and reduce __________ (18).
     
--   **Round Robin (RR)**:  
-    RR allocates a fixed __________ to each process, cycling through the ready queue to ensure fairness.  
-    This algorithm is effective for __________ systems.
+3.  The __________ (19) queue contains all processes that are ready to run but are waiting for CPU time.
     
-
-----------
-
-### **Real-Time CPU Scheduling**
-
--   Real-time scheduling is crucial for systems that require __________ processing.
+4.  The __________ (20) queue contains processes that are waiting for I/O operations to complete.
     
--   Algorithms ensure critical tasks meet their __________ using priority-based scheduling.
+5.  __________ (21) scheduling selects from the ready queue and allocates the CPU to one of the processes.
     
--   Examples include embedded systems and __________ applications.
+6.  The four criteria for CPU scheduling are __________ (22), __________ (23), __________ (24), and __________ (25).
+    
+7.  The algorithm that selects the process with the smallest CPU burst time is called __________ (26).
+    
+8.  In the __________ (27) scheduling algorithm, each process gets a small unit of CPU time called a time slice.
+    
+9.  __________ (28) scheduling uses a priority number to determine which process runs next.
+    
+10.  __________ (29) scheduling ensures that all processes get a fair share of CPU time by rotating through the queue.
     
 
 ----------
 
-### **Operating Systems Examples**
+## **Chapter 6: Synchronization**
 
--   **Windows**: Utilizes a __________-based scheduling algorithm for multitasking.
+1.  __________ (30) occurs when multiple processes or threads try to access shared resources simultaneously.
     
--   **Linux**: Employs a __________ scheduler (CFS) that ensures fair CPU time distribution.
+2.  The __________ (31) problem involves multiple threads attempting to enter their critical sections simultaneously.
     
--   **Solaris**: Combines __________-based and __________ scheduling.
+3.  The three requirements for a correct solution to the critical-section problem are __________ (32), __________ (33), and __________ (34).
     
-
-----------
-
-### **Time Quantum and Context Switching**
-
--   The __________ is the fixed time slice allocated to each process in RR scheduling.
+4.  __________ (35) is when a process is prevented from making progress because other processes are constantly accessing resources.
     
--   Large time quantum leads to __________ behavior, while a small time quantum leads to __________ scheduling.
+5.  __________ (36) is a technique used to solve synchronization problems by using locks or other mechanisms.
     
--   The time quantum should be larger than the __________ switch time to avoid excessive overhead.
+6.  A __________ (37) allows only one thread to access a resource at a time.
     
-
-----------
-
-### **Thread Scheduling**
-
--   **User-Level Threads**: Managed by a __________ library.
+7.  __________ (38) provide a way to signal and wait for conditions to be met.
     
--   **Kernel-Level Threads**: Managed by the __________.
+8.  A __________ (39) variable is used to allow threads to wait for specific conditions.
     
--   **Process-Contention Scope (PCS)**: Scheduling competition within a __________.
+9.  The two operations associated with semaphores are __________ (40) and __________ (41).
     
--   **System-Contention Scope (SCS)**: Competition among all __________ in the system.
+10.  A __________ (42) semaphore can only have values of 0 or 1.
     
 
 ----------
 
-### **Multiple-Processor Scheduling**
+## **Chapter 7: Memory Management**
 
--   Scheduling becomes more complex with multiple CPUs, requiring efficient __________ balancing.
+1.  Memory is divided into fixed-sized blocks called __________ (43).
     
--   **Symmetric Multiprocessing (SMP)**: Each processor __________ schedules tasks.
+2.  The process of allocating and managing memory is known as __________ (44).
     
--   **Load Balancing**: Techniques like __________ and __________ migration distribute workloads evenly.
+3.  In the __________ (45) allocation method, processes are allocated contiguous memory blocks.
     
--   **Processor Affinity**: Refers to a thread’s tendency to run on the same processor for better __________ utilization.
+4.  __________ (46) is the process of moving data between main memory and secondary storage.
+    
+5.  __________ (47) memory uses hardware and software to allow a computer to compensate for shortages of physical memory.
+    
+6.  A __________ (48) table keeps track of where each process's pages are located in physical memory.
+    
+7.  __________ (49) is when pages are moved in and out of memory too frequently, reducing performance.
+    
+8.  A __________ (50) algorithm selects which memory pages to remove to make space for new pages.
+    
+9.  The __________ (51) algorithm removes the page that has not been used for the longest period.
+    
+10.  __________ (52) is a memory management technique that uses multiple levels of tables to map logical addresses to physical addresses.
     
 
 ----------
 
-### **Types of Latencies Affecting Performance**
+## **Chapter 8: Understanding Deadlocks in Systems**
 
--   **Interrupt Latency**: Time from interrupt signal arrival to the start of the __________.
+1.  A system consists of various __________ (53) that can be utilized by threads, including __________ (54) cycles, __________ (55) space, I/O devices, and __________ (56) interfaces.
     
--   **Dispatch Latency**: Time required for the scheduler to switch from the current process to a __________.
+2.  Resource types are denoted as __________ (57), where each type has a certain number of instances (__________ (58)).
+    
+3.  Threads interact with resources through three primary actions: __________ (59), __________ (60), and __________ (61).
+    
+4.  If a resource is not available when requested, the thread must __________ (62) until it can acquire it, leading to potential __________ (63) situations.
+    
+
+----------
+
+### **Deadlock with Mutex in Pthreads**
+
+5.  Deadlock can occur when two threads (__________ (64) and __________ (65)) attempt to lock multiple __________ (66) in an inconsistent order.
+    
+6.  This leads to a situation where each thread is waiting for the other to __________ (67) a mutex.
+    
+
+----------
+
+### **Deadlock with Semaphores**
+
+7.  Similar to mutexes, deadlocks can occur with __________ (68) when two threads attempt to acquire two semaphores (__________ (69) and __________ (70)) in a conflicting order.
+    
+8.  The __________ (71) operations on semaphores can lead to indefinite waiting, causing a deadlock.
+    
+
+----------
+
+### **Deadlock Characterization**
+
+#### **Four Necessary Conditions for Deadlock**
+
+9.  __________ (72): Only one thread can use a resource at a time.
+    
+10.  __________ (73): A thread holding at least one resource is waiting to acquire additional resources.
+    
+11.  __________ (74): Resources cannot be forcibly taken from threads; they must be voluntarily released.
+    
+12.  __________ (75): A set of threads exists where each thread is waiting for a resource held by another thread in the set.
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE3OTkyMDYsLTEwNTI1NTc4M119
+eyJoaXN0b3J5IjpbLTE4OTg0NTk0OTQsLTE2NzE3OTkyMDYsLT
+EwNTI1NTc4M119
 -->
