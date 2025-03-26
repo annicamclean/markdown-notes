@@ -1,6 +1,7 @@
 # Chapter 6 Study Guide
 
 # FILL IN
+
 ### **Ch. 6 - Synchronization Tools and Techniques (Fill in the Blank)**
 
 ----------
@@ -143,9 +144,7 @@
 -   The critical-section problem involves designing a protocol to manage access to shared resources among multiple processes.
 -   Each process has a critical section where it can modify shared data, and only one process can be in its critical section at a time.
 -   Key requirements for a solution include mutual exclusion, progress, and bounded waiting.  
-    ![Here's a concise alt text/caption for the provided image:
 
-The image shows a pseudocode representation of a critical section with entry and exit sections within a `while (true)` loop, also including a remainder section.](https://storage.googleapis.com/qzlt-prod-services-notes-notes-data/bf27457a-2b45-42e7-9c81-0bdaafe44a7d/images/c54c816f9a48488a9da6334d731ce572.jpg?Expires=1743600533&GoogleAccessId=notes-svc%40qzlt-prod-webapp.iam.gserviceaccount.com&Signature=hZalZYwu6wMmLOITLnmxtht8xYdeQdwOe5kv90HgAWS91dp3QD0nM4yV4xdlv56vNihybE357lTn480w%2Fi2LrXiN9eaPzcK1vSGiVjwPEOLwlBxpVl3bgGRxnGj92ZX%2Fl6nJogvjQuJf8uGLV1FjXglCMXMZBMUX3zbzaZHo5%2By7iG9UFs85aB1okyd6fiALlmEAxsK4PXfLM3MTEEAUlWyRp9kNziXg7FVYKQm3tOAHabPqXYWdOOAW0dEQJ0vVwaDfvC3lHZPJDffa7fqQxWPMR2ZpaUTPa8XEnTpEKfdCh2Ls5qAU5PrD%2FQK623BIoRMlLMc9iIbYa1qKCCw10w%3D%3D)
 
 ### Race Conditions
 
@@ -461,5 +460,5 @@ monitor ExampleMonitor {
 -   Priority inversion is a scheduling issue where a lower-priority process holds a lock needed by a higher-priority process, leading to inefficiencies.
 -   This can be mitigated using a priority-inheritance protocol, where the lower-priority process temporarily inherits the higher priority.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3NzM2MzYxXX0=
+eyJoaXN0b3J5IjpbMTI4NDcwNjYzNF19
 -->
