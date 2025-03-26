@@ -243,48 +243,48 @@ The image shows a pseudocode representation of a critical section with entry and
 
 -   The Test-and-Set instruction atomically tests and modifies a boolean variable, typically used for implementing locks.
 -   Definition:
-
+```
 boolean test_and_set(boolean *target) {
     boolean rv = *target;
     *target = true;
     return rv;
 }
-
+```
 -   This instruction returns the original value of the target variable and sets it to true, indicating that the lock is acquired.
 
 ### Compare-and-Swap Instruction
 
 -   The Compare-and-Swap (CAS) instruction atomically compares a variable to an expected value and swaps it with a new value if they match.
 -   Definition:
-
+```
 int compare_and_swap(int *value, int expected, int new_value) {
     int temp = *value;
     if (*value == expected) 
         *value = new_value;
     return temp;
 }
-
+```
 -   This instruction is crucial for implementing more complex synchronization mechanisms, such as spinlocks.
 
 ### Solutions Using Test-and-Set and Compare-and-Swap
 
 -   Both Test-and-Set and Compare-and-Swap can be used to solve the critical-section problem by ensuring that only one thread can access a critical section at a time.
 -   Example using Test-and-Set:
-
+```
 do {
     while (test_and_set(&lock)); // busy wait
     // critical section
     lock = false; // release lock
 } while (true);
-
+```
 -   Example using Compare-and-Swap:
-
+```
 while (true) {
     while (compare_and_swap(&lock, 0, 1) != 0);
     // critical section
     lock = 0; // release lock
 }
-
+```
 -   Both methods require busy waiting, which can lead to inefficiencies.
 
 # Atomic Variables and Mutex Locks
@@ -293,14 +293,14 @@ while (true) {
 
 -   Atomic variables provide a way to perform uninterruptible updates on basic data types, ensuring thread safety.
 -   Example of an increment operation on an atomic variable:
-
+```
 void increment(atomic_int *v) {
     int temp;
     do {
         temp = *v;
     } while (temp != compare_and_swap(v, temp, temp + 1));
 }
-
+```
 -   This ensures that the increment operation is performed atomically, preventing race conditions.
 
 ### Mutex Locks
@@ -309,14 +309,14 @@ void increment(atomic_int *v) {
 -   A mutex lock is represented by a boolean variable indicating whether the lock is available.
 -   The basic operations are acquire() to obtain the lock and release() to release it, both of which must be atomic.
 -   Example of using a mutex lock:
-
+```
 while (true) {
     acquire_lock();
     // critical section
     release_lock();
     // remainder section
 }
-
+```
 -   Mutex locks can lead to busy waiting, similar to Test-and-Set and Compare-and-Swap.
 
 ### Semaphores
@@ -343,20 +343,20 @@ while (true) {
 ### Semaphore Usage Example
 
 -   In the critical section (CS) problem, a semaphore named `mutex` is initialized to 1 to control access:
-
+```
 wait(mutex);
    // Critical Section Code
 signal(mutex);
-
+```
 -   For two processes P1 and P2, where S1 must precede S2, a semaphore `synch` initialized to 0 is used:
-
+```
 P1:
    S1;
    signal(synch);
 P2:
    wait(synch);
    S2;
-
+```
 ### Problems with Semaphores
 
 -   Incorrect usage can lead to issues such as deadlocks, where processes wait indefinitely for each other to release resources.
@@ -374,18 +374,18 @@ P2:
 
 -   Each semaphore has an associated waiting queue to manage processes that are blocked.
 -   The waiting queue structure includes an integer value and a pointer to the next process in the queue:
-
+```
 typedef struct {
     int value;
     struct process *list;
 } semaphore;
-
+```
 -   Operations include `block()` to suspend a process and `wakeup()` to resume a process from the waiting queue.
 
 ### Code Implementation of Semaphore Operations
 
 -   The `wait()` operation is implemented as follows:
-
+```
 wait(semaphore *S) {
    S->value--;
    if (S->value < 0) {
@@ -393,9 +393,9 @@ wait(semaphore *S) {
       block();
    }
 }
-
+```
 -   The `signal()` operation is implemented as:
-
+```
 signal(semaphore *S) {
    S->value++;
    if (S->value <= 0) {
@@ -403,6 +403,7 @@ signal(semaphore *S) {
       wakeup(P);
    }
 }
+```
 
 # Monitors in Synchronization
 
@@ -460,5 +461,5 @@ monitor ExampleMonitor {
 -   Priority inversion is a scheduling issue where a lower-priority process holds a lock needed by a higher-priority process, leading to inefficiencies.
 -   This can be mitigated using a priority-inheritance protocol, where the lower-priority process temporarily inherits the higher priority.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1ODM1OTEzXX0=
+eyJoaXN0b3J5IjpbODg3NzM2MzYxXX0=
 -->
