@@ -2,162 +2,224 @@
 # Chapter 8 Study Guide
 
 # FILL IN
-## System Model
 
-### Overview of System Resources
+## **Ch. 8 - Understanding Deadlocks in Systems**
 
--   A system consists of various resources that can be utilized by threads, including ______, _______, ________, and ________.
--   Resource types are denoted as R1, R2, ..., Rm, where each type has a certain number of ________(Wi). For example, CPU has four instances, and Network has two ________.
--   Threads interact with resources through three primary actions: ________, ________, and ________.
--   If a resource is not available when requested, the thread must wait until it can acquire it, leading to potential ________ situations.
+### **System Model**
 
-### Deadlock with Mutex in Pthreads
-
--   Deadlock can occur when two threads (T1 and T2) attempt to lock multiple ________ in an ________ order, leading to a situation where each thread is waiting for the other to release a ________.
-
-### Deadlock with Semaphores
-
--   Similar to mutexes, deadlocks can occur with ________ when two ________ (T1 and T2) attempt to acquire two ________ (S1 and S2) in a conflicting order.
--   The ________ operations on semaphores can lead to a situation where both threads are waiting ________ for each other to release the ________ .
-
-## Deadlock Characterization
-
-### Four Necessary Conditions for Deadlock
-
--   ________: Only one thread can use a resource at a time, which is essential for non-sharable resources.
--   ________: A thread holding at least one resource is waiting to acquire additional resources, leading to potential deadlock.
--   ________: Resources cannot be forcibly taken from threads; they must be voluntarily released after use.
--   ________: A set of threads exists where each thread is waiting for a resource held by another thread in the set, creating a cycle.
-
-### Resource-Allocation Graph
-
--   Deadlocks can be represented using a _____________, which consists of vertices (threads and resources) and directed edges (request and assignment edges).
--   The graph helps visualize the relationships between ________ and ________, indicating potential ________.
--   If the graph contains ________, it may indicate a ________, especially if there is only one instance of each ________.  
+1.  A system consists of various __________ that can be utilized by threads, including __________ cycles, __________ space, I/O devices, and __________ interfaces.
+    
+2.  Resource types are denoted as **********, where each type has a certain number of instances (**********).
+    
+3.  Threads interact with resources through three primary actions: __________, __________, and __________.
+    
+4.  If a resource is not available when requested, the thread must __________ until it can acquire it, leading to potential __________ situations.
     
 
-### Basic Facts about Deadlocks
+----------
 
--   If the resource-allocation graph contains ________, there is no deadlock.
--   If there is a ________ and only ________ instance per resource type, a deadlock is ________.
--   If there are ________ instances per resource type, deadlock is ________ but not ________.
+### **Deadlock with Mutex in Pthreads**
 
-## Methods for Handling Deadlocks
+5.  Deadlock can occur when two threads (__________ and __________) attempt to lock multiple __________ in an inconsistent order.
+    
+6.  This leads to a situation where each thread is waiting for the other to __________ a mutex.
+    
 
-### Overview of Deadlock Handling Approaches
+----------
 
--   Deadlocks can be managed through ________, ________, ________, and ________ strategies.
--   ________: Ensures that at least one of the four necessary conditions cannot hold, thus preventing deadlocks from occurring.
--   ________: Requires the operating system to have advance knowledge of resource requests to avoid entering a deadlock state.
--   ________: Allows the system to enter a deadlock state but includes mechanisms to detect it and recover from it.
--   ________: Some operating systems, like Linux and Windows, choose to ignore deadlocks, leaving the problem to application developers.
+### **Deadlock with Semaphores**
 
-### Deadlock Prevention Techniques
+7.  Similar to mutexes, deadlocks can occur with __________ when two threads attempt to acquire two semaphores (__________ and __________) in a conflicting order.
+    
+8.  The __________ operations on semaphores can lead to indefinite waiting, causing a deadlock.
+    
 
--   ________: Not required for sharable resources, but necessary for non-sharable resources.
--   ________: Threads must not hold any resources when requesting new ones, which can lead to low resource utilization and potential starvation.
--   ________: If a thread holding resources requests another resource that cannot be allocated, it must release its held resources, which is often impractical for mutexes and semaphores.
--   ________: Imposing a total ordering of resources can prevent circular wait conditions by requiring threads to request resources in a specific order.
+----------
 
-### Deadlock Avoidance Techniques
+### **Deadlock Characterization**
 
--   The ________ Algorithm is a well-known method for deadlock ________, which allocates resources only if it is ________ to do so, ensuring that the system remains in a ________.
--   The algorithm requires knowledge of ___________ and ________ to make decisions about resource ________.
+#### **Four Necessary Conditions for Deadlock**
 
-## Recovery from Deadlock
+9.  __________: Only one thread can use a resource at a time.
+    
+10.  __________: A thread holding at least one resource is waiting to acquire additional resources.
+    
+11.  __________: Resources cannot be forcibly taken from threads; they must be voluntarily released.
+    
+12.  __________: A set of threads exists where each thread is waiting for a resource held by another thread in the set.
+    
 
-### Approaches for Recovering from Deadlock
+----------
 
--   ________ may involve ________ one or more threads involved in the deadlock to ________ the cycle.
--   Another approach is ________, where resources are ________ taken from threads to ________ the deadlock situation, although this can lead to ________ and requires ________ management.
--   The choice of ________ often depends on the ________ and ________, balancing between ________ and ________.
+### **Resource-Allocation Graph**
 
-### Process Termination
+13.  Deadlocks can be represented using a __________, consisting of vertices representing __________ and __________, and directed edges representing __________ and __________ edges.
+    
+14.  If the graph contains no __________, there is no deadlock.
+    
+15.  If there is a cycle and only one instance per resource type, a deadlock is __________.
+    
 
--   To ________ from ________, threads can be ________ to ________ cycles.
--   The order of ________ can be based on ________, ________, and ________.
--   ________ threads may be treated differently than ________.
+----------
 
-### Resource Preemption
+### **Basic Facts about Deadlocks**
 
--   Selecting a ________ for ________ should ________ costs associated with ________ and ________.
--   ________ involves returning a thread to a ________ and ________ it from there.
--   ________ can occur if the same thread is ________ chosen as a ________, ________ ________ management.
+16.  If the resource-allocation graph contains no __________, there is no deadlock.
+    
+17.  If there is a cycle with multiple instances per resource type, deadlock is __________ but not guaranteed.
+    
 
-## Deadlock Avoidance
+----------
 
-### Overview of Deadlock Avoidance
+### **Methods for Handling Deadlocks**
 
--   ________ requires a priori information about ________ of threads.
--   Each thread must declare the ________ number of ________ it may need, allowing the system to make ________ decisions.
--   The deadlock-avoidance algorithm ________ checks the ___________ to prevent ___________.
--   ___________ is defined by ________ and allocated resources, and ________ demands of threads.
+18.  Deadlocks can be managed through four primary strategies: __________, __________, __________, and __________.
+    
+19.  In __________, the system ensures that at least one of the four necessary conditions cannot hold.
+    
+20.  In __________, the system uses advance knowledge of resource requests to prevent deadlocks.
+    
+21.  In __________, the system allows deadlocks to occur but includes mechanisms to detect and recover from them.
+    
+22.  Some operating systems, like __________ and __________, choose to ignore deadlocks.
+    
 
-### Safe State Concept
+----------
 
--   A system is in a ________ if there exists a sequence of thread executions that can complete ________ leading to deadlock.
--   For a thread Ti, if its resource needs are not ________ available, it can wait until all ________ threads Tj have ________.
--   The system can allocate ________ to Ti only if it can guarantee that all threads can eventually ________.
+### **Deadlock Prevention Techniques**
 
-### Basic Facts about States
+23.  __________: Not required for sharable resources, but necessary for non-sharable resources.
+    
+24.  __________: Threads must not hold any resources when requesting new ones, which can lead to starvation.
+    
+25.  __________: Threads must release held resources if additional resources cannot be allocated.
+    
+26.  __________: Imposing a total ordering of resources can prevent circular wait conditions.
+    
 
--   If a system is in a ________, it guarantees no ________ will occur.
--   An ________ indicates a possibility of ________, necessitating ________.
--   The goal of ________ is to ensure the system never enters an ________.
+----------
 
-### Avoidance Algorithms
+### **Deadlock Avoidance Techniques**
 
--   For ________ instances of each ________ type, a ___________ is used.
--   For ________ instances of a ________ type, the ________ is applied, which checks________ against ________ claims.
+27.  The __________ is a well-known deadlock avoidance algorithm.
+    
+28.  It ensures the system remains in a __________ state by checking if resource allocation is safe.
+    
+29.  This algorithm requires knowledge of maximum resource needs and current allocations.
+    
 
-## Resource-Allocation Graph Scheme
+----------
 
-### Graph Representation
+### **Recovery from Deadlock**
 
--   A ________ edge (Ti → Rj) indicates that ________ Ti may request ________ Rj, represented by a ________ line.
--   When a thread requests a resource, the claim edge converts to a request edge.
--   Once the resource is allocated, the request edge becomes an assignment edge, and when released, it reverts to a claim edge.
+30.  Recovery strategies may involve terminating one or more __________ to break the cycle.
+    
+31.  Another approach is __________, where resources are forcibly taken from threads.
+    
+32.  __________ involves returning a thread to a previously safe state and restarting it from there.
+    
 
-### Safety Algorithm
+----------
 
--   The safety algorithm checks if a thread's request can be granted without leading to a deadlock.
--   It uses vectors Work and Finish to track available resources and completion status of threads.
--   If all threads can finish, the system is in a safe state.
+### **Process Termination**
 
-### Banker’s Algorithm
+33.  The order of termination can be based on __________, __________ usage, and __________ time.
+    
+34.  __________ threads may be treated differently than batch processes.
+    
 
--   The Banker’s Algorithm requires threads to declare maximum resource needs a priori.
--   It checks if granting a resource request leaves the system in a safe state; if not, the thread must wait.
--   Data structures include matrices for Max, Allocation, and Need, which help in resource management.
+----------
 
-### Example of Banker’s Algorithm
+### **Resource Preemption**
 
--   Consider 5 threads (T0 to T4) and 3 resource types (A, B, C).
--   The system's state is represented in matrices showing Allocation, Max, and Available resources.
--   The Need matrix is calculated as Need[i,j] = Max[i,j] - Allocation[i,j].
+35.  Selecting a victim for preemption should minimize costs associated with __________ and __________.
+    
+36.  __________ can occur if the same thread is repeatedly chosen as a victim.
+    
 
-## Deadlock Detection
+----------
 
-### Detection Mechanisms
+### **Deadlock Avoidance**
 
--   Systems can be allowed to enter a deadlock state for detection purposes.
--   A detection algorithm checks for cycles in the wait-for graph, indicating deadlocks.
--   The algorithm's complexity is O(n²) for cycle detection, where n is the number of threads.
+37.  Deadlock avoidance requires a priori information about __________ needs.
+    
+38.  The system must check its __________ state to ensure no circular-wait conditions occur.
+    
 
-### Resource-Allocation Graph and Wait-for Graph
+----------
 
--   The resource-allocation graph shows the current allocation of resources to threads.
--   The wait-for graph indicates which threads are waiting for resources held by others.
+### **Safe State Concept**
 
-### Detection Algorithm for Multiple Instances
+39.  A system is in a __________ state if there exists a sequence of thread executions that can complete without deadlock.
+    
+40.  An unsafe state indicates a possibility of __________.
+    
+41.  The goal of avoidance is to ensure the system never enters an __________ state.
+    
 
--   The detection algorithm initializes Work and Finish vectors to track resource availability and thread completion.
--   It checks if any thread can finish with the currently available resources; if not, a deadlock exists.
+----------
 
-### Example of Detection Algorithm
+### **Avoidance Algorithms**
 
--   A snapshot of resource allocation shows the current state of threads and their requests.
--   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
+42.  For single instances of each resource type, a __________ scheme is used.
+    
+43.  For multiple instances of a resource type, the __________ is applied.
+    
+
+----------
+
+### **Resource-Allocation Graph Scheme**
+
+44.  A __________ edge (Ti → Rj) indicates a potential resource request.
+    
+45.  When a thread requests a resource, the claim edge converts to a __________ edge.
+    
+46.  After allocation, the request edge becomes an __________ edge.
+    
+
+----------
+
+### **Safety Algorithm**
+
+47.  The safety algorithm uses vectors __________ and __________ to track available resources and completion status.
+    
+48.  If all threads can finish, the system is in a __________ state.
+    
+
+----------
+
+### **Banker’s Algorithm**
+
+49.  The Banker’s Algorithm requires threads to declare their __________ resource needs.
+    
+50.  Data structures like __________, __________, and __________ matrices help in resource management.
+    
+51.  The __________ matrix is calculated as Need[i,j] = Max[i,j] - Allocation[i,j].
+    
+
+----------
+
+### **Deadlock Detection**
+
+52.  Detection algorithms check for __________ in the wait-for graph to identify deadlocks.
+    
+53.  The algorithm's complexity is __________, where n is the number of threads.
+    
+
+----------
+
+### **Resource-Allocation Graph and Wait-for Graph**
+
+54.  The resource-allocation graph shows the current allocation of resources, while the __________ graph indicates which threads are waiting.
+    
+
+----------
+
+### **Detection Algorithm for Multiple Instances**
+
+55.  Detection algorithms use vectors __________ and __________ to track resource availability and thread completion.
+    
+56.  If no threads can finish with the available resources, a __________ exists.
 
 
 
@@ -321,7 +383,7 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzMjE5Nzk0LDk1MTE5NzA0NiwtMTkxMj
-M0MzkzNywtMTIxODI2MjU3NCwxOTAzOTU2MjYyLC05MTQ1ODYw
-MTIsMTUzNDA2Mjg1M119
+eyJoaXN0b3J5IjpbLTE3NzI5MDg5NTUsNDgzMjE5Nzk0LDk1MT
+E5NzA0NiwtMTkxMjM0MzkzNywtMTIxODI2MjU3NCwxOTAzOTU2
+MjYyLC05MTQ1ODYwMTIsMTUzNDA2Mjg1M119
 -->
