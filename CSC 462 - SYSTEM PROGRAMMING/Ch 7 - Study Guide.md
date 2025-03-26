@@ -1,6 +1,7 @@
 # Chapter 7 Study Guide
 
 # FILL IN
+
 ## **Ch. 7 - Synchronization Problems and Solutions in Operating Systems**
 
 ### **Classical Problems of Synchronization**
@@ -296,5 +297,5 @@ for (int i = 0; i < 5; i++) state[i] = THINKING;
 
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0ODA5OTE4LDIzMTI1MTg4MV19
+eyJoaXN0b3J5IjpbNjg5ODA5MDY4LDIzMTI1MTg4MV19
 -->
