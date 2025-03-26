@@ -247,24 +247,10 @@ for (int i = 0; i < 5; i++) state[i] = THINKING;
 |  Feature | Windows | Linux | POSIX | 
 |--|--|--|--|
 | Mutex Support | Yes | Yes | Yes |
-| Semapho
+| Semaphore Types | Events, Mutexes | Semaphores, Atomic Integers | Named, Unamed Semaphores |
+| Condition Variables | Yes | Yes | Yes |
 
 
-Semaphore Types
-
-Events, Mutexes
-
-Semaphores, Atomic Integers
-
-Named, Unnamed Semaphores
-
-Condition Variables
-
-Yes
-
-Yes
-
-Yes
 
 # 3. Java Synchronization
 
@@ -309,5 +295,5 @@ Yes
 
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzY5NTgwNSwyMzEyNTE4ODFdfQ==
+eyJoaXN0b3J5IjpbMjEyNDczNzc0NCwyMzEyNTE4ODFdfQ==
 -->
