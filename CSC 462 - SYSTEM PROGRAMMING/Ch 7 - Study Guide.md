@@ -244,26 +244,11 @@ for (int i = 0; i < 5; i++) state[i] = THINKING;
 -   POSIX semaphores can be named (accessible by unrelated processes) or unnamed (local to a process).
 
 ### 2.4 Key Comparisons
-|  |  | 
-|--|--|
-|  |  |
+|  Feature | Windows | Linux | POSIX | 
+|--|--|--|--|
+| Mutex Support | Yes | Yes | Yes |
+| Semapho
 
-
-Feature
-
-Windows
-
-Linux
-
-POSIX
-
-Mutex Support
-
-Yes
-
-Yes
-
-Yes
 
 Semaphore Types
 
@@ -324,5 +309,5 @@ Yes
 
     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDc4MDc3OCwyMzEyNTE4ODFdfQ==
+eyJoaXN0b3J5IjpbMTIxMzY5NTgwNSwyMzEyNTE4ODFdfQ==
 -->
