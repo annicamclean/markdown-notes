@@ -103,11 +103,11 @@
 
 -   If a system is in a ________, it guarantees no ________ will occur.
 -   An ________ indicates a possibility of ________, necessitating ________.
--   The goal of avoidance is to ensure the system never enters an unsafe state.
+-   The goal of ________ is to ensure the system never enters an ________.
 
 ### Avoidance Algorithms
 
--   For single instances of each resource type, a resource-allocation graph scheme is used.
+-   For ________ instances of each resource type, a resource-allocation graph scheme is used.
 -   For multiple instances of a resource type, the Banker’s Algorithm is applied, which checks resource allocation against maximum claims.
 
 ## Resource-Allocation Graph Scheme
@@ -321,7 +321,7 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxMjM4ODY4LC0xOTEyMzQzOTM3LC0xMj
+eyJoaXN0b3J5IjpbNTM3MTE5MTQxLC0xOTEyMzQzOTM3LC0xMj
 E4MjYyNTc0LDE5MDM5NTYyNjIsLTkxNDU4NjAxMiwxNTM0MDYy
 ODUzXX0=
 -->
