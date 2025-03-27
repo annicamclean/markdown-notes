@@ -9,7 +9,7 @@
 
 1.  A system consists of various __________ that can be utilized by threads, including __________ cycles, __________ space, I/O devices, and __________ interfaces.
     
-2.  Resource types are denoted as **********, where each type has a certain number of instances (**********).
+2.  Resource types are denoted as ______________, where each type has a certain number of instances (**********).
     
 3.  Threads interact with resources through three primary actions: __________, __________, and __________.
     
@@ -383,7 +383,8 @@
 -   A snapshot of resource allocation shows the current state of threads and their requests.
 -   The algorithm checks if a thread's request can be satisfied with available resources, determining if the system is in a deadlock state.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI5MDg5NTUsNDgzMjE5Nzk0LDk1MT
-E5NzA0NiwtMTkxMjM0MzkzNywtMTIxODI2MjU3NCwxOTAzOTU2
-MjYyLC05MTQ1ODYwMTIsMTUzNDA2Mjg1M119
+eyJoaXN0b3J5IjpbNDIxMDU3NDEzLC0xNzcyOTA4OTU1LDQ4Mz
+IxOTc5NCw5NTExOTcwNDYsLTE5MTIzNDM5MzcsLTEyMTgyNjI1
+NzQsMTkwMzk1NjI2MiwtOTE0NTg2MDEyLDE1MzQwNjI4NTNdfQ
+==
 -->
