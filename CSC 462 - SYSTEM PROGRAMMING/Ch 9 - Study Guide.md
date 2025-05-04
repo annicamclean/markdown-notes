@@ -1,6 +1,195 @@
 # Chapter 9 Study Guide
 
 # FILL IN
+  
+
+Chapter 9: Main Memory – Fill in the Blank
+
+  
+
+  
+
+Background of Memory Management
+
+  
+
+1.  Programs must be loaded into __________ from disk to be executed.
+2.  The CPU can only access __________ and __________ directly.
+3.  __________ memory bridges the speed gap between the CPU and main memory.
+4.  Memory protection is enforced using __________ and __________ registers.
+
+  
+
+  
+
+Address Binding and Memory Allocation
+
+5. Address binding maps __________ addresses to __________ addresses.
+
+6. __________-time binding produces absolute code.
+
+7. __________-time binding allows processes to be relocated during execution.
+
+8. The __________ translates logical addresses to physical addresses dynamically.
+
+  
+
+Logical vs. Physical Address Space
+
+9. Logical addresses are also known as __________ addresses.
+
+10. The __________ maps logical to physical addresses.
+
+11. Logical and physical addresses differ during __________-time binding.
+
+  
+
+Memory-Management Techniques
+
+12. __________ loading loads routines into memory only when needed.
+
+13. __________ linking delays linking until execution time.
+
+14. __________ memory allocation divides memory into OS and user partitions.
+
+15. __________ partition schemes allow allocation for processes of various sizes.
+
+  
+
+Contiguous Memory Allocation
+
+16. The OS typically resides in __________ memory.
+
+17. __________ registers protect user processes and system code.
+
+18. The __________ register holds the smallest physical address.
+
+  
+
+Dynamic Loading and Linking
+
+19. A __________ is used to locate the appropriate library routine.
+
+20. Shared libraries allow for easier __________ and __________ of system libraries.
+
+  
+
+Memory-Management Unit (MMU)
+
+21. The MMU uses a __________ register to adjust logical addresses.
+
+22. Dynamic mapping is required for __________-time address binding.
+
+  
+
+Fragmentation and Allocation Strategies
+
+23. __________ fragmentation occurs when free memory is split into small blocks.
+
+24. __________ fragmentation happens when allocated memory is slightly larger than needed.
+
+25. __________ consolidates memory into a large block by shuffling contents.
+
+  
+
+Memory Allocation Strategies
+
+26. The __________-fit strategy uses the first available suitable hole.
+
+27. The __________-fit strategy minimizes leftover space.
+
+28. The __________-fit strategy may leave large unused holes.
+
+  
+
+Paging Mechanism
+
+29. Paging avoids __________ fragmentation.
+
+30. Physical memory is divided into __________; logical memory into __________.
+
+31. A __________ table translates logical addresses to physical addresses.
+
+  
+
+Address Translation
+
+32. The logical address includes a __________ number and a __________ offset.
+
+  
+
+Internal Fragmentation in Paging
+
+33. Internal fragmentation averages about __________ the frame size.
+
+  
+
+Page Table and TLB
+
+34. The __________ register points to the page table in main memory.
+
+35. The __________ stores page table entries for fast lookup.
+
+  
+
+Effective Access Time (EAT)
+
+36. EAT depends on the __________ ratio of the TLB.
+
+  
+
+Memory Protection
+
+37. __________ bits indicate read/write permissions.
+
+38. A write to a read-only page triggers a __________ trap.
+
+  
+
+Paging Overview
+
+39. Paging eliminates the need for __________ physical memory allocation.
+
+  
+
+Valid-Invalid Bits
+
+40. A __________ bit means the page is valid; an __________ bit causes a trap.
+
+  
+
+Shared and Private Pages
+
+41. Shared pages are useful for __________ code and interprocess __________.
+
+42. Private pages ensure data __________ and security.
+
+  
+
+Hierarchical Paging
+
+43. A 32-bit space with 4 KB pages needs over __________ entries.
+
+44. Hierarchical paging reduces __________ overhead.
+
+  
+
+Advanced Paging
+
+45. __________ page tables are used for large address spaces and sparse memory.
+
+46. __________ page tables store entries for each physical page.
+
+  
+
+Swapping
+
+47. Swapping moves processes to a __________ store.
+
+48. Swapping is often triggered when __________ demand is high.
+
+49. Swapping can delay __________ switches.
+
 
 # ANSWER
 ## Chapter 9: Main Memory
@@ -214,5 +403,5 @@
 -   For example, swapping a 100MB process at a transfer rate of 50MB/sec can lead to significant delays, totaling 4000 ms for both swap out and swap in.
 -   Modern systems often implement modified swapping techniques to optimize performance and reduce overhead.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzOTMxOTUzXX0=
+eyJoaXN0b3J5IjpbMTk3ODE2NTIyXX0=
 -->
