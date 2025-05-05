@@ -2,6 +2,318 @@
 
 # FILL IN
 
+## **Process Concept – Fill in the Blank**
+
+### **Definition and Components of a Process**
+
+A process is defined as a _______ in execution, which must progress _______. Parallel execution within a single process is not _______.
+
+Key components of a process include:
+
+-   _______ code (text section)
+    
+-   current activity (_______, processor registers)
+    
+-   _______ (temporary data)
+    
+-   data section (_______ variables)
+    
+-   _______ (dynamically allocated memory)
+    
+
+The _______ is a passive entity stored on disk, while the _______ is an active entity.
+
+A single program can have _______ processes running simultaneously.
+
+----------
+
+### **Process States**
+
+A process can exist in the following states: _______, _______, _______, _______, and _______.
+
+The transition between these states is essential for process _______ and _______.
+
+----------
+
+### **Process Control Block (PCB)**
+
+The PCB contains:
+
+-   process state
+    
+-   program counter
+    
+-   CPU _______
+    
+-   _______ information
+    
+-   memory _______ details
+    
+-   accounting info
+    
+-   I/O _______
+    
+
+Each process has a unique _______ used by the OS to manage it.
+
+----------
+
+### **Process Representation in Linux**
+
+In Linux, processes are represented using the _______ C structure. Key fields include:
+
+-   process identifier (___)
+    
+-   _______ information
+    
+-   parent process pointer
+    
+-   memory management details
+    
+
+----------
+
+### **Process Scheduling**
+
+The process _______ chooses which process to execute to maximize _______ and minimize _______ time.
+
+Types of scheduling queues:
+
+-   _______ queue (ready to execute)
+    
+-   _______ queue (waiting for an event)
+    
+
+----------
+
+### **Context Switching**
+
+A context switch occurs when the CPU switches from one process to another, saving and loading their _______.
+
+Context-switch time is considered _______.
+
+The _______ and complexity of the PCB affect switch time.
+
+----------
+
+### **Multitasking in Mobile Systems**
+
+-   iOS typically allows only one _______ process.
+    
+-   Android allows more background execution via _______.
+    
+-   Understanding the differences is important for _______ development.
+    
+
+----------
+
+### **Operations on Processes**
+
+#### **Process Creation**
+
+Processes are created by _______ processes and form a _______ structure.
+
+Each has a unique ___.
+
+The `_______()` system call creates a new process; `_______()` replaces the memory with a new program.
+
+----------
+
+#### **Process Termination**
+
+A process ends via the `_______()` system call, and the parent can retrieve status using `_______()`.
+
+A parent can also terminate a child using `_______()`.
+
+If a child ends and the parent hasn’t waited, it becomes a _______ process.
+
+If a parent ends first, the child becomes an _______ process.
+
+----------
+
+### **Android Process Importance Hierarchy**
+
+Processes are prioritized as follows (most to least important):
+
+1.  _______ processes
+    
+2.  _______ processes
+    
+3.  _______ processes
+    
+4.  _______ processes
+    
+5.  _______ processes
+    
+
+Android reclaims memory starting from the _______ important.
+
+----------
+
+### **Multiprocess Architecture**
+
+#### **Chrome Architecture**
+
+Chrome uses a multiprocess architecture with:
+
+-   Browser process: handles UI and _______
+    
+-   Renderer process: renders pages in a _______
+    
+-   Plug-in process: handles browser _______
+    
+
+Each tab runs in its own _______ process for isolation.
+
+----------
+
+### **Interprocess Communication (IPC)**
+
+#### **Overview**
+
+IPC allows processes to _______ and affect each other’s _______.
+
+Two models: _______ _______ and _______ _______.
+
+----------
+
+#### **Shared Memory Model**
+
+Processes share a common _______ area.
+
+Main challenge: _______ due to concurrent access.
+
+Classic example: _______ - _______ problem.
+
+----------
+
+#### **Producer-Consumer Problem**
+
+Requires a shared _______.
+
+Producer waits if buffer is _______; consumer waits if buffer is _______.
+
+Enhancement: use a _______ to track filled slots.
+
+----------
+
+#### **Race Conditions**
+
+Race conditions occur when multiple processes access _______ data concurrently.
+
+This can result in _______ behavior.
+
+----------
+
+#### **Message Passing Model**
+
+Processes use `_______()` and `_______()` to communicate.
+
+No shared _______ is needed.
+
+Key considerations:
+
+-   Communication link setup
+    
+-   Message size (_______ or _______)
+    
+-   Direction (uni- or _______)
+    
+
+----------
+
+### **Communication Links**
+
+#### **Physical Links**
+
+Examples:
+
+-   _______ memory
+    
+-   Hardware _______
+    
+-   _______ (networked systems)
+    
+
+#### **Logical Links**
+
+Includes:
+
+-   Direct/_______ communication
+    
+-   Synchronous/_______
+    
+-   Automatic/_______ buffering
+    
+
+----------
+
+#### **Direct Communication**
+
+Processes must name each other explicitly.
+
+Symmetric example:
+
+-   `send(P, message)`
+    
+-   `receive(Q, message)`
+    
+
+Each link is between exactly ___ processes.
+
+----------
+
+#### **Indirect Communication**
+
+Processes use _______ (or ports) to exchange messages.
+
+Mailboxes can be shared by _______ processes.
+
+Operations include _______, send, receive, and _______.
+
+----------
+
+### **Synchronization and Buffering**
+
+#### **Synchronization Types**
+
+-   Blocking (_______): sender waits until message received.
+    
+-   Non-blocking (_______): sender continues after sending.
+    
+-   _______: Both sender and receiver block.
+    
+
+----------
+
+#### **Producer-Consumer (Message Passing)**
+
+-   Producer: generates and sends messages.
+    
+-   Consumer: receives and processes them.
+    
+
+Example operations: `send(next_produced)` and `receive(next_consumed)`
+
+----------
+
+#### **Buffering Strategies**
+
+1.  Zero Capacity: No queue, sender must _______.
+    
+2.  Bounded Capacity: Limited queue, sender waits if _______.
+    
+3.  Unbounded Capacity: Infinite queue, sender _______ waits.
+    
+
+----------
+
+### **Examples of IPC Systems**
+
+#### **POSIX IPC**
+
+Create shared memory:
+
 # ANSWER
 
 # Chapter 1: Introduction to Operating Systems
@@ -285,5 +597,6 @@
 -   **Bitmaps**: Represent the status of multiple items using binary digits, useful for resource allocation and management in operating systems.
 -   Linux kernel data structures are defined in specific header files, providing a framework for developers to implement and utilize these structures effectively.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1MTczNDgwLC0xNTk0ODU1MTUwXX0=
+eyJoaXN0b3J5IjpbNjU5ODgyODU1LDgwNTE3MzQ4MCwtMTU5ND
+g1NTE1MF19
 -->
