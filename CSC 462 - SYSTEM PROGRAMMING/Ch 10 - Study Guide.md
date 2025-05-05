@@ -221,13 +221,6 @@ Thrashing & Page Fault Management
 
 40. __________ is a metric to dynamically adjust memory allocation.
 
-  
-
-  
-
-  
-
-  
 
 Advanced Techniques
 
@@ -513,5 +506,5 @@ EAT = (1 - p) x (200 ns) + p x (8,000,000 ns)
 -   Memory compression is a technique that allows multiple frames to be compressed into a single frame, reducing the need for paging and improving memory usage efficiency.
 -   Priority allocation schemes can be used to manage page replacement based on process priorities, ensuring that higher-priority processes retain their memory frames.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyMjgyODY1XX0=
+eyJoaXN0b3J5IjpbMTMxMzA4ODE3OSw4NjIyODI4NjVdfQ==
 -->
