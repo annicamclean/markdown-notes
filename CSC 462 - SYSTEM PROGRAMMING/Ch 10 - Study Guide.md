@@ -2,241 +2,126 @@
 
 # FILL IN
   
+### **Overview of Virtual Memory**
 
-Overview of Virtual Memory
-
-  
-
-  
-
-Definition and Benefits of Virtual Memory
-
-  
+**Definition and Benefits of Virtual Memory**
 
 1.  Virtual memory separates __________ memory from __________ memory.
+    
 2.  It enables larger __________ address spaces than physical memory.
+    
 3.  Reduces __________ operations, increasing CPU __________.
+    
 4.  Programs are not constrained by physical memory limits, improving __________ management.
+    
 5.  Supports shared memory and dynamic linking of __________.
+    
 
-  
+----------
 
-  
-
-  
-
-  
-
-  
-
-Virtual Address Space and Physical Memory
-
-  
-
-  
+### **Virtual Address Space and Physical Memory**
 
 6.  Virtual address space is a __________ view of memory, starting at address _____.
+    
 7.  Physical memory is divided into __________ __________.
+    
 8.  The __________ (abbreviation) maps logical to physical addresses.
+    
 9.  Stacks grow __________, heaps grow __________, leaving holes.
+    
 10.  Shared __________ can be mapped into the virtual address space.
+    
 
-  
+----------
 
-  
+### **Demand Paging**
 
-  
-
-  
-
-  
-
-Demand Paging
-
-  
-
-  
-
-Concept of Demand Paging
-
-11. Demand paging loads pages only when __________.
-
-12. A __________ swapper loads pages only when referenced.
-
+**Concept of Demand Paging**  
+11. Demand paging loads pages only when __________.  
+12. A __________ swapper loads pages only when referenced.  
 13. A __________ manages which pages are in memory.
 
-  
-
-Handling Page Faults
-
-14. A __________ occurs when a page is not in memory.
-
-15. OS checks the - bit in the page table.
-
-16. The page is loaded from __________ storage into a free frame.
-
+**Handling Page Faults**  
+14. A __________ occurs when a page is not in memory.  
+15. OS checks the **********-********** bit in the page table.  
+16. The page is loaded from __________ storage into a free frame.  
 17. The instruction that caused the fault is __________.
 
-  
+----------
 
-  
+### **Page Replacement Algorithms**
 
-  
-
-  
-
-Page Replacement Algorithms
-
-  
-
-  
-
-Overview of Page Replacement
-
-18. Page replacement is used when there are no free __________.
-
-19. __________ replaces the oldest page.
-
-20. __________ algorithm replaces the page not used for the longest future period.
-
+**Overview of Page Replacement**  
+18. Page replacement is used when there are no free __________.  
+19. __________ replaces the oldest page.  
+20. __________ algorithm replaces the page not used for the longest future period.  
 21. __________ replaces the least recently used page.
 
-  
-
-Working Set Model
-
-22. A working set is the set of __________ a process actively uses.
-
+**Working Set Model**  
+22. A working set is the set of __________ a process actively uses.  
 23. Locality of __________ explains frequent access to nearby memory.
 
-  
-
-Basic Page Replacement Process
-
+**Basic Page Replacement Process**  
 24. May involve writing a __________ page to disk before replacement.
 
-  
+----------
 
-  
-
-  
-
-  
-
-Operating System Implementations
-
-  
-
-  
+### **Operating System Implementations**
 
 25.  Linux, Windows 10, and Solaris each have unique __________ management approaches.
-26.  --on-demand is used to initialize memory securely.
+    
+26.  **********-**********-on-demand is used to initialize memory securely.
+    
 
-  
+----------
 
-  
+### **Stages in Demand Paging**
 
-  
-
-  
-
-  
-
-Stages in Demand Paging
-
-  
-
-  
-
-Overview & Steps
-
-27. Demand paging begins with a __________ to the OS.
-
-28. OS saves process __________ before handling the page fault.
-
-29. OS checks legality and finds the page on __________.
-
+**Overview & Steps**  
+27. Demand paging begins with a __________ to the OS.  
+28. OS saves process __________ before handling the page fault.  
+29. OS checks legality and finds the page on __________.  
 30. Updates the __________ __________ after loading the page.
 
-  
+**Performance of Demand Paging**  
+31. Page fault rate (p) ranges from ___ to _**.  
+32. Effective Access Time (EAT) = (1 - p) x memory time + p x (**________ + __________ + __________).
 
-Performance of Demand Paging
+----------
 
-31. Page fault rate (p) ranges from ___ to .
-
-32. Effective Access Time (EAT) = (1 - p) x memory time + p x (_______ + __________ + __________).
-
-  
-
-  
-
-  
-
-  
-
-Demand Paging Optimizations
-
-  
-
-  
+### **Demand Paging Optimizations**
 
 33.  __________-on-Write allows sharing pages until modified.
+    
 34.  Mobile systems often avoid __________.
+    
 
-  
+----------
 
-  
+### **Memory Management Strategies**
 
-  
-
-  
-
-  
-
-Memory Management Strategies
-
-  
-
-  
-
-Frame Allocation Strategies
-
-35. __________ allocation: equal frames per process.
-
+**Frame Allocation Strategies**  
+35. __________ allocation: equal frames per process.  
 36. __________ allocation: based on process size.
 
-  
-
-Global vs. Local Allocation
-
-37. Global replacement selects frames from the entire __________.
-
+**Global vs. Local Allocation**  
+37. Global replacement selects frames from the entire __________.  
 38. Local replacement restricts replacement to __________-owned frames.
 
-  
-
-Thrashing & Page Fault Management
-
-39. __________ occurs with excessive page faults and low CPU utilization.
-
+**Thrashing & Page Fault Management**  
+39. __________ occurs with excessive page faults and low CPU utilization.  
 40. __________ is a metric to dynamically adjust memory allocation.
 
-Advanced Techniques
+----------
 
-  
+### **Advanced Techniques**
 
-Buddy System
-
-41. Allocates memory in powers of ___.
-
+**Buddy System**  
+41. Allocates memory in powers of ___.  
 42. Splits memory chunks into __________.
 
-  
-
-Slab Allocator
-
-43. Uses contiguous pages to create __________ for kernel data structures.
-
+**Slab Allocator**  
+43. Uses contiguous pages to create __________ for kernel data structures.  
 44. Linux slab variants include __________, __________, and __________.
 # ANSWER
 # Overview of Virtual Memory
@@ -505,5 +390,5 @@ EAT = (1 - p) x (200 ns) + p x (8,000,000 ns)
 -   Memory compression is a technique that allows multiple frames to be compressed into a single frame, reducing the need for paging and improving memory usage efficiency.
 -   Priority allocation schemes can be used to manage page replacement based on process priorities, ensuring that higher-priority processes retain their memory frames.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NzUzODI1LDg2MjI4Mjg2NV19
+eyJoaXN0b3J5IjpbLTI0NDQ3ODU4MCw4NjIyODI4NjVdfQ==
 -->
