@@ -1,4 +1,4 @@
-# Chapter 12 Study Guide
+# Chapter 12 Study Gu
 # FILL IN
 ### **Overview of I/O Systems**
 
@@ -140,5 +140,5 @@
 # ANSWER
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjE5NDgxLC0xMjU4NjA2OTAxXX0=
+eyJoaXN0b3J5IjpbNTI0NDA4NTUzLC04MDIxOTQ4MV19
 -->
