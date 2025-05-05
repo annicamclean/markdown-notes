@@ -1,7 +1,52 @@
 # Chapter 3 Study Guide
 
 # FILL IN
+Access memory using `_______()`.
 
+----------
+
+#### **Mach IPC**
+
+Uses _______-based messaging.
+
+Messages sent/received using `_______()`.
+
+Ports created via `_______()`.
+
+----------
+
+#### **Windows IPC**
+
+Uses _______ for local message-passing.
+
+Client opens a handle and sends a _______; server creates _______ ports.
+
+----------
+
+### **Advanced Communication Techniques**
+
+#### **Sockets**
+
+A socket is defined by a _______ and _______ number.
+
+Can be:
+
+-   Connection-oriented (___)
+    
+-   Connectionless (___)
+    
+
+----------
+
+#### **Remote Procedure Calls (RPC)**
+
+Allows processes to invoke functions across _______.
+
+Key components:
+
+-   _______: client-side proxy
+    
+-   Data representation via _______ (XDL)
 # ANSWER
 # Process Concept
 
@@ -243,5 +288,6 @@
     -   **Stubs**: Client-side proxies that marshal parameters for the server.
     -   **Data Representation**: Handled via External Data Representation (XDL) to accommodate different architectures.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjEyMTMyNDMsMzQ3NzE4NTk0XX0=
+eyJoaXN0b3J5IjpbLTQ0MTAzOTM0NSwtMTU2MTIxMzI0MywzND
+c3MTg1OTRdfQ==
 -->
