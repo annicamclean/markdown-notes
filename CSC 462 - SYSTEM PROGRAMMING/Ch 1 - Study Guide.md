@@ -313,6 +313,57 @@ Example operations: `send(next_produced)` and `receive(next_consumed)`
 #### **POSIX IPC**
 
 Create shared memory:
+```c
+shm_fd = shm_open(name, O_CREAT | O_RDWR, 0666);
+ftruncate(shm_fd, 4096);
+```
+
+Access memory using `_______()`.
+
+----------
+
+#### **Mach IPC**
+
+Uses _______-based messaging.
+
+Messages sent/received using `_______()`.
+
+Ports created via `_______()`.
+
+----------
+
+#### **Windows IPC**
+
+Uses _______ for local message-passing.
+
+Client opens a handle and sends a _______; server creates _______ ports.
+
+----------
+
+### **Advanced Communication Techniques**
+
+#### **Sockets**
+
+A socket is defined by a _______ and _______ number.
+
+Can be:
+
+-   Connection-oriented (___)
+    
+-   Connectionless (___)
+    
+
+----------
+
+#### **Remote Procedure Calls (RPC)**
+
+Allows processes to invoke functions across _______.
+
+Key components:
+
+-   _______: client-side proxy
+    
+-   Data representation via _______ (XDL)
 
 # ANSWER
 
@@ -597,6 +648,6 @@ Create shared memory:
 -   **Bitmaps**: Represent the status of multiple items using binary digits, useful for resource allocation and management in operating systems.
 -   Linux kernel data structures are defined in specific header files, providing a framework for developers to implement and utilize these structures effectively.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5ODgyODU1LDgwNTE3MzQ4MCwtMTU5ND
-g1NTE1MF19
+eyJoaXN0b3J5IjpbLTEzNjY5MDg2Niw2NTk4ODI4NTUsODA1MT
+czNDgwLC0xNTk0ODU1MTUwXX0=
 -->
