@@ -1,4 +1,4 @@
-# Chapter 12 Study Gu
+# Chapter 12 Study Guide
 # FILL IN
 ### **Overview of I/O Systems**
 
@@ -289,5 +289,6 @@
 -   All I/O operations must be performed through system calls, ensuring that only privileged operations are allowed.
 -   Memory-mapped and I/O port memory locations must be adequately protected to prevent unauthorized access.![This flowchart illustrates the steps involved in handling an I/O request, from the user land to the device controller and back.](https://storage.googleapis.com/qzlt-prod-services-notes-notes-data/3d7d408b-3dbe-44d5-a622-1db5854ce493/images/6485242e74f54d269e0cefcf758e8370.jpg?Expires=1747054072&GoogleAccessId=notes-svc%40qzlt-prod-webapp.iam.gserviceaccount.com&Signature=E2Fz3NEhfLfjJAdWH%2FhfMb1yuIbYgF9bbl%2FVL6B3iHNdS8bSvdxrgfVsBQAQd9Ym3bT1nwlHSVqrI56RDfVGMdrzV%2FDzkAUbpJHlbFIrh7JuasxoQKrogHrg7PgWGlgQaFBBcbiA4Dh%2FlrTOcIXFCZXbZxo3nkYpmTsITSUTZaDxaeeSnaqQv1i2s%2F2I%2FXX0N40LMZ1tRKsS9HV%2BQtDotEBd0uWdMRIWXF4dIzVAYIrMrn%2FwfRnCvNeROcLQPWGg7cjwuDHtPf41V1CpMFiMOENnY9EOygsFuuwLX9P64IX2z9CaYr0P1nOX4Jo%2BUOps5cDMPZqIIPDohQz5tMBifQ%3D%3D)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTc0Nzc3NSwtODAyMTk0ODFdfQ==
+eyJoaXN0b3J5IjpbLTMxMTI5NDkwOSwtNzM5NzQ3Nzc1LC04MD
+IxOTQ4MV19
 -->
