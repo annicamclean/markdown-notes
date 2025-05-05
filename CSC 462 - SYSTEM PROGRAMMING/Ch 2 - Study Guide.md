@@ -37,7 +37,23 @@ Chapter 2: Fill-in-the-Blank Study Questions
 
 # ANSWER
 
+Chapter 2: Fill-in-the-Blank Answer Key
 
+1.  Process Management
+2.  Bootstrap
+3.  System Calls
+4.  Layered
+5.  System (VMs)
+6.  File Management
+7.  Microkernel
+8.  Program execution and I/O operations
+9.  Hybrid
+10.  Process control
+11.  Command-Interpreter system
+12.  User and System services
+13.  Command interpreter
+14.  Isolation and Security
+15.  System programs
 
 Chapter 2: Operating-System Structures - Study Guide
 
@@ -163,5 +179,5 @@ Review Tips
 
 - Know how virtual machines operate and their advantages.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4OTg3MDg2LDE1MTQ0MTQ5MTNdfQ==
+eyJoaXN0b3J5IjpbLTExNDIzODQyNjIsMTUxNDQxNDkxM119
 -->
