@@ -435,7 +435,7 @@ Time Since Big Bang     | Event
 10⁻⁶ seconds            | **Quark Era** — Quarks, gluons, and leptons form
 1 second                | **Neutrino decoupling** — Neutrinos begin free travel
 3 minutes               | **Big Bang Nucleosynthesis** — Formation of H, He, and Li
-380,000 years           | **Recombination Era** — Atoms form, Universe becomes transparent **Cosmic Microwave Background (CMB)** is released
+380,000 years           | **Recombination Era** — Atoms form, Universe becomes transparent  & **Cosmic Microwave Background (CMB)** is released
 200 million years       | **First stars and galaxies** form (Population III stars)
 400 million years       | **Reionization** — UV radiation from early stars reionizes hydrogen
 1 billion years         | **Large-scale galaxy formation** well underway
@@ -450,7 +450,42 @@ Future (predicted):
 Trillions of years      | **Star formation ends**, stars die off
 10¹⁰⁰ years             | **Heat Death** — Universe becomes cold, dark, and diffuse
 
+## EQUATIONS
+1. Newton’s Second Law:      F = m × a
+2. Weight (on a planet):     W = m × g
+3. Gravitational Force:      F = G × (m₁ × m₂) / r²
+4. Escape Velocity:          vₑ = √(2 × G × M / r)
+5. Orbital Velocity:         v = √(G × M / r)
+6. Centripetal Force:        F = m × v² / r
+7. Acceleration:             a = Δv / Δt
+8. Momentum:                 p = m × v
+9. Angular Momentum:         L = m × v × r
+10. Energy of a Photon:      E = h × f = h × c / λ
+11. Speed of Light:          c = λ × f
+12. Stefan-Boltzmann Law:    L = 4πR² × σ × T⁴
+13. Wien’s Law:              λ_max = 2.9 × 10⁶ / T   (λ in nm, T in K)
+14. Kinetic Energy:          KE = ½ × m × v²
+15. Potential Energy:        PE = -G × (m₁ × m₂) / r
+16. Total Energy (orbit):    E_total = KE + PE
+17. Thermal Radiation Flux:  F = σ × T⁴
+18. Bohr's Energy Levels:    E_n = -13.6 eV / n²
+19. Doppler Shift:           Δλ / λ = v / c   (positive for redshift, negative for blueshift)
+20. Energy Emitted/Absorbed: ΔE = E_final - E_initial
+21. Angular Resolution:      θ ≈ 1.22 × λ / D   (θ in radians)
+22. Magnification:           M = f_objective / f_eyepiece
+23. Luminosity:              L = 4πR²σT⁴
+24. Apparent Brightness:     B = L / (4πd²)
+25. Distance Modulus:        m - M = 5 log₁₀(d) - 5   (d in parsecs)
+26. Parallax Distance:       d = 1 / p   (d in parsecs, p in arcseconds)
+27. Mass-Luminosity:         L ∝ M³.⁵   (for main-sequence stars)
+28. Hubble's Law:            v = H₀ × d
+29. Critical Density:        ρ_c = 3H₀² / (8πG)
+30. Lookback Time (approx):  t ≈ d / c
+31. Proton-Proton Chain:     4¹H → ⁴He + energy (fusion in Sun)
+32. Mass-Energy Equivalence: E = m × c²
+33. Hydrostatic Equilibrium: dP/dr = -G × M(r) × ρ(r) / r²
+34. Radiative Energy Flow:   dT/dr ∝ -L / (r² × κ × T³)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDA4NDQzNF19
+eyJoaXN0b3J5IjpbLTEwMzc5MTg2NDNdfQ==
 -->
