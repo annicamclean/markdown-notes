@@ -425,8 +425,34 @@
 -   **Standard candle:**  
     An object with a **known luminosity**, used to calculate distance using brightness:
     
-    Distance∝LuminosityApparent Brightness\text{Distance} \propto \sqrt{\frac{\text{Luminosity}}{\text{Apparent Brightness}}}Distance∝Apparent BrightnessLuminosity​
+ $$Distance∝LuminosityApparent Brightness\text{Distance} \propto \sqrt{\frac{\text{Luminosity}}{\text{Apparent Brightness}}}Distance∝Apparent BrightnessLuminosity​$$
+
+Time Since Big Bang     | Event
+------------------------|------------------------------------------------------------
+0 seconds               | **Big Bang** — Universe begins as a hot, dense point
+< 10⁻⁴³ seconds         | **Planck Era** — Physics as we know it breaks down
+10⁻³⁵ seconds           | **Inflation** — Rapid expansion of space
+10⁻⁶ seconds            | **Quark Era** — Quarks, gluons, and leptons form
+1 second                | **Neutrino decoupling** — Neutrinos begin free travel
+3 minutes               | **Big Bang Nucleosynthesis** — Formation of H, He, and Li
+380,000 years           | **Recombination Era** — Atoms form, Universe becomes transparent
+                       | **Cosmic Microwave Background (CMB)** is released
+
+200 million years       | **First stars and galaxies** form (Population III stars)
+400 million years       | **Reionization** — UV radiation from early stars reionizes hydrogen
+1 billion years         | **Large-scale galaxy formation** well underway
+4.6 billion years ago   | **Solar System forms**
+3.8 billion years ago   | **Life begins** on Earth (first microbial life)
+13.8 billion years ago  | **Today**
+
+Future (predicted):  
+------------------------|------------------------------------------------------------
+~5 billion years        | **Sun becomes red giant**, then a white dwarf
+~100 billion years      | **Galaxy mergers**, isolation of local group due to expansion
+Trillions of years      | **Star formation ends**, stars die off
+10¹⁰⁰ years             | **Heat Death** — Universe becomes cold, dark, and diffuse
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Njg2NjM1XX0=
+eyJoaXN0b3J5IjpbMjEwMjM1NjA3OF19
 -->
