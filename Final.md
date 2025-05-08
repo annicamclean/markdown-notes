@@ -150,235 +150,283 @@
         
 -   **Largest Telescopes:** Up to ~30–40 meters (e.g. ELT, TMT)
 
-[⚠️ Suspicious Content] 🌞 The Sun and Its Structure
+## 🌞 **The Sun and Its Structure**
 
-    Why does the Sun shine?
-    Through nuclear fusion: hydrogen atoms fuse into helium in the core, releasing energy.
+-   **Why does the Sun shine?**  
+    Through **nuclear fusion**: hydrogen atoms fuse into helium in the core, releasing energy.
+    
+-   **What goes on in the solar core?**  
+    **Proton-proton chain** fusion converts hydrogen to helium, releasing gamma rays and neutrinos.
+    
+-   **How does energy move inside the Sun?**
+    
+    -   **Radiative zone:** Energy travels outward via **radiation**.
+        
+    -   **Convective zone:** Energy is carried by **convection currents** of plasma.
+        
+-   **Main zones inside the Sun:**
+    
+    1.  **Core**
+        
+    2.  **Radiative zone**
+        
+    3.  **Convective zone**
+        
+    4.  **Photosphere** (visible surface)
+        
+    5.  **Chromosphere**
+        
+    6.  **Corona**
+        
+-   **What causes sunspots?**  
+    **Magnetic field disturbances** that inhibit convection, causing cooler, darker regions.
+    
+-   **Main solar activity types:**
+    
+    -   **Sunspots**
+        
+    -   **Solar flares**
+        
+    -   **Coronal mass ejections (CMEs)**
+        
+    -   **Prominences**
+        
 
-    What goes on in the solar core?
-    Proton-proton chain fusion converts hydrogen to helium, releasing gamma rays and neutrinos.
+----------
 
-    How does energy move inside the Sun?
+## ☀️ **Sun’s Evolution and Life Cycle of a 1 Solar Mass Star**
 
-        Radiative zone: Energy travels outward via radiation.
+-   **Before it became a star:**  
+    Collapsed from a **molecular cloud** (stellar nebula) into a **protostar**.
+    
+-   **Main-sequence stage:**  
+    Fuses hydrogen into helium in its core. Our Sun is **midway** through this stage.
+    
+-   **After main-sequence:**
+    
+    1.  **Hydrogen runs out**, core contracts
+        
+    2.  **Red giant** phase: helium fusion in the core, hydrogen shell burning
+        
+    3.  **Helium flash**, then stable helium burning
+        
+    4.  **Outer layers ejected** as a **planetary nebula**
+        
+    5.  **Core remains** as a **white dwarf**, eventually cooling into a **black dwarf**
+        
+-   **Ultimate fate of the Sun:**  
+    **White dwarf**, surrounded by a **planetary nebula**. No supernova.
+    
 
-        Convective zone: Energy is carried by convection currents of plasma.
+----------
 
-    Main zones inside the Sun:
+## 🌟 **Stellar Brightness and Classification**
 
-        Core
-
-        Radiative zone
-
-        Convective zone
-
-        Photosphere (visible surface)
-
-        Chromosphere
-
-        Corona
-
-    What causes sunspots?
-    Magnetic field disturbances that inhibit convection, causing cooler, darker regions.
-
-    Main solar activity types:
-
-        Sunspots
-
-        Solar flares
-
-        Coronal mass ejections (CMEs)
-
-        Prominences
-
-☀️ Sun’s Evolution and Life Cycle of a 1 Solar Mass Star
-
-    Before it became a star:
-    Collapsed from a molecular cloud (stellar nebula) into a protostar.
-
-    Main-sequence stage:
-    Fuses hydrogen into helium in its core. Our Sun is midway through this stage.
-
-    After main-sequence:
-
-        Hydrogen runs out, core contracts
-
-        Red giant phase: helium fusion in the core, hydrogen shell burning
-
-        Helium flash, then stable helium burning
-
-        Outer layers ejected as a planetary nebula
-
-        Core remains as a white dwarf, eventually cooling into a black dwarf
-
-    Ultimate fate of the Sun:
-    White dwarf, surrounded by a planetary nebula. No supernova.
-
-🌟 Stellar Brightness and Classification
-
-    Apparent brightness and distance:
-    Brightness decreases with the square of distance
-    Brightness∝1distance2Brightness∝distance21​
-
-    Cooler star: Blue or Red?
-    Red stars are cooler; blue stars are hotter.
-
-    Spectral Classes (OBAFGKM):
-
-        Ordered from hottest to coolest
-
-        Determined by temperature and spectral lines
-
-        O (hottest) → M (coolest)
-
-        Mnemonic: "Oh Be A Fine Girl/Guy, Kiss Me"
-
-        Surface temps:
-
-            O: >30,000 K
-
-            B: ~10,000–30,000 K
-
-            A: ~7,500–10,000 K
-
-            F: ~6,000–7,500 K
-
-            G: ~5,200–6,000 K (Sun)
-
-            K: ~3,700–5,200 K
-
-            M: <3,700 K
-
-    Luminosity Classes (I–V):
-
-        I: Supergiants
-
-        II: Bright Giants
-
-        III: Giants
-
-        IV: Subgiants
-
-        V: Main-sequence (dwarfs, like the Sun)
-
-    Luminosity:
+-   **Apparent brightness and distance:**  
+    Brightness decreases with the **square of distance**  
+    Brightness∝1distance2\text{Brightness} \propto \frac{1}{\text{distance}^2}Brightness∝distance21​
+    
+-   **Cooler star: Blue or Red?**  
+    **Red** stars are cooler; **blue** stars are hotter.
+    
+-   **Spectral Classes (OBAFGKM):**
+    
+    -   Ordered from **hottest to coolest**
+        
+    -   Determined by **temperature and spectral lines**
+        
+    -   O (hottest) → M (coolest)
+        
+    -   Mnemonic: "**Oh Be A Fine Girl/Guy, Kiss Me**"
+        
+    -   Surface temps:
+        
+        -   O: >30,000 K
+            
+        -   B: ~10,000–30,000 K
+            
+        -   A: ~7,500–10,000 K
+            
+        -   F: ~6,000–7,500 K
+            
+        -   G: ~5,200–6,000 K (Sun)
+            
+        -   K: ~3,700–5,200 K
+            
+        -   M: <3,700 K
+            
+-   **Luminosity Classes (I–V):**
+    
+    -   I: Supergiants
+        
+    -   II: Bright Giants
+        
+    -   III: Giants
+        
+    -   IV: Subgiants
+        
+    -   V: Main-sequence (dwarfs, like the Sun)
+        
+-   **Luminosity:**  
     Total energy emitted per second (watts or solar units)
+    
+-   **Why spectral lines appear:**  
+    Atoms in stars **absorb and emit light** at specific wavelengths due to energy level changes.
+    
 
-    Why spectral lines appear:
-    Atoms in stars absorb and emit light at specific wavelengths due to energy level changes.
+----------
 
-📈 Hertzsprung-Russell Diagram (HRD) Overview
+## 📈 **Hertzsprung-Russell Diagram (HRD) Overview**
 
-    Main sequence:
+-   **Main sequence:**  
     Diagonal band; stars fusing H → He in core
-
-        Hot, bright stars: upper-left (O-type)
-
-        Cool, dim stars: lower-right (M-type)
-
-    Sun's position:
-    Middle of the main sequence (G2V)
-
-    High-mass stars:
+    
+    -   Hot, bright stars: upper-left (O-type)
+        
+    -   Cool, dim stars: lower-right (M-type)
+        
+-   **Sun's position:**  
+    **Middle** of the main sequence (G2V)
+    
+-   **High-mass stars:**  
     Upper left (hot, luminous, short-lived)
-
-    Low-mass stars:
+    
+-   **Low-mass stars:**  
     Lower right (cool, faint, long-lived)
+    
+-   **Evolved stars:**
+    
+    -   **Giants and supergiants:** Upper right
+        
+    -   **White dwarfs:** Lower left
+        
 
-    Evolved stars:
+----------
 
-        Giants and supergiants: Upper right
+## 🌫️ **Star Formation and Nuclear Processes**
 
-        White dwarfs: Lower left
-
-🌫️ Star Formation and Nuclear Processes
-
-    Star-forming clouds:
-    Called molecular clouds or stellar nurseries (cold, dense gas)
-
-    Star formation process:
-    Gravity causes cloud to collapse → protostar → nuclear fusion begins
-
-    Energy sources by stage:
-
-        Protostar: Gravitational contraction
-
-        Main-sequence: Hydrogen fusion
-
-        Red giant: Helium and shell fusion
-
-        Final stages: Depends on mass
-
-    Star groups by mass:
-
-        Low-mass (<8 solar masses): Most common
-
-        Intermediate-mass
-
-        High-mass (>8 solar masses)
-
-    Most abundant group: Low-mass stars
-
-    Important nuclear reaction cycles:
-
-        Proton-Proton Chain: Main in Sun; H → He
-
-        CNO Cycle: In massive stars; also H → He but via carbon
-
-        Triple-alpha process: He → C (in red giants)
-
-    Why iron is last fusion product:
-    Fusing iron absorbs energy instead of releasing it.
-
-    Fission:
+-   **Star-forming clouds:**  
+    Called **molecular clouds** or **stellar nurseries** (cold, dense gas)
+    
+-   **Star formation process:**  
+    Gravity causes cloud to collapse → **protostar** → **nuclear fusion begins**
+    
+-   **Energy sources by stage:**
+    
+    -   **Protostar:** Gravitational contraction
+        
+    -   **Main-sequence:** Hydrogen fusion
+        
+    -   **Red giant:** Helium and shell fusion
+        
+    -   **Final stages:** Depends on mass
+        
+-   **Star groups by mass:**
+    
+    -   **Low-mass (<8 solar masses):** Most common
+        
+    -   **Intermediate-mass**
+        
+    -   **High-mass (>8 solar masses)**
+        
+-   **Most abundant group:** **Low-mass stars**
+    
+-   **Important nuclear reaction cycles:**
+    
+    -   **Proton-Proton Chain:** Main in Sun; H → He
+        
+    -   **CNO Cycle:** In massive stars; also H → He but via carbon
+        
+    -   **Triple-alpha process:** He → C (in red giants)
+        
+-   **Why iron is last fusion product:**  
+    **Fusing iron absorbs** energy instead of releasing it.
+    
+-   **Fission:**  
     Splitting of heavy nuclei; opposite of fusion.
+    
 
-🌌 Degeneracy Pressure & Element Distribution
+----------
 
-    Degeneracy pressure:
+## 🌌 **Degeneracy Pressure & Element Distribution**
+
+-   **Degeneracy pressure:**  
     Quantum effect resisting compression:
+    
+    -   **Electron degeneracy:** In white dwarfs
+        
+    -   **Neutron degeneracy:** In neutron stars
+        
+-   **Element distribution:**  
+    Supernovae and stellar winds distribute **heavier elements** into space.
+    
+-   **Carbon production:**  
+    Created via **triple-alpha fusion** in red giants.
+    
 
-        Electron degeneracy: In white dwarfs
+----------
 
-        Neutron degeneracy: In neutron stars
+## 🕳️ **End Stages: Neutron Stars, Black Holes, Pulsars**
 
-    Element distribution:
-    Supernovae and stellar winds distribute heavier elements into space.
-
-    Carbon production:
-    Created via triple-alpha fusion in red giants.
-
-🕳️ End Stages: Neutron Stars, Black Holes, Pulsars
-
-    Neutron star progenitors:
-    Stars with 8–20 solar masses after supernova
-
-    Black hole progenitors:
-    Stars with >20 solar masses after supernova
-
-    Pulsars:
-    Rapidly rotating neutron stars with strong magnetic fields, emitting radio pulses
-
-    Why neutron stars rotate fast:
-    Conservation of angular momentum as the star collapses
-
-    Schwarzschild radius:
-    Radius where escape velocity = speed of light
-    Rs=2GMc2Rs​=c22GM​
-
-    Event horizon:
+-   **Neutron star progenitors:**  
+    Stars with **8–20 solar masses** after supernova
+    
+-   **Black hole progenitors:**  
+    Stars with **>20 solar masses** after supernova
+    
+-   **Pulsars:**  
+    **Rapidly rotating** neutron stars with strong magnetic fields, emitting **radio pulses**
+    
+-   **Why neutron stars rotate fast:**  
+    **Conservation of angular momentum** as the star collapses
+    
+-   **Schwarzschild radius:**  
+    Radius where escape velocity = speed of light  
+    Rs=2GMc2R_s = \frac{2GM}{c^2}Rs​=c22GM​
+    
+-   **Event horizon:**  
     Boundary beyond which nothing, not even light, escapes a black hole
+    
+-   **Escape velocity at event horizon:**  
+    Equals the **speed of light**
+    
+-   **How black holes are found:**
+    
+    -   Observing **X-ray emissions** from accretion disks
+        
+    -   **Gravitational effects** on nearby stars
+        
+    -   **Gravitational waves** from merger
 
-    Escape velocity at event horizon:
-    Equals the speed of light
+## 🌌 **The Milky Way and Nearby Galaxies**
 
-    How black holes are found:
+-   **Size of the Milky Way:**  
+    About **100,000 light-years** in diameter.
+    
+-   **How we know halo stars are old:**
+    
+    -   Found in **globular clusters**
+        
+    -   **Low metal content** (Population II stars)
+        
+    -   Located outside the disk → formed early before gas settled into a disk
+        
+-   **Closest large galaxy to the Milky Way:**  
+    **Andromeda Galaxy (M31)**
+    
+-   **Distance to Andromeda:**  
+    About **2.5 million light-years**
+    
 
-        Observing X-ray emissions from accretion disks
+----------
 
-        Gravitational effects on nearby stars
+## 🌟 **Measuring Cosmic Distances**
 
-        Gravitational waves from mergers
+-   **Standard candle:**  
+    An object with a **known luminosity**, used to calculate distance using brightness:
+    
+    Distance∝LuminosityApparent Brightness\text{Distance} \propto \sqrt{\frac{\text{Luminosity}}{\text{Apparent Brightness}}}Distance∝Apparent BrightnessLuminosity​
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzg1NDQ0MF19
+eyJoaXN0b3J5IjpbMTI3Njg2NjM1XX0=
 -->
