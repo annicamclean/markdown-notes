@@ -435,9 +435,7 @@ Time Since Big Bang     | Event
 10⁻⁶ seconds            | **Quark Era** — Quarks, gluons, and leptons form
 1 second                | **Neutrino decoupling** — Neutrinos begin free travel
 3 minutes               | **Big Bang Nucleosynthesis** — Formation of H, He, and Li
-380,000 years           | **Recombination Era** — Atoms form, Universe becomes transparent
-                       | **Cosmic Microwave Background (CMB)** is released
-
+380,000 years           | **Recombination Era** — Atoms form, Universe becomes transparent **Cosmic Microwave Background (CMB)** is released
 200 million years       | **First stars and galaxies** form (Population III stars)
 400 million years       | **Reionization** — UV radiation from early stars reionizes hydrogen
 1 billion years         | **Large-scale galaxy formation** well underway
@@ -454,5 +452,5 @@ Trillions of years      | **Star formation ends**, stars die off
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMjM1NjA3OF19
+eyJoaXN0b3J5IjpbLTg1NDA4NDQzNF19
 -->
